@@ -45,21 +45,21 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
 
     public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
     {
-        // // Create a unique position for the player
-        // Vector3 spawnPosition = new Vector3((player.RawEncoded%runner.Config.Simulation.DefaultPlayers)*3,1,0);
-        // NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);
-        // // Keep track of the player avatars so we can remove it when they disconnect
-        // _spawnedCharacters.Add(player, networkPlayerObject);
+        // Create a unique position for the player
+        Vector3 spawnPosition = new Vector3((player.RawEncoded%runner.Config.Simulation.DefaultPlayers)*0.01f,- 0.1f,0);
+        NetworkObject networkPlayerObject = runner.Spawn(_playerPrefab, spawnPosition, Quaternion.identity, player);
+        // Keep track of the player avatars so we can remove it when they disconnect
+        _spawnedCharacters.Add(player, networkPlayerObject);
     }
 
     public void OnPlayerLeft(NetworkRunner runner, PlayerRef player)
     {
-        // // Find and remove the players avatar
-        // if (_spawnedCharacters.TryGetValue(player, out NetworkObject networkObject))
-        // {
-        //     runner.Despawn(networkObject);
-        //     _spawnedCharacters.Remove(player);
-        // }
+        // Find and remove the players avatar
+        if (_spawnedCharacters.TryGetValue(player, out NetworkObject networkObject))
+        {
+            runner.Despawn(networkObject);
+            _spawnedCharacters.Remove(player);
+        }
     }
 
     public void OnInput(NetworkRunner runner, NetworkInput input)
@@ -85,13 +85,13 @@ public class BasicSpawner : MonoBehaviour, INetworkRunnerCallbacks
     {
         if (_runner == null)
         {
-            if (GUI.Button(new Rect(0, 0, 200, 40), "Host"))
+            if (GUI.Button(new Rect(0,0,200,40), "Host"))
             {
                 StartGame(GameMode.Host);
             }
-            if (GUI.Button(new Rect(0, 40, 200, 40), "Join"))
+            if (GUI.Button(new Rect(0,40,200,40), "Join"))
             {
-                StartGame(GameMode.Client);
+            StartGame(GameMode.Client);
             }
         }
     }

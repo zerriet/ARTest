@@ -1419,59 +1419,7 @@ struct Queue_1_tF4C35A64AD8C8C7497B0F71AB6EFD3C37CA62688  : public RuntimeObject
 	// System.Object System.Collections.Generic.Queue`1::_syncRoot
 	RuntimeObject* ____syncRoot_5;
 };
-
-// Fusion.Photon.Realtime.AppSettings
-struct AppSettings_t676479963A7FA399B63DD6E77830C334B7900E84  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdRealtime
-	String_t* ___AppIdRealtime_0;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdFusion
-	String_t* ___AppIdFusion_1;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdChat
-	String_t* ___AppIdChat_2;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdVoice
-	String_t* ___AppIdVoice_3;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppVersion
-	String_t* ___AppVersion_4;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::UseNameServer
-	bool ___UseNameServer_5;
-	// System.String Fusion.Photon.Realtime.AppSettings::FixedRegion
-	String_t* ___FixedRegion_6;
-	// System.String Fusion.Photon.Realtime.AppSettings::BestRegionSummaryFromStorage
-	String_t* ___BestRegionSummaryFromStorage_7;
-	// System.String Fusion.Photon.Realtime.AppSettings::Server
-	String_t* ___Server_8;
-	// System.Int32 Fusion.Photon.Realtime.AppSettings::Port
-	int32_t ___Port_9;
-	// System.String Fusion.Photon.Realtime.AppSettings::ProxyServer
-	String_t* ___ProxyServer_10;
-	// ExitGames.Client.Photon.ConnectionProtocol Fusion.Photon.Realtime.AppSettings::Protocol
-	uint8_t ___Protocol_11;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableProtocolFallback
-	bool ___EnableProtocolFallback_12;
-	// Fusion.Photon.Realtime.AuthModeOption Fusion.Photon.Realtime.AppSettings::AuthMode
-	int32_t ___AuthMode_13;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableLobbyStatistics
-	bool ___EnableLobbyStatistics_14;
-	// ExitGames.Client.Photon.DebugLevel Fusion.Photon.Realtime.AppSettings::NetworkLogging
-	uint8_t ___NetworkLogging_15;
-};
 struct Il2CppArrayBounds;
-
-// Fusion.Photon.Realtime.AuthenticationValues
-struct AuthenticationValues_t966D2FC1B918F833E8AF124E7FD256C9C1FCD982  : public RuntimeObject
-{
-	// Fusion.Photon.Realtime.CustomAuthenticationType Fusion.Photon.Realtime.AuthenticationValues::authType
-	uint8_t ___authType_0;
-	// System.String Fusion.Photon.Realtime.AuthenticationValues::<AuthGetParameters>k__BackingField
-	String_t* ___U3CAuthGetParametersU3Ek__BackingField_1;
-	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<AuthPostData>k__BackingField
-	RuntimeObject* ___U3CAuthPostDataU3Ek__BackingField_2;
-	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<Token>k__BackingField
-	RuntimeObject* ___U3CTokenU3Ek__BackingField_3;
-	// System.String Fusion.Photon.Realtime.AuthenticationValues::<UserId>k__BackingField
-	String_t* ___U3CUserIdU3Ek__BackingField_4;
-};
 
 // ExitGames.Client.Photon.ByteArraySlice
 struct ByteArraySlice_tEC4DB78AA23A48C8B7EB601327D00412365FA1B9  : public RuntimeObject
@@ -1528,25 +1476,6 @@ struct DisconnectMessage_tE086C3444E533FBAD92A1F639327C42C9A928650  : public Run
 	String_t* ___DebugMessage_1;
 	// System.Collections.Generic.Dictionary`2<System.Byte,System.Object> ExitGames.Client.Photon.DisconnectMessage::Parameters
 	Dictionary_2_t39C787A3AB4A7621A98CFE1FB232D65CBD0880C1* ___Parameters_2;
-};
-
-// Fusion.Photon.Realtime.EnterRoomParams
-struct EnterRoomParams_t85623F8A2F73A36F20442EA7F5CC767A2D2CA61B  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.EnterRoomParams::RoomName
-	String_t* ___RoomName_0;
-	// Fusion.Photon.Realtime.RoomOptions Fusion.Photon.Realtime.EnterRoomParams::RoomOptions
-	RoomOptions_t2D3E5FF3D6AE3DFFDCD809BD64BD43DCE69A434F* ___RoomOptions_1;
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.EnterRoomParams::Lobby
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Lobby_2;
-	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.EnterRoomParams::PlayerProperties
-	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___PlayerProperties_3;
-	// System.Boolean Fusion.Photon.Realtime.EnterRoomParams::OnGameServer
-	bool ___OnGameServer_4;
-	// Fusion.Photon.Realtime.JoinMode Fusion.Photon.Realtime.EnterRoomParams::JoinMode
-	uint8_t ___JoinMode_5;
-	// System.String[] Fusion.Photon.Realtime.EnterRoomParams::ExpectedUsers
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_6;
 };
 
 // Fusion.Photon.Realtime.ErrorInfo
@@ -1640,23 +1569,6 @@ struct NetworkSimulationSet_t4BA8B34DF74B489FCB89281132F777080DBEAF49  : public 
 	int32_t ___U3CLostPackagesInU3Ek__BackingField_11;
 };
 
-// Fusion.Photon.Realtime.OpJoinRandomRoomParams
-struct OpJoinRandomRoomParams_t5D3247CAF9D33093605A1207115C5BA72D65D79C  : public RuntimeObject
-{
-	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedCustomRoomProperties
-	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___ExpectedCustomRoomProperties_0;
-	// System.Byte Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedMaxPlayers
-	uint8_t ___ExpectedMaxPlayers_1;
-	// Fusion.Photon.Realtime.MatchmakingMode Fusion.Photon.Realtime.OpJoinRandomRoomParams::MatchingType
-	uint8_t ___MatchingType_2;
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.OpJoinRandomRoomParams::TypedLobby
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___TypedLobby_3;
-	// System.String Fusion.Photon.Realtime.OpJoinRandomRoomParams::SqlLobbyFilter
-	String_t* ___SqlLobbyFilter_4;
-	// System.String[] Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedUsers
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_5;
-};
-
 // ExitGames.Client.Photon.OperationResponse
 struct OperationResponse_t19D9B9933391EE79E5DEB2F8AECE02D5519E65ED  : public RuntimeObject
 {
@@ -1677,131 +1589,6 @@ struct ParameterDictionary_t86A1C953B1E7C11059D12BAAE61E0021124E08F3  : public R
 	NonAllocDictionary_2_t731311DC35E31CEB666B4A4099E518236EA55F79* ___paramDict_0;
 	// ExitGames.Client.Photon.StructWrapping.StructWrapperPools ExitGames.Client.Photon.ParameterDictionary::wrapperPools
 	StructWrapperPools_t578C08F079D4A055E0ED8EF8196750B3DEDCEBBD* ___wrapperPools_1;
-};
-
-// ExitGames.Client.Photon.PhotonPeer
-struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C  : public RuntimeObject
-{
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CommandBufferSize>k__BackingField
-	int32_t ___U3CCommandBufferSizeU3Ek__BackingField_0;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<LimitOfUnreliableCommands>k__BackingField
-	int32_t ___U3CLimitOfUnreliableCommandsU3Ek__BackingField_1;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::WarningSize
-	int32_t ___WarningSize_2;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::CommandLogSize
-	int32_t ___CommandLogSize_4;
-	// ExitGames.Client.Photon.TargetFrameworks ExitGames.Client.Photon.PhotonPeer::TargetFramework
-	int32_t ___TargetFramework_8;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RemoveAppIdFromWebSocketPath
-	bool ___RemoveAppIdFromWebSocketPath_10;
-	// System.Byte ExitGames.Client.Photon.PhotonPeer::ClientSdkId
-	uint8_t ___ClientSdkId_11;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::UseInitV3
-	bool ___UseInitV3_16;
-	// ExitGames.Client.Photon.SerializationProtocol ExitGames.Client.Photon.PhotonPeer::<SerializationProtocolType>k__BackingField
-	int32_t ___U3CSerializationProtocolTypeU3Ek__BackingField_17;
-	// System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Type> ExitGames.Client.Photon.PhotonPeer::SocketImplementationConfig
-	Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* ___SocketImplementationConfig_18;
-	// System.Type ExitGames.Client.Photon.PhotonPeer::<SocketImplementation>k__BackingField
-	Type_t* ___U3CSocketImplementationU3Ek__BackingField_19;
-	// ExitGames.Client.Photon.DebugLevel ExitGames.Client.Photon.PhotonPeer::DebugOut
-	uint8_t ___DebugOut_20;
-	// ExitGames.Client.Photon.IPhotonPeerListener ExitGames.Client.Photon.PhotonPeer::<Listener>k__BackingField
-	RuntimeObject* ___U3CListenerU3Ek__BackingField_21;
-	// System.Action`1<ExitGames.Client.Photon.DisconnectMessage> ExitGames.Client.Photon.PhotonPeer::OnDisconnectMessage
-	Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD* ___OnDisconnectMessage_22;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::reuseEventInstance
-	bool ___reuseEventInstance_23;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::useByteArraySlicePoolForEvents
-	bool ___useByteArraySlicePoolForEvents_24;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::wrapIncomingStructs
-	bool ___wrapIncomingStructs_25;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::SendInCreationOrder
-	bool ___SendInCreationOrder_26;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SequenceDeltaLimitResends
-	int32_t ___SequenceDeltaLimitResends_27;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SequenceDeltaLimitSends
-	int32_t ___SequenceDeltaLimitSends_28;
-	// ExitGames.Client.Photon.ITrafficRecorder ExitGames.Client.Photon.PhotonPeer::TrafficRecorder
-	RuntimeObject* ___TrafficRecorder_29;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<EnableServerTracing>k__BackingField
-	bool ___U3CEnableServerTracingU3Ek__BackingField_30;
-	// System.Byte ExitGames.Client.Photon.PhotonPeer::quickResendAttempts
-	uint8_t ___quickResendAttempts_31;
-	// System.Byte ExitGames.Client.Photon.PhotonPeer::ChannelCount
-	uint8_t ___ChannelCount_32;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::EnableEncryptedFlag
-	bool ___EnableEncryptedFlag_33;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::crcEnabled
-	bool ___crcEnabled_34;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SentCountAllowance
-	int32_t ___SentCountAllowance_35;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::InitialResendTimeMax
-	int32_t ___InitialResendTimeMax_36;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::TimePingInterval
-	int32_t ___TimePingInterval_37;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::disconnectTimeout
-	int32_t ___disconnectTimeout_38;
-	// ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.PhotonPeer::<TransportProtocol>k__BackingField
-	uint8_t ___U3CTransportProtocolU3Ek__BackingField_39;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::mtu
-	int32_t ___mtu_41;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<IsSendingOnlyAcks>k__BackingField
-	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_42;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RandomizeSequenceNumbers
-	bool ___RandomizeSequenceNumbers_44;
-	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::RandomizedSequenceNumbers
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_45;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::GcmDatagramEncryption
-	bool ___GcmDatagramEncryption_46;
-	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsIncoming>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_47;
-	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsOutgoing>k__BackingField
-	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
-	// ExitGames.Client.Photon.TrafficStatsGameLevel ExitGames.Client.Photon.PhotonPeer::<TrafficStatsGameLevel>k__BackingField
-	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
-	// System.Diagnostics.Stopwatch ExitGames.Client.Photon.PhotonPeer::trafficStatsStopwatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_50;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::trafficStatsEnabled
-	bool ___trafficStatsEnabled_51;
-	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.PhotonPeer::peerBase
-	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_52;
-	// System.Object ExitGames.Client.Photon.PhotonPeer::SendOutgoingLockObject
-	RuntimeObject* ___SendOutgoingLockObject_53;
-	// System.Object ExitGames.Client.Photon.PhotonPeer::DispatchLockObject
-	RuntimeObject* ___DispatchLockObject_54;
-	// System.Object ExitGames.Client.Photon.PhotonPeer::EnqueueLock
-	RuntimeObject* ___EnqueueLock_55;
-	// System.Type ExitGames.Client.Photon.PhotonPeer::payloadEncryptorType
-	Type_t* ___payloadEncryptorType_56;
-	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::PayloadEncryptionSecret
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_57;
-	// System.Type ExitGames.Client.Photon.PhotonPeer::encryptorType
-	Type_t* ___encryptorType_58;
-	// ExitGames.Client.Photon.Encryption.IPhotonEncryptor ExitGames.Client.Photon.PhotonPeer::Encryptor
-	RuntimeObject* ___Encryptor_59;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CountDiscarded>k__BackingField
-	int32_t ___U3CCountDiscardedU3Ek__BackingField_60;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<DeltaUnreliableNumber>k__BackingField
-	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_61;
-};
-
-struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
-{
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NoNativeCallbacks
-	bool ___NoNativeCallbacks_9;
-	// System.String ExitGames.Client.Photon.PhotonPeer::clientVersion
-	String_t* ___clientVersion_12;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeSocketLibAvailable
-	bool ___NativeSocketLibAvailable_13;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativePayloadEncryptionLibAvailable
-	bool ___NativePayloadEncryptionLibAvailable_14;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeDatagramEncryptionLibAvailable
-	bool ___NativeDatagramEncryptionLibAvailable_15;
-	// System.Int32 ExitGames.Client.Photon.PhotonPeer::OutgoingStreamBufferSize
-	int32_t ___OutgoingStreamBufferSize_40;
-	// System.Boolean ExitGames.Client.Photon.PhotonPeer::AsyncKeyExchange
-	bool ___AsyncKeyExchange_43;
 };
 
 // Fusion.Photon.Realtime.Player
@@ -1825,29 +1612,6 @@ struct Player_t06F93D32D10D7627C347A3B0702D627F6C4D7FE5  : public RuntimeObject
 	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___U3CCustomPropertiesU3Ek__BackingField_7;
 	// System.Object Fusion.Photon.Realtime.Player::TagObject
 	RuntimeObject* ___TagObject_8;
-};
-
-// Fusion.Photon.Realtime.RaiseEventOptions
-struct RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643  : public RuntimeObject
-{
-	// Fusion.Photon.Realtime.EventCaching Fusion.Photon.Realtime.RaiseEventOptions::CachingOption
-	uint8_t ___CachingOption_1;
-	// System.Byte Fusion.Photon.Realtime.RaiseEventOptions::InterestGroup
-	uint8_t ___InterestGroup_2;
-	// System.Int32[] Fusion.Photon.Realtime.RaiseEventOptions::TargetActors
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___TargetActors_3;
-	// Fusion.Photon.Realtime.ReceiverGroup Fusion.Photon.Realtime.RaiseEventOptions::Receivers
-	uint8_t ___Receivers_4;
-	// System.Byte Fusion.Photon.Realtime.RaiseEventOptions::SequenceChannel
-	uint8_t ___SequenceChannel_5;
-	// Fusion.Photon.Realtime.WebFlags Fusion.Photon.Realtime.RaiseEventOptions::Flags
-	WebFlags_tDB320679A18CDC2F63B5AF31B7AA7DD728A007E2* ___Flags_6;
-};
-
-struct RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643_StaticFields
-{
-	// Fusion.Photon.Realtime.RaiseEventOptions Fusion.Photon.Realtime.RaiseEventOptions::Default
-	RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643* ___Default_0;
 };
 
 // Fusion.Photon.Realtime.Region
@@ -1956,21 +1720,6 @@ struct RoomOptions_t2D3E5FF3D6AE3DFFDCD809BD64BD43DCE69A434F  : public RuntimeOb
 	bool ___broadcastPropsChangeToAll_13;
 };
 
-// Fusion.RuntimeUnityFlagsSetup
-struct RuntimeUnityFlagsSetup_t1C2A5AA31BB88D0E8DB1F38FFE9ACE1D6A4BAD88  : public RuntimeObject
-{
-};
-
-struct RuntimeUnityFlagsSetup_t1C2A5AA31BB88D0E8DB1F38FFE9ACE1D6A4BAD88_StaticFields
-{
-	// Fusion.RuntimeFlagsBuildFlags Fusion.RuntimeUnityFlagsSetup::flagsBuildFlags
-	int32_t ___flagsBuildFlags_0;
-	// Fusion.RuntimeFlagsBuildTypes Fusion.RuntimeUnityFlagsSetup::flagsBuildTypes
-	int32_t ___flagsBuildTypes_1;
-	// Fusion.RuntimeFlagsDotNetVersion Fusion.RuntimeUnityFlagsSetup::flagsDotNetVersion
-	int32_t ___flagsDotNetVersion_2;
-};
-
 // Fusion.SessionProperty
 struct SessionProperty_tADD56609E8C098753FCA63233C64F5F506A03EEA  : public RuntimeObject
 {
@@ -2021,21 +1770,6 @@ struct String_t_StaticFields
 {
 	// System.String System.String::Empty
 	String_t* ___Empty_6;
-};
-
-// Fusion.Photon.Realtime.TypedLobby
-struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.TypedLobby::Name
-	String_t* ___Name_0;
-	// Fusion.Photon.Realtime.LobbyType Fusion.Photon.Realtime.TypedLobby::Type
-	uint8_t ___Type_1;
-};
-
-struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933_StaticFields
-{
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.TypedLobby::Default
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Default_2;
 };
 
 // System.UriBuilder
@@ -2246,24 +1980,6 @@ struct KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230
 	RuntimeObject* ___value_1;
 };
 
-// System.Nullable`1<System.ByteEnum>
-struct Nullable_1_t03E990096DA2676FE760B9E8D2FA90FE1452F0B2 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	uint8_t ___value_1;
-};
-
-// System.Nullable`1<ExitGames.Client.Photon.ConnectionProtocol>
-struct Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	uint8_t ___value_1;
-};
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
@@ -2425,13 +2141,6 @@ struct IntPtr_t_StaticFields
 	intptr_t ___Zero_1;
 };
 
-// Fusion.Photon.Realtime.LoadBalancingPeer
-struct LoadBalancingPeer_tB526A8ADA9408D224C42A77DBB899028D22C9B11  : public PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C
-{
-	// ExitGames.Client.Photon.Pool`1<ExitGames.Client.Photon.ParameterDictionary> Fusion.Photon.Realtime.LoadBalancingPeer::paramDictionaryPool
-	Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* ___paramDictionaryPool_62;
-};
-
 // Fusion.Photon.Realtime.LobbyCallbacksContainer
 struct LobbyCallbacksContainer_t522D9D9763C9885C85D00D51C0065D1D6F7376A7  : public List_1_t5F80D73ACD6605A8240A55740D78AD63CAAD3420
 {
@@ -2503,53 +2212,11 @@ struct Room_t82BF4F720605DD8A25A070DE7BBDACAD3FD150AE  : public RoomInfo_t69451B
 	bool ___U3CDeleteNullPropertiesU3Ek__BackingField_20;
 };
 
-// ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 
-{
-	// ExitGames.Client.Photon.DeliveryMode ExitGames.Client.Photon.SendOptions::DeliveryMode
-	int32_t ___DeliveryMode_2;
-	// System.Boolean ExitGames.Client.Photon.SendOptions::Encrypt
-	bool ___Encrypt_3;
-	// System.Byte ExitGames.Client.Photon.SendOptions::Channel
-	uint8_t ___Channel_4;
-};
-
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields
-{
-	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendReliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendReliable_0;
-	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendUnreliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendUnreliable_1;
-};
-// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_pinvoke
-{
-	int32_t ___DeliveryMode_2;
-	int32_t ___Encrypt_3;
-	uint8_t ___Channel_4;
-};
-// Native definition for COM marshalling of ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_com
-{
-	int32_t ___DeliveryMode_2;
-	int32_t ___Encrypt_3;
-	uint8_t ___Channel_4;
-};
-
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	// System.Single System.Single::m_value
 	float ___m_value_0;
-};
-
-// Fusion.Photon.Realtime.TypedLobbyInfo
-struct TypedLobbyInfo_t2C420EFB19F1448F1E092D089AFDC58F605415CB  : public TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933
-{
-	// System.Int32 Fusion.Photon.Realtime.TypedLobbyInfo::PlayerCount
-	int32_t ___PlayerCount_3;
-	// System.Int32 Fusion.Photon.Realtime.TypedLobbyInfo::RoomCount
-	int32_t ___RoomCount_4;
 };
 
 // System.UInt16
@@ -2657,6 +2324,62 @@ struct Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9
 	int32_t ____getEnumeratorRetType_4;
 };
 
+// Fusion.Photon.Realtime.AuthModeOption
+struct AuthModeOption_t97880215A3A327DE8EDE98941C3C5AC7B39CBAF8 
+{
+	// System.Int32 Fusion.Photon.Realtime.AuthModeOption::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.BindingFlags
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
+};
+
+// System.ByteEnum
+struct ByteEnum_t2A464EF5EC59CBA8ED5E194537D5832168B1A692 
+{
+	// System.Byte System.ByteEnum::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ClientAppType
+struct ClientAppType_t1941DFECFA31CC00C9CAD40DC86358F713FE0B6A 
+{
+	// System.Int32 Fusion.Photon.Realtime.ClientAppType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ClientState
+struct ClientState_t1BBC2968AC578BFB2A00BE64C26499908E9BD326 
+{
+	// System.Int32 Fusion.Photon.Realtime.ClientState::value__
+	int32_t ___value___2;
+};
+
+// ExitGames.Client.Photon.ConnectionProtocol
+struct ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2 
+{
+	// System.Byte ExitGames.Client.Photon.ConnectionProtocol::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.CustomAuthenticationType
+struct CustomAuthenticationType_t2F71D5BDDBFD54DC85047B26C0B651BE3B3C7B42 
+{
+	// System.Byte Fusion.Photon.Realtime.CustomAuthenticationType::value__
+	uint8_t ___value___2;
+};
+
+// ExitGames.Client.Photon.DebugLevel
+struct DebugLevel_t02AE6C5FD0E09AFE78382E0B5C15DC2223D35D98 
+{
+	// System.Byte ExitGames.Client.Photon.DebugLevel::value__
+	uint8_t ___value___2;
+};
+
 // System.Delegate
 struct Delegate_t  : public RuntimeObject
 {
@@ -2720,6 +2443,34 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info_10;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
 	int32_t ___method_is_virtual_12;
+};
+
+// ExitGames.Client.Photon.DeliveryMode
+struct DeliveryMode_tBD00E8E8A6BB25D15E75BBBDD17DCEB12B803593 
+{
+	// System.Int32 ExitGames.Client.Photon.DeliveryMode::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.DisconnectCause
+struct DisconnectCause_t709E42D48BD96DAF09DC567677AEEA2C09691025 
+{
+	// System.Int32 Fusion.Photon.Realtime.DisconnectCause::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.EncryptionMode
+struct EncryptionMode_t877F76AEE07E13721EBF9E8B3343C0E2B3191BB7 
+{
+	// System.Int32 Fusion.Photon.Realtime.EncryptionMode::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.EventCaching
+struct EventCaching_tDB8B7F93D06B6624FF2F8568C52084835E072F55 
+{
+	// System.Byte Fusion.Photon.Realtime.EventCaching::value__
+	uint8_t ___value___2;
 };
 
 // System.Exception
@@ -2803,6 +2554,602 @@ struct Exception_t_marshaled_com
 	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 	int32_t ___caught_in_unmanaged_16;
+};
+
+// System.Int32Enum
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	// System.Int32 System.Int32Enum::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.JoinMode
+struct JoinMode_tCFB559582F5F5CA916DC46978FB0252F9D835F83 
+{
+	// System.Byte Fusion.Photon.Realtime.JoinMode::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.JoinType
+struct JoinType_tDD9F78BFB915B284334B8DF7DA0A9C8B7587EB3E 
+{
+	// System.Int32 Fusion.Photon.Realtime.JoinType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.LobbyType
+struct LobbyType_tCE0C0769F5C7AAEAAC44723F6071798BC27C4073 
+{
+	// System.Byte Fusion.Photon.Realtime.LobbyType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.MatchmakingMode
+struct MatchmakingMode_tB2BFC6C6255CAE0AF35C2F8CE2266D8ECC4AD530 
+{
+	// System.Byte Fusion.Photon.Realtime.MatchmakingMode::value__
+	uint8_t ___value___2;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// ExitGames.Client.Photon.PeerStateValue
+struct PeerStateValue_tCDD305BA1E139FC2F43FF54C65049831770DDFC3 
+{
+	// System.Byte ExitGames.Client.Photon.PeerStateValue::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ReceiverGroup
+struct ReceiverGroup_t0751144C86968C1D3AC0D68C1C6A2971F2A0D4E3 
+{
+	// System.Byte Fusion.Photon.Realtime.ReceiverGroup::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.RuntimeFlagsBuildFlags
+struct RuntimeFlagsBuildFlags_t0128EADC67422F05EDAA025B5D6AB9CDA3D1374A 
+{
+	// System.Int32 Fusion.RuntimeFlagsBuildFlags::value__
+	int32_t ___value___2;
+};
+
+// Fusion.RuntimeFlagsBuildTypes
+struct RuntimeFlagsBuildTypes_tB34571A94F525D0930097377831040F3181C9619 
+{
+	// System.Int32 Fusion.RuntimeFlagsBuildTypes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.RuntimeFlagsDotNetVersion
+struct RuntimeFlagsDotNetVersion_t01F4FA0C0A632A9EECA03E6BBC23B882F6B70CE1 
+{
+	// System.Int32 Fusion.RuntimeFlagsDotNetVersion::value__
+	int32_t ___value___2;
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// ExitGames.Client.Photon.SerializationProtocol
+struct SerializationProtocol_t2A6589A0938C7CF1EAFEEC0FC61F0D34F7176910 
+{
+	// System.Int32 ExitGames.Client.Photon.SerializationProtocol::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ServerConnection
+struct ServerConnection_t0C7CFE9FA580F22A60BFB7775893157507BFD177 
+{
+	// System.Int32 Fusion.Photon.Realtime.ServerConnection::value__
+	int32_t ___value___2;
+};
+
+// ExitGames.Client.Photon.StatusCode
+struct StatusCode_tD49F9E026EFABFD71BA675213E28355707A67D74 
+{
+	// System.Int32 ExitGames.Client.Photon.StatusCode::value__
+	int32_t ___value___2;
+};
+
+// ExitGames.Client.Photon.TargetFrameworks
+struct TargetFrameworks_tFA2579142253D3F9C8D7EBCB307EC5D21F20E76D 
+{
+	// System.Int32 ExitGames.Client.Photon.TargetFrameworks::value__
+	int32_t ___value___2;
+};
+
+// System.Nullable`1<System.ByteEnum>
+struct Nullable_1_t03E990096DA2676FE760B9E8D2FA90FE1452F0B2 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	uint8_t ___value_1;
+};
+
+// System.Nullable`1<ExitGames.Client.Photon.ConnectionProtocol>
+struct Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	uint8_t ___value_1;
+};
+
+// Fusion.Photon.Realtime.AppSettings
+struct AppSettings_t676479963A7FA399B63DD6E77830C334B7900E84  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdRealtime
+	String_t* ___AppIdRealtime_0;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdFusion
+	String_t* ___AppIdFusion_1;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdChat
+	String_t* ___AppIdChat_2;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdVoice
+	String_t* ___AppIdVoice_3;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppVersion
+	String_t* ___AppVersion_4;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::UseNameServer
+	bool ___UseNameServer_5;
+	// System.String Fusion.Photon.Realtime.AppSettings::FixedRegion
+	String_t* ___FixedRegion_6;
+	// System.String Fusion.Photon.Realtime.AppSettings::BestRegionSummaryFromStorage
+	String_t* ___BestRegionSummaryFromStorage_7;
+	// System.String Fusion.Photon.Realtime.AppSettings::Server
+	String_t* ___Server_8;
+	// System.Int32 Fusion.Photon.Realtime.AppSettings::Port
+	int32_t ___Port_9;
+	// System.String Fusion.Photon.Realtime.AppSettings::ProxyServer
+	String_t* ___ProxyServer_10;
+	// ExitGames.Client.Photon.ConnectionProtocol Fusion.Photon.Realtime.AppSettings::Protocol
+	uint8_t ___Protocol_11;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableProtocolFallback
+	bool ___EnableProtocolFallback_12;
+	// Fusion.Photon.Realtime.AuthModeOption Fusion.Photon.Realtime.AppSettings::AuthMode
+	int32_t ___AuthMode_13;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableLobbyStatistics
+	bool ___EnableLobbyStatistics_14;
+	// ExitGames.Client.Photon.DebugLevel Fusion.Photon.Realtime.AppSettings::NetworkLogging
+	uint8_t ___NetworkLogging_15;
+};
+
+// Fusion.Photon.Realtime.AuthenticationValues
+struct AuthenticationValues_t966D2FC1B918F833E8AF124E7FD256C9C1FCD982  : public RuntimeObject
+{
+	// Fusion.Photon.Realtime.CustomAuthenticationType Fusion.Photon.Realtime.AuthenticationValues::authType
+	uint8_t ___authType_0;
+	// System.String Fusion.Photon.Realtime.AuthenticationValues::<AuthGetParameters>k__BackingField
+	String_t* ___U3CAuthGetParametersU3Ek__BackingField_1;
+	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<AuthPostData>k__BackingField
+	RuntimeObject* ___U3CAuthPostDataU3Ek__BackingField_2;
+	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<Token>k__BackingField
+	RuntimeObject* ___U3CTokenU3Ek__BackingField_3;
+	// System.String Fusion.Photon.Realtime.AuthenticationValues::<UserId>k__BackingField
+	String_t* ___U3CUserIdU3Ek__BackingField_4;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// ExitGames.Client.Photon.DictionaryEntryEnumerator
+struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11 
+{
+	// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object> ExitGames.Client.Photon.DictionaryEntryEnumerator::enumerator
+	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
+};
+// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.DictionaryEntryEnumerator
+struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11_marshaled_pinvoke
+{
+	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
+};
+// Native definition for COM marshalling of ExitGames.Client.Photon.DictionaryEntryEnumerator
+struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11_marshaled_com
+{
+	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
+};
+
+// Fusion.Photon.Realtime.EnterRoomParams
+struct EnterRoomParams_t85623F8A2F73A36F20442EA7F5CC767A2D2CA61B  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.EnterRoomParams::RoomName
+	String_t* ___RoomName_0;
+	// Fusion.Photon.Realtime.RoomOptions Fusion.Photon.Realtime.EnterRoomParams::RoomOptions
+	RoomOptions_t2D3E5FF3D6AE3DFFDCD809BD64BD43DCE69A434F* ___RoomOptions_1;
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.EnterRoomParams::Lobby
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Lobby_2;
+	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.EnterRoomParams::PlayerProperties
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___PlayerProperties_3;
+	// System.Boolean Fusion.Photon.Realtime.EnterRoomParams::OnGameServer
+	bool ___OnGameServer_4;
+	// Fusion.Photon.Realtime.JoinMode Fusion.Photon.Realtime.EnterRoomParams::JoinMode
+	uint8_t ___JoinMode_5;
+	// System.String[] Fusion.Photon.Realtime.EnterRoomParams::ExpectedUsers
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_6;
+};
+
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// Fusion.Photon.Realtime.OpJoinRandomRoomParams
+struct OpJoinRandomRoomParams_t5D3247CAF9D33093605A1207115C5BA72D65D79C  : public RuntimeObject
+{
+	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedCustomRoomProperties
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___ExpectedCustomRoomProperties_0;
+	// System.Byte Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedMaxPlayers
+	uint8_t ___ExpectedMaxPlayers_1;
+	// Fusion.Photon.Realtime.MatchmakingMode Fusion.Photon.Realtime.OpJoinRandomRoomParams::MatchingType
+	uint8_t ___MatchingType_2;
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.OpJoinRandomRoomParams::TypedLobby
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___TypedLobby_3;
+	// System.String Fusion.Photon.Realtime.OpJoinRandomRoomParams::SqlLobbyFilter
+	String_t* ___SqlLobbyFilter_4;
+	// System.String[] Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedUsers
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_5;
+};
+
+// ExitGames.Client.Photon.PhotonPeer
+struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C  : public RuntimeObject
+{
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CommandBufferSize>k__BackingField
+	int32_t ___U3CCommandBufferSizeU3Ek__BackingField_0;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<LimitOfUnreliableCommands>k__BackingField
+	int32_t ___U3CLimitOfUnreliableCommandsU3Ek__BackingField_1;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::WarningSize
+	int32_t ___WarningSize_2;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::CommandLogSize
+	int32_t ___CommandLogSize_4;
+	// ExitGames.Client.Photon.TargetFrameworks ExitGames.Client.Photon.PhotonPeer::TargetFramework
+	int32_t ___TargetFramework_8;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RemoveAppIdFromWebSocketPath
+	bool ___RemoveAppIdFromWebSocketPath_10;
+	// System.Byte ExitGames.Client.Photon.PhotonPeer::ClientSdkId
+	uint8_t ___ClientSdkId_11;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::UseInitV3
+	bool ___UseInitV3_16;
+	// ExitGames.Client.Photon.SerializationProtocol ExitGames.Client.Photon.PhotonPeer::<SerializationProtocolType>k__BackingField
+	int32_t ___U3CSerializationProtocolTypeU3Ek__BackingField_17;
+	// System.Collections.Generic.Dictionary`2<ExitGames.Client.Photon.ConnectionProtocol,System.Type> ExitGames.Client.Photon.PhotonPeer::SocketImplementationConfig
+	Dictionary_2_tAD182111317FFA6F3D46F2A5D89115A1E112F989* ___SocketImplementationConfig_18;
+	// System.Type ExitGames.Client.Photon.PhotonPeer::<SocketImplementation>k__BackingField
+	Type_t* ___U3CSocketImplementationU3Ek__BackingField_19;
+	// ExitGames.Client.Photon.DebugLevel ExitGames.Client.Photon.PhotonPeer::DebugOut
+	uint8_t ___DebugOut_20;
+	// ExitGames.Client.Photon.IPhotonPeerListener ExitGames.Client.Photon.PhotonPeer::<Listener>k__BackingField
+	RuntimeObject* ___U3CListenerU3Ek__BackingField_21;
+	// System.Action`1<ExitGames.Client.Photon.DisconnectMessage> ExitGames.Client.Photon.PhotonPeer::OnDisconnectMessage
+	Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD* ___OnDisconnectMessage_22;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::reuseEventInstance
+	bool ___reuseEventInstance_23;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::useByteArraySlicePoolForEvents
+	bool ___useByteArraySlicePoolForEvents_24;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::wrapIncomingStructs
+	bool ___wrapIncomingStructs_25;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::SendInCreationOrder
+	bool ___SendInCreationOrder_26;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SequenceDeltaLimitResends
+	int32_t ___SequenceDeltaLimitResends_27;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SequenceDeltaLimitSends
+	int32_t ___SequenceDeltaLimitSends_28;
+	// ExitGames.Client.Photon.ITrafficRecorder ExitGames.Client.Photon.PhotonPeer::TrafficRecorder
+	RuntimeObject* ___TrafficRecorder_29;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<EnableServerTracing>k__BackingField
+	bool ___U3CEnableServerTracingU3Ek__BackingField_30;
+	// System.Byte ExitGames.Client.Photon.PhotonPeer::quickResendAttempts
+	uint8_t ___quickResendAttempts_31;
+	// System.Byte ExitGames.Client.Photon.PhotonPeer::ChannelCount
+	uint8_t ___ChannelCount_32;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::EnableEncryptedFlag
+	bool ___EnableEncryptedFlag_33;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::crcEnabled
+	bool ___crcEnabled_34;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::SentCountAllowance
+	int32_t ___SentCountAllowance_35;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::InitialResendTimeMax
+	int32_t ___InitialResendTimeMax_36;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::TimePingInterval
+	int32_t ___TimePingInterval_37;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::disconnectTimeout
+	int32_t ___disconnectTimeout_38;
+	// ExitGames.Client.Photon.ConnectionProtocol ExitGames.Client.Photon.PhotonPeer::<TransportProtocol>k__BackingField
+	uint8_t ___U3CTransportProtocolU3Ek__BackingField_39;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::mtu
+	int32_t ___mtu_41;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::<IsSendingOnlyAcks>k__BackingField
+	bool ___U3CIsSendingOnlyAcksU3Ek__BackingField_42;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::RandomizeSequenceNumbers
+	bool ___RandomizeSequenceNumbers_44;
+	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::RandomizedSequenceNumbers
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___RandomizedSequenceNumbers_45;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::GcmDatagramEncryption
+	bool ___GcmDatagramEncryption_46;
+	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsIncoming>k__BackingField
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsIncomingU3Ek__BackingField_47;
+	// ExitGames.Client.Photon.TrafficStats ExitGames.Client.Photon.PhotonPeer::<TrafficStatsOutgoing>k__BackingField
+	TrafficStats_t7EA2A81C7B25BB54EDF02507A5C1010BC9857503* ___U3CTrafficStatsOutgoingU3Ek__BackingField_48;
+	// ExitGames.Client.Photon.TrafficStatsGameLevel ExitGames.Client.Photon.PhotonPeer::<TrafficStatsGameLevel>k__BackingField
+	TrafficStatsGameLevel_t2733AB6F5A530490DF25127C7183A811B63717D9* ___U3CTrafficStatsGameLevelU3Ek__BackingField_49;
+	// System.Diagnostics.Stopwatch ExitGames.Client.Photon.PhotonPeer::trafficStatsStopwatch
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___trafficStatsStopwatch_50;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::trafficStatsEnabled
+	bool ___trafficStatsEnabled_51;
+	// ExitGames.Client.Photon.PeerBase ExitGames.Client.Photon.PhotonPeer::peerBase
+	PeerBase_tC71615DA721AC9BA568EA84EA23C1784A8CD837F* ___peerBase_52;
+	// System.Object ExitGames.Client.Photon.PhotonPeer::SendOutgoingLockObject
+	RuntimeObject* ___SendOutgoingLockObject_53;
+	// System.Object ExitGames.Client.Photon.PhotonPeer::DispatchLockObject
+	RuntimeObject* ___DispatchLockObject_54;
+	// System.Object ExitGames.Client.Photon.PhotonPeer::EnqueueLock
+	RuntimeObject* ___EnqueueLock_55;
+	// System.Type ExitGames.Client.Photon.PhotonPeer::payloadEncryptorType
+	Type_t* ___payloadEncryptorType_56;
+	// System.Byte[] ExitGames.Client.Photon.PhotonPeer::PayloadEncryptionSecret
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___PayloadEncryptionSecret_57;
+	// System.Type ExitGames.Client.Photon.PhotonPeer::encryptorType
+	Type_t* ___encryptorType_58;
+	// ExitGames.Client.Photon.Encryption.IPhotonEncryptor ExitGames.Client.Photon.PhotonPeer::Encryptor
+	RuntimeObject* ___Encryptor_59;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<CountDiscarded>k__BackingField
+	int32_t ___U3CCountDiscardedU3Ek__BackingField_60;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::<DeltaUnreliableNumber>k__BackingField
+	int32_t ___U3CDeltaUnreliableNumberU3Ek__BackingField_61;
+};
+
+struct PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C_StaticFields
+{
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NoNativeCallbacks
+	bool ___NoNativeCallbacks_9;
+	// System.String ExitGames.Client.Photon.PhotonPeer::clientVersion
+	String_t* ___clientVersion_12;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeSocketLibAvailable
+	bool ___NativeSocketLibAvailable_13;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativePayloadEncryptionLibAvailable
+	bool ___NativePayloadEncryptionLibAvailable_14;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::NativeDatagramEncryptionLibAvailable
+	bool ___NativeDatagramEncryptionLibAvailable_15;
+	// System.Int32 ExitGames.Client.Photon.PhotonPeer::OutgoingStreamBufferSize
+	int32_t ___OutgoingStreamBufferSize_40;
+	// System.Boolean ExitGames.Client.Photon.PhotonPeer::AsyncKeyExchange
+	bool ___AsyncKeyExchange_43;
+};
+
+// Fusion.Photon.Realtime.RaiseEventOptions
+struct RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643  : public RuntimeObject
+{
+	// Fusion.Photon.Realtime.EventCaching Fusion.Photon.Realtime.RaiseEventOptions::CachingOption
+	uint8_t ___CachingOption_1;
+	// System.Byte Fusion.Photon.Realtime.RaiseEventOptions::InterestGroup
+	uint8_t ___InterestGroup_2;
+	// System.Int32[] Fusion.Photon.Realtime.RaiseEventOptions::TargetActors
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___TargetActors_3;
+	// Fusion.Photon.Realtime.ReceiverGroup Fusion.Photon.Realtime.RaiseEventOptions::Receivers
+	uint8_t ___Receivers_4;
+	// System.Byte Fusion.Photon.Realtime.RaiseEventOptions::SequenceChannel
+	uint8_t ___SequenceChannel_5;
+	// Fusion.Photon.Realtime.WebFlags Fusion.Photon.Realtime.RaiseEventOptions::Flags
+	WebFlags_tDB320679A18CDC2F63B5AF31B7AA7DD728A007E2* ___Flags_6;
+};
+
+struct RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643_StaticFields
+{
+	// Fusion.Photon.Realtime.RaiseEventOptions Fusion.Photon.Realtime.RaiseEventOptions::Default
+	RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643* ___Default_0;
+};
+
+// Fusion.RuntimeUnityFlagsSetup
+struct RuntimeUnityFlagsSetup_t1C2A5AA31BB88D0E8DB1F38FFE9ACE1D6A4BAD88  : public RuntimeObject
+{
+};
+
+struct RuntimeUnityFlagsSetup_t1C2A5AA31BB88D0E8DB1F38FFE9ACE1D6A4BAD88_StaticFields
+{
+	// Fusion.RuntimeFlagsBuildFlags Fusion.RuntimeUnityFlagsSetup::flagsBuildFlags
+	int32_t ___flagsBuildFlags_0;
+	// Fusion.RuntimeFlagsBuildTypes Fusion.RuntimeUnityFlagsSetup::flagsBuildTypes
+	int32_t ___flagsBuildTypes_1;
+	// Fusion.RuntimeFlagsDotNetVersion Fusion.RuntimeUnityFlagsSetup::flagsDotNetVersion
+	int32_t ___flagsDotNetVersion_2;
+};
+
+// ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 
+{
+	// ExitGames.Client.Photon.DeliveryMode ExitGames.Client.Photon.SendOptions::DeliveryMode
+	int32_t ___DeliveryMode_2;
+	// System.Boolean ExitGames.Client.Photon.SendOptions::Encrypt
+	bool ___Encrypt_3;
+	// System.Byte ExitGames.Client.Photon.SendOptions::Channel
+	uint8_t ___Channel_4;
+};
+
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields
+{
+	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendReliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendReliable_0;
+	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendUnreliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendUnreliable_1;
+};
+// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_pinvoke
+{
+	int32_t ___DeliveryMode_2;
+	int32_t ___Encrypt_3;
+	uint8_t ___Channel_4;
+};
+// Native definition for COM marshalling of ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_com
+{
+	int32_t ___DeliveryMode_2;
+	int32_t ___Encrypt_3;
+	uint8_t ___Channel_4;
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// Fusion.Photon.Realtime.TypedLobby
+struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.TypedLobby::Name
+	String_t* ___Name_0;
+	// Fusion.Photon.Realtime.LobbyType Fusion.Photon.Realtime.TypedLobby::Type
+	uint8_t ___Type_1;
+};
+
+struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933_StaticFields
+{
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.TypedLobby::Default
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Default_2;
+};
+
+// System.Action`1<ExitGames.Client.Photon.DisconnectMessage>
+struct Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<ExitGames.Client.Photon.EventData>
+struct Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.Object>
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<ExitGames.Client.Photon.OperationResponse>
+struct Action_1_t3A1DE9227396F3C161EEABEA4147808A86558826  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<ExitGames.Client.Photon.ParameterDictionary>
+struct Action_1_t6B245BF02D5FB1E137A1258BA7D10B8BAF3C09C9  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<Fusion.Photon.Realtime.RegionHandler>
+struct Action_1_tC72E72A7666CA12CCEB78B136C28BA35A008D351  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<Fusion.Photon.Realtime.ClientState,Fusion.Photon.Realtime.ClientState>
+struct Action_2_t6D67A71EC4D334196DC74300367A2DBEB55B52AC  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32Enum,System.Int32Enum>
+struct Action_2_t43544BAAB4CC69E54228A3389CC3D57A805208A2  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<System.Boolean>
+struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
+{
+};
+
+// System.Func`1<ExitGames.Client.Photon.ParameterDictionary>
+struct Func_1_t6A45258E73200ABBFC35FC091D2CAB4AAA70EE07  : public MulticastDelegate_t
+{
+};
+
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// ExitGames.Client.Photon.DeserializeStreamMethod
+struct DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448  : public MulticastDelegate_t
+{
+};
+
+// System.InvalidCastException
+struct InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
 };
 
 // Fusion.Photon.Realtime.LoadBalancingClient
@@ -2916,56 +3263,37 @@ struct LoadBalancingClient_t6C87C8E5C7B7B26F6F3944AD36E3A0C8D6D42BAA_StaticField
 	Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* ___ProtocolToNameServerPort_11;
 };
 
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+// Fusion.Photon.Realtime.LoadBalancingPeer
+struct LoadBalancingPeer_tB526A8ADA9408D224C42A77DBB899028D22C9B11  : public PhotonPeer_t49659FA3F71A8C67E0A1922FBA955CCBEF14DD9C
 {
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
+	// ExitGames.Client.Photon.Pool`1<ExitGames.Client.Photon.ParameterDictionary> Fusion.Photon.Realtime.LoadBalancingPeer::paramDictionaryPool
+	Pool_1_t47635E10016E83A1E327B583977D1F043544FB48* ___paramDictionaryPool_62;
 };
 
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-
-// System.RuntimeTypeHandle
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	// System.IntPtr System.RuntimeTypeHandle::value
-	intptr_t ___value_0;
-};
-
-// UnityEngine.Component
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+// System.NotSupportedException
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
 };
 
-// ExitGames.Client.Photon.DictionaryEntryEnumerator
-struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11 
+// ExitGames.Client.Photon.SerializeStreamMethod
+struct SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF  : public MulticastDelegate_t
 {
-	// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object> ExitGames.Client.Photon.DictionaryEntryEnumerator::enumerator
-	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
 };
-// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.DictionaryEntryEnumerator
-struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11_marshaled_pinvoke
+
+// Fusion.Photon.Realtime.TypedLobbyInfo
+struct TypedLobbyInfo_t2C420EFB19F1448F1E092D089AFDC58F605415CB  : public TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933
 {
-	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
+	// System.Int32 Fusion.Photon.Realtime.TypedLobbyInfo::PlayerCount
+	int32_t ___PlayerCount_3;
+	// System.Int32 Fusion.Photon.Realtime.TypedLobbyInfo::RoomCount
+	int32_t ___RoomCount_4;
 };
-// Native definition for COM marshalling of ExitGames.Client.Photon.DictionaryEntryEnumerator
-struct DictionaryEntryEnumerator_tEBE158FAFCF272693E95064FE419DF2A1D5CBA11_marshaled_com
+
+// System.ArgumentOutOfRangeException
+struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
 {
-	Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 ___enumerator_0;
+	// System.Object System.ArgumentOutOfRangeException::_actualValue
+	RuntimeObject* ____actualValue_19;
 };
 
 // Fusion.Photon.Realtime.FusionRelayClient
@@ -2985,152 +3313,6 @@ struct FusionRelayClient_tF4E4806C8E0A4E90508E047E04159B42AF50EA14  : public Loa
 	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ____optionsReliable_62;
 	// Fusion.Protocol.ICommunicator Fusion.Photon.Realtime.FusionRelayClient::_communicator
 	RuntimeObject* ____communicator_63;
-};
-
-// UnityEngine.GameObject
-struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-
-// System.MulticastDelegate
-struct MulticastDelegate_t  : public Delegate_t
-{
-	// System.Delegate[] System.MulticastDelegate::delegates
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
-};
-// Native definition for P/Invoke marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates_13;
-};
-// Native definition for COM marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates_13;
-};
-
-// System.SystemException
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
-{
-};
-
-// System.Type
-struct Type_t  : public MemberInfo_t
-{
-	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
-};
-
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
-};
-
-// System.Action`1<ExitGames.Client.Photon.DisconnectMessage>
-struct Action_1_tD73BC7FEF1671B01BA9C93C20E8C741DB8DEFCFD  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<ExitGames.Client.Photon.EventData>
-struct Action_1_t1B5115AA4265AE1C83F3EC48593F86230AF07295  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<System.Object>
-struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<ExitGames.Client.Photon.OperationResponse>
-struct Action_1_t3A1DE9227396F3C161EEABEA4147808A86558826  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<ExitGames.Client.Photon.ParameterDictionary>
-struct Action_1_t6B245BF02D5FB1E137A1258BA7D10B8BAF3C09C9  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<Fusion.Photon.Realtime.RegionHandler>
-struct Action_1_tC72E72A7666CA12CCEB78B136C28BA35A008D351  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<Fusion.Photon.Realtime.ClientState,Fusion.Photon.Realtime.ClientState>
-struct Action_2_t6D67A71EC4D334196DC74300367A2DBEB55B52AC  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32Enum,System.Int32Enum>
-struct Action_2_t43544BAAB4CC69E54228A3389CC3D57A805208A2  : public MulticastDelegate_t
-{
-};
-
-// System.Func`1<System.Boolean>
-struct Func_1_t2BE7F58348C9CC544A8973B3A9E55541DE43C457  : public MulticastDelegate_t
-{
-};
-
-// System.Func`1<ExitGames.Client.Photon.ParameterDictionary>
-struct Func_1_t6A45258E73200ABBFC35FC091D2CAB4AAA70EE07  : public MulticastDelegate_t
-{
-};
-
-// System.Action
-struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
-{
-};
-
-// System.ArgumentException
-struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	// System.String System.ArgumentException::_paramName
-	String_t* ____paramName_18;
-};
-
-// UnityEngine.Behaviour
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-
-// ExitGames.Client.Photon.DeserializeStreamMethod
-struct DeserializeStreamMethod_tC0EA7F2D58AD1B0A85B30C169AAEBD600889E448  : public MulticastDelegate_t
-{
-};
-
-// System.InvalidCastException
-struct InvalidCastException_t47FC62F21A3937E814D20381DDACEF240E95AC2E  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-
-// System.NotSupportedException
-struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-
-// ExitGames.Client.Photon.SerializeStreamMethod
-struct SerializeStreamMethod_tE9A207ADBB74A63C939A741C47F75676E0A82BEF  : public MulticastDelegate_t
-{
-};
-
-// System.ArgumentOutOfRangeException
-struct ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F  : public ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263
-{
-	// System.Object System.ArgumentOutOfRangeException::_actualValue
-	RuntimeObject* ____actualValue_19;
 };
 
 // UnityEngine.MonoBehaviour
@@ -4631,6 +4813,30 @@ inline int32_t Dictionary_2_get_Count_mDBE39F8DFADAA1D303E8BFC83E07EE048D8BAF4D 
 }
 // System.Void System.Array::Clear(System.Array,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m48B57EC27CADC3463CA98A33373D557DA587FF1B (RuntimeArray* ___array0, int32_t ___index1, int32_t ___length2, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -10289,6 +10495,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FriendInfo__ctor_m0983E2B28168E2530BB1F8
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

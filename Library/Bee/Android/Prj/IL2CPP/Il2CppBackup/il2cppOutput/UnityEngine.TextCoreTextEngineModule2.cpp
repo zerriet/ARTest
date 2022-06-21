@@ -1267,23 +1267,6 @@ struct String_t_StaticFields
 	String_t* ___Empty_6;
 };
 
-// UnityEngine.TextCore.Text.TextElement
-struct TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA  : public RuntimeObject
-{
-	// UnityEngine.TextCore.Text.TextElementType UnityEngine.TextCore.Text.TextElement::m_ElementType
-	uint8_t ___m_ElementType_0;
-	// System.UInt32 UnityEngine.TextCore.Text.TextElement::m_Unicode
-	uint32_t ___m_Unicode_1;
-	// UnityEngine.TextCore.Text.TextAsset UnityEngine.TextCore.Text.TextElement::m_TextAsset
-	TextAsset_tB28F1843A877CCA74B89DC4F63EA532618B049B8* ___m_TextAsset_2;
-	// UnityEngine.TextCore.Glyph UnityEngine.TextCore.Text.TextElement::m_Glyph
-	Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* ___m_Glyph_3;
-	// System.UInt32 UnityEngine.TextCore.Text.TextElement::m_GlyphIndex
-	uint32_t ___m_GlyphIndex_4;
-	// System.Single UnityEngine.TextCore.Text.TextElement::m_Scale
-	float ___m_Scale_5;
-};
-
 // UnityEngine.TextCore.Text.TextShaderUtilities
 struct TextShaderUtilities_t47B400695C5D96E7B04FEF9D132468B3A1799692  : public RuntimeObject
 {
@@ -1544,23 +1527,6 @@ struct TextProcessingStack_1_t9FC06E35259ADD291ED640FE7554D8C03EA5F555
 	int32_t ___m_Count_5;
 };
 
-// UnityEngine.TextCore.Text.TextProcessingStack`1<UnityEngine.TextCore.Text.TextAlignment>
-struct TextProcessingStack_1_tE63296B08A4C34E38D7EF3FFFA3470076B9E3A0F 
-{
-	// T[] UnityEngine.TextCore.Text.TextProcessingStack`1::itemStack
-	TextAlignmentU5BU5D_t756DC2D672145699CB9718DDBA5982ED51A95F49* ___itemStack_0;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::index
-	int32_t ___index_1;
-	// T UnityEngine.TextCore.Text.TextProcessingStack`1::m_DefaultItem
-	int32_t ___m_DefaultItem_2;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Capacity
-	int32_t ___m_Capacity_3;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_RolloverSize
-	int32_t ___m_RolloverSize_4;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Count
-	int32_t ___m_Count_5;
-};
-
 // UnityEngine.TextCore.Text.TextProcessingStack`1<UnityEngine.TextCore.Text.TextColorGradient>
 struct TextProcessingStack_1_t0F39F088E8F8F6E18C3C463B2998ADC5B7A0513E 
 {
@@ -1570,23 +1536,6 @@ struct TextProcessingStack_1_t0F39F088E8F8F6E18C3C463B2998ADC5B7A0513E
 	int32_t ___index_1;
 	// T UnityEngine.TextCore.Text.TextProcessingStack`1::m_DefaultItem
 	TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70* ___m_DefaultItem_2;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Capacity
-	int32_t ___m_Capacity_3;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_RolloverSize
-	int32_t ___m_RolloverSize_4;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Count
-	int32_t ___m_Count_5;
-};
-
-// UnityEngine.TextCore.Text.TextProcessingStack`1<UnityEngine.TextCore.Text.TextFontWeight>
-struct TextProcessingStack_1_t698B87CDD968C2046F57134BB3AB807EBFFD7790 
-{
-	// T[] UnityEngine.TextCore.Text.TextProcessingStack`1::itemStack
-	TextFontWeightU5BU5D_t3DE32809AEE657255C8333897D61F2EA5279D43F* ___itemStack_0;
-	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::index
-	int32_t ___index_1;
-	// T UnityEngine.TextCore.Text.TextProcessingStack`1::m_DefaultItem
-	int32_t ___m_DefaultItem_2;
 	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Capacity
 	int32_t ___m_Capacity_3;
 	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_RolloverSize
@@ -1628,11 +1577,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
 	// System.Byte[] System.Char::s_categoryForLatin1
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1_3;
-};
-
-// UnityEngine.TextCore.Text.Character
-struct Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC  : public TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA
-{
 };
 
 // UnityEngine.Color
@@ -1715,6 +1659,25 @@ struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B
 			uint8_t ___a_4_forAlignmentOnly;
 		};
 	};
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 
 // UnityEngine.TextCore.FaceInfo
@@ -2135,35 +2098,11 @@ struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D
 	float ___m_Height_3;
 };
 
-// UnityEngine.TextCore.Text.RichTextTagAttribute
-struct RichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA 
-{
-	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::nameHashCode
-	int32_t ___nameHashCode_0;
-	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueHashCode
-	int32_t ___valueHashCode_1;
-	// UnityEngine.TextCore.Text.TagValueType UnityEngine.TextCore.Text.RichTextTagAttribute::valueType
-	int32_t ___valueType_2;
-	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueStartIndex
-	int32_t ___valueStartIndex_3;
-	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueLength
-	int32_t ___valueLength_4;
-};
-
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
 	// System.Single System.Single::m_value
 	float ___m_value_0;
-};
-
-// UnityEngine.TextCore.Text.SpriteCharacter
-struct SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5  : public TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA
-{
-	// System.String UnityEngine.TextCore.Text.SpriteCharacter::m_Name
-	String_t* ___m_Name_6;
-	// System.Int32 UnityEngine.TextCore.Text.SpriteCharacter::m_HashCode
-	int32_t ___m_HashCode_7;
 };
 
 // System.UInt16
@@ -2281,21 +2220,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 	};
 };
 
-// UnityEngine.TextCore.Text.XmlTagAttribute
-struct XmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59 
-{
-	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::nameHashCode
-	int32_t ___nameHashCode_0;
-	// UnityEngine.TextCore.Text.TagValueType UnityEngine.TextCore.Text.XmlTagAttribute::valueType
-	int32_t ___valueType_1;
-	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueStartIndex
-	int32_t ___valueStartIndex_2;
-	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueLength
-	int32_t ___valueLength_3;
-	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueHashCode
-	int32_t ___valueHashCode_4;
-};
-
 // UnityEngine.TextCore.Text.TextGenerator/SpecialCharacter
 struct SpecialCharacter_t869F8BE65A7FE32AFD4196118258F49A63D8E2BD 
 {
@@ -2357,6 +2281,27 @@ struct TextProcessingStack_1_t0C74606C1B6C7817CA95F0DCA46B219CF6FB35CA
 	int32_t ___m_RolloverSize_4;
 	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Count
 	int32_t ___m_Count_5;
+};
+
+// UnityEngine.TextCore.Text.AtlasPopulationMode
+struct AtlasPopulationMode_tD12439CB3789E0F868A2A2AC7D623C9B835E1B79 
+{
+	// System.Int32 UnityEngine.TextCore.Text.AtlasPopulationMode::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.BindingFlags
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.ColorGradientMode
+struct ColorGradientMode_t36364E6ABCEC0A0DBE9BAFF9F40DA5FFDCD969D0 
+{
+	// System.Int32 UnityEngine.TextCore.Text.ColorGradientMode::value__
+	int32_t ___value___2;
 };
 
 // System.Delegate
@@ -2433,6 +2378,34 @@ struct Extents_t369FB2B84521A0229C2FA3D4C8592B14E07CEFE6
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___max_1;
 };
 
+// UnityEngine.TextCore.LowLevel.FontEngineError
+struct FontEngineError_t10530F16DD874A1E0682E44AACD4A3BD05AA05CE 
+{
+	// System.Int32 UnityEngine.TextCore.LowLevel.FontEngineError::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags
+struct FontFeatureLookupFlags_t2000121BA341A3CAE5E0D4FAC6AA4378FE14AE1B 
+{
+	// System.Int32 UnityEngine.TextCore.LowLevel.FontFeatureLookupFlags::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.FontStyle
+struct FontStyle_tDD46734FA9BCB99FB315CD7CAD1137EE536136D1 
+{
+	// System.Int32 UnityEngine.FontStyle::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.FontStyles
+struct FontStyles_t284AF8C10031F4774DF8BC8DE6DF9EC11EE14668 
+{
+	// System.Int32 UnityEngine.TextCore.Text.FontStyles::value__
+	int32_t ___value___2;
+};
+
 // UnityEngine.TextCore.Glyph
 struct Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F  : public RuntimeObject
 {
@@ -2473,6 +2446,41 @@ struct GlyphAdjustmentRecord_tC7A1B2E0AC7C4ED9CDB8E95E48790A46B6F315F7
 	uint32_t ___m_GlyphIndex_0;
 	// UnityEngine.TextCore.LowLevel.GlyphValueRecord UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord::m_GlyphValueRecord
 	GlyphValueRecord_t780927A39D46924E0D546A2AE5DDF1BB2B5A9C8E ___m_GlyphValueRecord_1;
+};
+
+// UnityEngine.TextCore.LowLevel.GlyphLoadFlags
+struct GlyphLoadFlags_t0007C50C115E02DDE1F7490DA7BC17DE67CE780C 
+{
+	// System.Int32 UnityEngine.TextCore.LowLevel.GlyphLoadFlags::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.LowLevel.GlyphPackingMode
+struct GlyphPackingMode_t0DD4406D5D2B01F8045DD6B99C78E7FFDCCE225E 
+{
+	// System.Int32 UnityEngine.TextCore.LowLevel.GlyphPackingMode::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.LowLevel.GlyphRenderMode
+struct GlyphRenderMode_tE7FB60827750662A45E89D168932FE2D8AEB5281 
+{
+	// System.Int32 UnityEngine.TextCore.LowLevel.GlyphRenderMode::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.HideFlags
+struct HideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A 
+{
+	// System.Int32 UnityEngine.HideFlags::value__
+	int32_t ___value___2;
+};
+
+// Unity.Profiling.LowLevel.MarkerFlags
+struct MarkerFlags_t58228A99AC6567F565911ED792189DBBDFF83E30 
+{
+	// System.UInt16 Unity.Profiling.LowLevel.MarkerFlags::value__
+	uint16_t ___value___2;
 };
 
 // UnityEngine.TextCore.Text.MeshInfo
@@ -2559,99 +2567,39 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 	intptr_t ___value_0;
 };
 
-// UnityEngine.TextCore.Text.TextGenerationSettings
-struct TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2  : public RuntimeObject
+// UnityEngine.TextCore.Text.TagValueType
+struct TagValueType_t9A889DA5C696E6477A6E1D5D6BC2767315745B2E 
 {
-	// System.String UnityEngine.TextCore.Text.TextGenerationSettings::text
-	String_t* ___text_0;
-	// UnityEngine.Rect UnityEngine.TextCore.Text.TextGenerationSettings::screenRect
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___screenRect_1;
-	// UnityEngine.Vector4 UnityEngine.TextCore.Text.TextGenerationSettings::margins
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___margins_2;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::scale
-	float ___scale_3;
-	// UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextGenerationSettings::fontAsset
-	FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* ___fontAsset_4;
-	// UnityEngine.Material UnityEngine.TextCore.Text.TextGenerationSettings::material
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material_5;
-	// UnityEngine.TextCore.Text.SpriteAsset UnityEngine.TextCore.Text.TextGenerationSettings::spriteAsset
-	SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* ___spriteAsset_6;
-	// UnityEngine.TextCore.Text.TextStyleSheet UnityEngine.TextCore.Text.TextGenerationSettings::styleSheet
-	TextStyleSheet_t86A0FA5523897465F371A2ABC17DFA3558C8D15E* ___styleSheet_7;
-	// UnityEngine.TextCore.Text.FontStyles UnityEngine.TextCore.Text.TextGenerationSettings::fontStyle
-	int32_t ___fontStyle_8;
-	// UnityEngine.TextCore.Text.TextSettings UnityEngine.TextCore.Text.TextGenerationSettings::textSettings
-	TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* ___textSettings_9;
-	// UnityEngine.TextCore.Text.TextAlignment UnityEngine.TextCore.Text.TextGenerationSettings::textAlignment
-	int32_t ___textAlignment_10;
-	// UnityEngine.TextCore.Text.TextOverflowMode UnityEngine.TextCore.Text.TextGenerationSettings::overflowMode
-	int32_t ___overflowMode_11;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::wordWrap
-	bool ___wordWrap_12;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::wordWrappingRatio
-	float ___wordWrappingRatio_13;
-	// UnityEngine.Color UnityEngine.TextCore.Text.TextGenerationSettings::color
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_14;
-	// UnityEngine.TextCore.Text.TextColorGradient UnityEngine.TextCore.Text.TextGenerationSettings::fontColorGradient
-	TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70* ___fontColorGradient_15;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::tintSprites
-	bool ___tintSprites_16;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::overrideRichTextColors
-	bool ___overrideRichTextColors_17;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSize
-	float ___fontSize_18;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::autoSize
-	bool ___autoSize_19;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSizeMin
-	float ___fontSizeMin_20;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSizeMax
-	float ___fontSizeMax_21;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::enableKerning
-	bool ___enableKerning_22;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::richText
-	bool ___richText_23;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::isRightToLeft
-	bool ___isRightToLeft_24;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::extraPadding
-	bool ___extraPadding_25;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::parseControlCharacters
-	bool ___parseControlCharacters_26;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::characterSpacing
-	float ___characterSpacing_27;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::wordSpacing
-	float ___wordSpacing_28;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::lineSpacing
-	float ___lineSpacing_29;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::paragraphSpacing
-	float ___paragraphSpacing_30;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::lineSpacingMax
-	float ___lineSpacingMax_31;
-	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleCharacters
-	int32_t ___maxVisibleCharacters_32;
-	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleWords
-	int32_t ___maxVisibleWords_33;
-	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleLines
-	int32_t ___maxVisibleLines_34;
-	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::firstVisibleCharacter
-	int32_t ___firstVisibleCharacter_35;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::useMaxVisibleDescender
-	bool ___useMaxVisibleDescender_36;
-	// UnityEngine.TextCore.Text.TextFontWeight UnityEngine.TextCore.Text.TextGenerationSettings::fontWeight
-	int32_t ___fontWeight_37;
-	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::pageToDisplay
-	int32_t ___pageToDisplay_38;
-	// UnityEngine.TextCore.Text.TextureMapping UnityEngine.TextCore.Text.TextGenerationSettings::horizontalMapping
-	int32_t ___horizontalMapping_39;
-	// UnityEngine.TextCore.Text.TextureMapping UnityEngine.TextCore.Text.TextGenerationSettings::verticalMapping
-	int32_t ___verticalMapping_40;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::uvLineOffset
-	float ___uvLineOffset_41;
-	// UnityEngine.TextCore.Text.VertexSortingOrder UnityEngine.TextCore.Text.TextGenerationSettings::geometrySortingOrder
-	int32_t ___geometrySortingOrder_42;
-	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::inverseYAxis
-	bool ___inverseYAxis_43;
-	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::charWidthMaxAdj
-	float ___charWidthMaxAdj_44;
+	// System.Int32 UnityEngine.TextCore.Text.TagValueType::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.TextAlignment
+struct TextAlignment_tD681BE7D2451C44115A90D2D8AA7D91C78A5A070 
+{
+	// System.Int32 UnityEngine.TextCore.Text.TextAlignment::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextAnchor
+struct TextAnchor_tA46E794186AC1CD0F22888652F589EBF7DFDF830 
+{
+	// System.Int32 UnityEngine.TextAnchor::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.TextElementType
+struct TextElementType_tEBCF09EEF888E8B1F62D3DD66AF21890D12545EB 
+{
+	// System.Byte UnityEngine.TextCore.Text.TextElementType::value__
+	uint8_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.TextFontWeight
+struct TextFontWeight_t789E26840C291C6C1270D4434CE007ACDFA40350 
+{
+	// System.Int32 UnityEngine.TextCore.Text.TextFontWeight::value__
+	int32_t ___value___2;
 };
 
 // UnityEngine.TextCore.Text.TextGeneratorUtilities
@@ -2710,6 +2658,13 @@ struct TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09_StaticFields
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___s_InfinityVectorNegative_1;
 };
 
+// UnityEngine.TextCore.Text.TextOverflowMode
+struct TextOverflowMode_tB7F9FB28B889C1F21B14D3DAC32980D71D9D7F50 
+{
+	// System.Int32 UnityEngine.TextCore.Text.TextOverflowMode::value__
+	int32_t ___value___2;
+};
+
 // UnityEngine.TextCore.Text.TextVertex
 struct TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9 
 {
@@ -2723,6 +2678,61 @@ struct TextVertex_tF030A16DC67EAF3F6C9C9C0564D4B88758B173A9
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___uv4_3;
 	// UnityEngine.Color32 UnityEngine.TextCore.Text.TextVertex::color
 	Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B ___color_4;
+};
+
+// UnityEngine.TextureFormat
+struct TextureFormat_t87A73E4A3850D3410DC211676FC14B94226C1C1D 
+{
+	// System.Int32 UnityEngine.TextureFormat::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.TextureMapping
+struct TextureMapping_t14CF4FEE624B1D968B076DAE56E67AA4756B653A 
+{
+	// System.Int32 UnityEngine.TextCore.Text.TextureMapping::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.VertexSortingOrder
+struct VertexSortingOrder_tEA3D744EB3D7C496D69F756B98344FDA38432EB9 
+{
+	// System.Int32 UnityEngine.TextCore.Text.VertexSortingOrder::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.TextCore.Text.TextProcessingStack`1<UnityEngine.TextCore.Text.TextAlignment>
+struct TextProcessingStack_1_tE63296B08A4C34E38D7EF3FFFA3470076B9E3A0F 
+{
+	// T[] UnityEngine.TextCore.Text.TextProcessingStack`1::itemStack
+	TextAlignmentU5BU5D_t756DC2D672145699CB9718DDBA5982ED51A95F49* ___itemStack_0;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::index
+	int32_t ___index_1;
+	// T UnityEngine.TextCore.Text.TextProcessingStack`1::m_DefaultItem
+	int32_t ___m_DefaultItem_2;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Capacity
+	int32_t ___m_Capacity_3;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_RolloverSize
+	int32_t ___m_RolloverSize_4;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Count
+	int32_t ___m_Count_5;
+};
+
+// UnityEngine.TextCore.Text.TextProcessingStack`1<UnityEngine.TextCore.Text.TextFontWeight>
+struct TextProcessingStack_1_t698B87CDD968C2046F57134BB3AB807EBFFD7790 
+{
+	// T[] UnityEngine.TextCore.Text.TextProcessingStack`1::itemStack
+	TextFontWeightU5BU5D_t3DE32809AEE657255C8333897D61F2EA5279D43F* ___itemStack_0;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::index
+	int32_t ___index_1;
+	// T UnityEngine.TextCore.Text.TextProcessingStack`1::m_DefaultItem
+	int32_t ___m_DefaultItem_2;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Capacity
+	int32_t ___m_Capacity_3;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_RolloverSize
+	int32_t ___m_RolloverSize_4;
+	// System.Int32 UnityEngine.TextCore.Text.TextProcessingStack`1::m_Count
+	int32_t ___m_Count_5;
 };
 
 // UnityEngine.Font
@@ -2818,6 +2828,21 @@ struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
 	Delegate_t_marshaled_com** ___delegates_13;
 };
 
+// UnityEngine.TextCore.Text.RichTextTagAttribute
+struct RichTextTagAttribute_t0600951F833208392F1D8EE3E6A58AD5C797F9DA 
+{
+	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::nameHashCode
+	int32_t ___nameHashCode_0;
+	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueHashCode
+	int32_t ___valueHashCode_1;
+	// UnityEngine.TextCore.Text.TagValueType UnityEngine.TextCore.Text.RichTextTagAttribute::valueType
+	int32_t ___valueType_2;
+	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueStartIndex
+	int32_t ___valueStartIndex_3;
+	// System.Int32 UnityEngine.TextCore.Text.RichTextTagAttribute::valueLength
+	int32_t ___valueLength_4;
+};
+
 // UnityEngine.ScriptableObject
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -2841,6 +2866,23 @@ struct SpriteGlyph_t0BD62F6EB8D19B2C4B246BC436A8F4BF2E0ACA1A  : public Glyph_t70
 {
 	// UnityEngine.Sprite UnityEngine.TextCore.Text.SpriteGlyph::sprite
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___sprite_5;
+};
+
+// UnityEngine.TextCore.Text.TextElement
+struct TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA  : public RuntimeObject
+{
+	// UnityEngine.TextCore.Text.TextElementType UnityEngine.TextCore.Text.TextElement::m_ElementType
+	uint8_t ___m_ElementType_0;
+	// System.UInt32 UnityEngine.TextCore.Text.TextElement::m_Unicode
+	uint32_t ___m_Unicode_1;
+	// UnityEngine.TextCore.Text.TextAsset UnityEngine.TextCore.Text.TextElement::m_TextAsset
+	TextAsset_tB28F1843A877CCA74B89DC4F63EA532618B049B8* ___m_TextAsset_2;
+	// UnityEngine.TextCore.Glyph UnityEngine.TextCore.Text.TextElement::m_Glyph
+	Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F* ___m_Glyph_3;
+	// System.UInt32 UnityEngine.TextCore.Text.TextElement::m_GlyphIndex
+	uint32_t ___m_GlyphIndex_4;
+	// System.Single UnityEngine.TextCore.Text.TextElement::m_Scale
+	float ___m_Scale_5;
 };
 
 // UnityEngine.TextCore.Text.TextElementInfo
@@ -2996,6 +3038,101 @@ struct TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_com
 	int32_t ___isVisible_34;
 };
 
+// UnityEngine.TextCore.Text.TextGenerationSettings
+struct TextGenerationSettings_t3E75DB1D14DF53934AF76C9ACB1CD94A344A92A2  : public RuntimeObject
+{
+	// System.String UnityEngine.TextCore.Text.TextGenerationSettings::text
+	String_t* ___text_0;
+	// UnityEngine.Rect UnityEngine.TextCore.Text.TextGenerationSettings::screenRect
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___screenRect_1;
+	// UnityEngine.Vector4 UnityEngine.TextCore.Text.TextGenerationSettings::margins
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___margins_2;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::scale
+	float ___scale_3;
+	// UnityEngine.TextCore.Text.FontAsset UnityEngine.TextCore.Text.TextGenerationSettings::fontAsset
+	FontAsset_t61A6446D934E582651044E33D250EA8D306AB958* ___fontAsset_4;
+	// UnityEngine.Material UnityEngine.TextCore.Text.TextGenerationSettings::material
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material_5;
+	// UnityEngine.TextCore.Text.SpriteAsset UnityEngine.TextCore.Text.TextGenerationSettings::spriteAsset
+	SpriteAsset_t1D3CF1D9DC350A4690CB09DE228A8B59F2F02313* ___spriteAsset_6;
+	// UnityEngine.TextCore.Text.TextStyleSheet UnityEngine.TextCore.Text.TextGenerationSettings::styleSheet
+	TextStyleSheet_t86A0FA5523897465F371A2ABC17DFA3558C8D15E* ___styleSheet_7;
+	// UnityEngine.TextCore.Text.FontStyles UnityEngine.TextCore.Text.TextGenerationSettings::fontStyle
+	int32_t ___fontStyle_8;
+	// UnityEngine.TextCore.Text.TextSettings UnityEngine.TextCore.Text.TextGenerationSettings::textSettings
+	TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64* ___textSettings_9;
+	// UnityEngine.TextCore.Text.TextAlignment UnityEngine.TextCore.Text.TextGenerationSettings::textAlignment
+	int32_t ___textAlignment_10;
+	// UnityEngine.TextCore.Text.TextOverflowMode UnityEngine.TextCore.Text.TextGenerationSettings::overflowMode
+	int32_t ___overflowMode_11;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::wordWrap
+	bool ___wordWrap_12;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::wordWrappingRatio
+	float ___wordWrappingRatio_13;
+	// UnityEngine.Color UnityEngine.TextCore.Text.TextGenerationSettings::color
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_14;
+	// UnityEngine.TextCore.Text.TextColorGradient UnityEngine.TextCore.Text.TextGenerationSettings::fontColorGradient
+	TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70* ___fontColorGradient_15;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::tintSprites
+	bool ___tintSprites_16;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::overrideRichTextColors
+	bool ___overrideRichTextColors_17;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSize
+	float ___fontSize_18;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::autoSize
+	bool ___autoSize_19;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSizeMin
+	float ___fontSizeMin_20;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::fontSizeMax
+	float ___fontSizeMax_21;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::enableKerning
+	bool ___enableKerning_22;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::richText
+	bool ___richText_23;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::isRightToLeft
+	bool ___isRightToLeft_24;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::extraPadding
+	bool ___extraPadding_25;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::parseControlCharacters
+	bool ___parseControlCharacters_26;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::characterSpacing
+	float ___characterSpacing_27;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::wordSpacing
+	float ___wordSpacing_28;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::lineSpacing
+	float ___lineSpacing_29;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::paragraphSpacing
+	float ___paragraphSpacing_30;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::lineSpacingMax
+	float ___lineSpacingMax_31;
+	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleCharacters
+	int32_t ___maxVisibleCharacters_32;
+	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleWords
+	int32_t ___maxVisibleWords_33;
+	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::maxVisibleLines
+	int32_t ___maxVisibleLines_34;
+	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::firstVisibleCharacter
+	int32_t ___firstVisibleCharacter_35;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::useMaxVisibleDescender
+	bool ___useMaxVisibleDescender_36;
+	// UnityEngine.TextCore.Text.TextFontWeight UnityEngine.TextCore.Text.TextGenerationSettings::fontWeight
+	int32_t ___fontWeight_37;
+	// System.Int32 UnityEngine.TextCore.Text.TextGenerationSettings::pageToDisplay
+	int32_t ___pageToDisplay_38;
+	// UnityEngine.TextCore.Text.TextureMapping UnityEngine.TextCore.Text.TextGenerationSettings::horizontalMapping
+	int32_t ___horizontalMapping_39;
+	// UnityEngine.TextCore.Text.TextureMapping UnityEngine.TextCore.Text.TextGenerationSettings::verticalMapping
+	int32_t ___verticalMapping_40;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::uvLineOffset
+	float ___uvLineOffset_41;
+	// UnityEngine.TextCore.Text.VertexSortingOrder UnityEngine.TextCore.Text.TextGenerationSettings::geometrySortingOrder
+	int32_t ___geometrySortingOrder_42;
+	// System.Boolean UnityEngine.TextCore.Text.TextGenerationSettings::inverseYAxis
+	bool ___inverseYAxis_43;
+	// System.Single UnityEngine.TextCore.Text.TextGenerationSettings::charWidthMaxAdj
+	float ___charWidthMaxAdj_44;
+};
+
 // UnityEngine.Texture
 struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
 {
@@ -3032,6 +3169,21 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
+// UnityEngine.TextCore.Text.XmlTagAttribute
+struct XmlTagAttribute_t2F0EE4823C3BB8B9ED6844183CA998A44EA1AB59 
+{
+	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::nameHashCode
+	int32_t ___nameHashCode_0;
+	// UnityEngine.TextCore.Text.TagValueType UnityEngine.TextCore.Text.XmlTagAttribute::valueType
+	int32_t ___valueType_1;
+	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueStartIndex
+	int32_t ___valueStartIndex_2;
+	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueLength
+	int32_t ___valueLength_3;
+	// System.Int32 UnityEngine.TextCore.Text.XmlTagAttribute::valueHashCode
+	int32_t ___valueHashCode_4;
+};
+
 // System.Func`2<UnityEngine.TextCore.Text.Character,System.UInt32>
 struct Func_2_t1F4F442815B8C6944A17E87D7B00D2830ECD1600  : public MulticastDelegate_t
 {
@@ -3055,6 +3207,20 @@ struct Func_2_tF0A06FF312E9CFC173E3513FCD90DA99BA52B5B1  : public MulticastDeleg
 // System.Func`2<UnityEngine.TextCore.Text.SpriteGlyph,System.UInt32>
 struct Func_2_t12C2A18A794EA750752F8735CC29CD839D6B4B84  : public MulticastDelegate_t
 {
+};
+
+// UnityEngine.TextCore.Text.Character
+struct Character_t9B671B493FAC8D43638C69AF6AE92CBD103D80EC  : public TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA
+{
+};
+
+// UnityEngine.TextCore.Text.SpriteCharacter
+struct SpriteCharacter_tB3516A25DBFA0AD68DD8E1432752D503FD1F40F5  : public TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA
+{
+	// System.String UnityEngine.TextCore.Text.SpriteCharacter::m_Name
+	String_t* ___m_Name_6;
+	// System.Int32 UnityEngine.TextCore.Text.SpriteCharacter::m_HashCode
+	int32_t ___m_HashCode_7;
 };
 
 // UnityEngine.TextCore.Text.TextAsset
@@ -5689,6 +5855,14 @@ IL_009a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.FontWeightPair
 IL2CPP_EXTERN_C void FontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42_marshal_pinvoke(const FontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42& unmarshaled, FontWeightPair_tB94169BD86D0DFC25D651F890B15991A3E0ADA42_marshaled_pinvoke& marshaled)
 {
@@ -5885,6 +6059,14 @@ IL2CPP_EXTERN_C void FontAssetCreationEditorSettings_t0FF28D2E78F090105C63C81F9E
 	il2cpp_codegen_marshal_free_bstring(marshaled.___referencedTextAssetGUID_11);
 	marshaled.___referencedTextAssetGUID_11 = NULL;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -17895,6 +18077,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialReferenceManager__ctor_mC102EC44
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.MeshInfo
 IL2CPP_EXTERN_C void MeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F_marshal_pinvoke(const MeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F& unmarshaled, MeshInfo_tE55C4A8846CC2C399CCC3FE989476D987B86AB2F_marshaled_pinvoke& marshaled)
 {
@@ -21150,6 +21340,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextAsset__ctor_m2C43EAC2D75854E6724A235
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void UnityEngine.TextCore.Text.TextColorGradient::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextColorGradient__ctor_mAF03C3B68C29D94ED1F1517E65477CFC2B078FAC (TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70* __this, const RuntimeMethod* method) 
 {
@@ -21227,6 +21425,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextColorGradient__cctor_m0C9B1A60EE8153
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -21432,6 +21638,22 @@ IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_m
 IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshal_com_cleanup(TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_com& marshaled)
 {
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -22494,6 +22716,22 @@ IL2CPP_EXTERN_C  void SpecialCharacter__ctor_m6697A8BF272F0144733EE12368C038F45E
 	_thisAdjusted = reinterpret_cast<SpecialCharacter_t869F8BE65A7FE32AFD4196118258F49A63D8E2BD*>(__this + _offset);
 	SpecialCharacter__ctor_m6697A8BF272F0144733EE12368C038F45E99F969(_thisAdjusted, ___character0, ___materialIndex1, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

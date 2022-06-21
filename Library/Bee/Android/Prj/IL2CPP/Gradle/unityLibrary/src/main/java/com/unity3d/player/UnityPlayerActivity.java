@@ -97,8 +97,6 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         super.onPause();
 
-        MultiWindowSupport.saveMultiWindowMode(this);
-
         if (MultiWindowSupport.getAllowResizableWindow(this))
             return;
 
@@ -110,7 +108,7 @@ public class UnityPlayerActivity extends Activity implements IUnityPlayerLifecyc
     {
         super.onResume();
 
-        if (MultiWindowSupport.getAllowResizableWindow(this) && !MultiWindowSupport.isMultiWindowModeChangedToTrue(this))
+        if (MultiWindowSupport.getAllowResizableWindow(this))
             return;
 
         mUnityPlayer.resume();

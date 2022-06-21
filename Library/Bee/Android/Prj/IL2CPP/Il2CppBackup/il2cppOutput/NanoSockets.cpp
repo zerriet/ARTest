@@ -185,6 +185,25 @@ struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3
 	uint8_t ___m_value_0;
 };
 
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+
 // System.Int32
 struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
 {
@@ -339,6 +358,13 @@ struct Exception_t_marshaled_com
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 	int32_t ___caught_in_unmanaged_16;
 };
+
+// NanoSockets.Status
+struct Status_t45C4B4BBD57041D59A667D0EE4709923472BB5C9 
+{
+	// System.Int32 NanoSockets.Status::value__
+	int32_t ___value___2;
+};
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -464,6 +490,14 @@ IL2CPP_EXTERN_C int32_t CDECL nanosockets_address_set_hostname(Address_t0C640438
 #endif
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_nanosockets_INTERNAL
 IL2CPP_EXTERN_C int32_t CDECL nanosockets_address_get_hostname(Address_t0C64043894DC43092287210A04CAD369B08FDBF3*, intptr_t, int32_t);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
 #endif
 #ifdef __clang__
 #pragma clang diagnostic push

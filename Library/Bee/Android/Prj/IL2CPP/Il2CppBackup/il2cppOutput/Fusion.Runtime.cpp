@@ -2038,76 +2038,6 @@ struct ValueCollection_t1924629D5F3AB74148EE9D6768DAD29161D4B7E6  : public Runti
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::_dictionary
 	Dictionary_2_t515F6297566C4E26633B4D6AE4B8E3F2058A6919* ____dictionary_0;
 };
-
-// UnityEngine.AnimatorControllerParameter
-struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02  : public RuntimeObject
-{
-	// System.String UnityEngine.AnimatorControllerParameter::m_Name
-	String_t* ___m_Name_0;
-	// UnityEngine.AnimatorControllerParameterType UnityEngine.AnimatorControllerParameter::m_Type
-	int32_t ___m_Type_1;
-	// System.Single UnityEngine.AnimatorControllerParameter::m_DefaultFloat
-	float ___m_DefaultFloat_2;
-	// System.Int32 UnityEngine.AnimatorControllerParameter::m_DefaultInt
-	int32_t ___m_DefaultInt_3;
-	// System.Boolean UnityEngine.AnimatorControllerParameter::m_DefaultBool
-	bool ___m_DefaultBool_4;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.AnimatorControllerParameter
-struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02_marshaled_pinvoke
-{
-	char* ___m_Name_0;
-	int32_t ___m_Type_1;
-	float ___m_DefaultFloat_2;
-	int32_t ___m_DefaultInt_3;
-	int32_t ___m_DefaultBool_4;
-};
-// Native definition for COM marshalling of UnityEngine.AnimatorControllerParameter
-struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02_marshaled_com
-{
-	Il2CppChar* ___m_Name_0;
-	int32_t ___m_Type_1;
-	float ___m_DefaultFloat_2;
-	int32_t ___m_DefaultInt_3;
-	int32_t ___m_DefaultBool_4;
-};
-
-// Fusion.Photon.Realtime.AppSettings
-struct AppSettings_t676479963A7FA399B63DD6E77830C334B7900E84  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdRealtime
-	String_t* ___AppIdRealtime_0;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdFusion
-	String_t* ___AppIdFusion_1;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdChat
-	String_t* ___AppIdChat_2;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppIdVoice
-	String_t* ___AppIdVoice_3;
-	// System.String Fusion.Photon.Realtime.AppSettings::AppVersion
-	String_t* ___AppVersion_4;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::UseNameServer
-	bool ___UseNameServer_5;
-	// System.String Fusion.Photon.Realtime.AppSettings::FixedRegion
-	String_t* ___FixedRegion_6;
-	// System.String Fusion.Photon.Realtime.AppSettings::BestRegionSummaryFromStorage
-	String_t* ___BestRegionSummaryFromStorage_7;
-	// System.String Fusion.Photon.Realtime.AppSettings::Server
-	String_t* ___Server_8;
-	// System.Int32 Fusion.Photon.Realtime.AppSettings::Port
-	int32_t ___Port_9;
-	// System.String Fusion.Photon.Realtime.AppSettings::ProxyServer
-	String_t* ___ProxyServer_10;
-	// ExitGames.Client.Photon.ConnectionProtocol Fusion.Photon.Realtime.AppSettings::Protocol
-	uint8_t ___Protocol_11;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableProtocolFallback
-	bool ___EnableProtocolFallback_12;
-	// Fusion.Photon.Realtime.AuthModeOption Fusion.Photon.Realtime.AppSettings::AuthMode
-	int32_t ___AuthMode_13;
-	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableLobbyStatistics
-	bool ___EnableLobbyStatistics_14;
-	// ExitGames.Client.Photon.DebugLevel Fusion.Photon.Realtime.AppSettings::NetworkLogging
-	uint8_t ___NetworkLogging_15;
-};
 struct Il2CppArrayBounds;
 
 // System.Reflection.Assembly
@@ -2123,162 +2053,14 @@ struct Assembly_t_marshaled_com
 {
 };
 
-// System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
-{
-	// System.String System.Reflection.AssemblyName::name
-	String_t* ___name_0;
-	// System.String System.Reflection.AssemblyName::codebase
-	String_t* ___codebase_1;
-	// System.Int32 System.Reflection.AssemblyName::major
-	int32_t ___major_2;
-	// System.Int32 System.Reflection.AssemblyName::minor
-	int32_t ___minor_3;
-	// System.Int32 System.Reflection.AssemblyName::build
-	int32_t ___build_4;
-	// System.Int32 System.Reflection.AssemblyName::revision
-	int32_t ___revision_5;
-	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo_6;
-	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
-	int32_t ___flags_7;
-	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
-	int32_t ___hashalg_8;
-	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	// System.Byte[] System.Reflection.AssemblyName::publicKey
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey_10;
-	// System.Byte[] System.Reflection.AssemblyName::keyToken
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken_11;
-	// System.Configuration.Assemblies.AssemblyVersionCompatibility System.Reflection.AssemblyName::versioncompat
-	int32_t ___versioncompat_12;
-	// System.Version System.Reflection.AssemblyName::version
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	// System.Reflection.ProcessorArchitecture System.Reflection.AssemblyName::processor_architecture
-	int32_t ___processor_architecture_14;
-	// System.Reflection.AssemblyContentType System.Reflection.AssemblyName::contentType
-	int32_t ___contentType_15;
-};
-// Native definition for P/Invoke marshalling of System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
-{
-	char* ___name_0;
-	char* ___codebase_1;
-	int32_t ___major_2;
-	int32_t ___minor_3;
-	int32_t ___build_4;
-	int32_t ___revision_5;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo_6;
-	int32_t ___flags_7;
-	int32_t ___hashalg_8;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	Il2CppSafeArray/*NONE*/* ___publicKey_10;
-	Il2CppSafeArray/*NONE*/* ___keyToken_11;
-	int32_t ___versioncompat_12;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	int32_t ___processor_architecture_14;
-	int32_t ___contentType_15;
-};
-// Native definition for COM marshalling of System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
-{
-	Il2CppChar* ___name_0;
-	Il2CppChar* ___codebase_1;
-	int32_t ___major_2;
-	int32_t ___minor_3;
-	int32_t ___build_4;
-	int32_t ___revision_5;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo_6;
-	int32_t ___flags_7;
-	int32_t ___hashalg_8;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	Il2CppSafeArray/*NONE*/* ___publicKey_10;
-	Il2CppSafeArray/*NONE*/* ___keyToken_11;
-	int32_t ___versioncompat_12;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	int32_t ___processor_architecture_14;
-	int32_t ___contentType_15;
-};
-
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
 };
 
-// Fusion.Photon.Realtime.AuthenticationValues
-struct AuthenticationValues_t966D2FC1B918F833E8AF124E7FD256C9C1FCD982  : public RuntimeObject
-{
-	// Fusion.Photon.Realtime.CustomAuthenticationType Fusion.Photon.Realtime.AuthenticationValues::authType
-	uint8_t ___authType_0;
-	// System.String Fusion.Photon.Realtime.AuthenticationValues::<AuthGetParameters>k__BackingField
-	String_t* ___U3CAuthGetParametersU3Ek__BackingField_1;
-	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<AuthPostData>k__BackingField
-	RuntimeObject* ___U3CAuthPostDataU3Ek__BackingField_2;
-	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<Token>k__BackingField
-	RuntimeObject* ___U3CTokenU3Ek__BackingField_3;
-	// System.String Fusion.Photon.Realtime.AuthenticationValues::<UserId>k__BackingField
-	String_t* ___U3CUserIdU3Ek__BackingField_4;
-};
-
 // Fusion.CallbackInterfaceInvoker
 struct CallbackInterfaceInvoker_t465C0EF87739F8A560149C4FA7D41199D0A656BA  : public RuntimeObject
 {
-};
-
-// System.Threading.CancellationTokenSource
-struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B  : public RuntimeObject
-{
-	// System.Threading.ManualResetEvent modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_kernelEvent
-	ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* ____kernelEvent_3;
-	// System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_registeredCallbacksLists
-	SparselyPopulatedArray_1U5BU5D_t8E75A036E16E53CF08AAAF37EB6621DE3B26307E* ____registeredCallbacksLists_4;
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_state
-	int32_t ____state_9;
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_threadIDExecutingCallbacks
-	int32_t ____threadIDExecutingCallbacks_10;
-	// System.Boolean System.Threading.CancellationTokenSource::_disposed
-	bool ____disposed_11;
-	// System.Threading.CancellationCallbackInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_executingCallback
-	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_12;
-	// System.Threading.Timer modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_timer
-	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_13;
-};
-
-struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticFields
-{
-	// System.Threading.CancellationTokenSource System.Threading.CancellationTokenSource::s_canceledSource
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___s_canceledSource_0;
-	// System.Threading.CancellationTokenSource System.Threading.CancellationTokenSource::s_neverCanceledSource
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___s_neverCanceledSource_1;
-	// System.Int32 System.Threading.CancellationTokenSource::s_nLists
-	int32_t ___s_nLists_2;
-	// System.Threading.TimerCallback System.Threading.CancellationTokenSource::s_timerCallback
-	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_14;
-};
-
-// Fusion.CloudServices
-struct CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C  : public RuntimeObject
-{
-	// System.Boolean Fusion.CloudServices::<IsNATPunchthroughEnabled>k__BackingField
-	bool ___U3CIsNATPunchthroughEnabledU3Ek__BackingField_0;
-	// System.String Fusion.CloudServices::<CustomSTUNServer>k__BackingField
-	String_t* ___U3CCustomSTUNServerU3Ek__BackingField_1;
-	// Fusion.CloudServicesMetadata Fusion.CloudServices::_metadata
-	CloudServicesMetadata_t14D7AB08C976EC366D34A338D9D0714E2E1E0833* ____metadata_2;
-	// Fusion.NetworkRunner Fusion.CloudServices::_runner
-	NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ____runner_3;
-	// Fusion.CloudCommunicator Fusion.CloudServices::_communicator
-	CloudCommunicator_tCE73B6724974FAEA9AC2576C14A7C2EE8951DDA6* ____communicator_4;
-	// System.Diagnostics.Stopwatch Fusion.CloudServices::_watch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ____watch_5;
-	// System.Threading.CancellationTokenSource Fusion.CloudServices::_cancellationTokenSource
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____cancellationTokenSource_6;
-	// System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionInfo> Fusion.CloudServices::cachedSessionList
-	Dictionary_2_t515F6297566C4E26633B4D6AE4B8E3F2058A6919* ___cachedSessionList_7;
-	// System.Diagnostics.Stopwatch Fusion.CloudServices::_snapshotWatch
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ____snapshotWatch_8;
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.CloudServices::_lastSnapshotTick
-	int32_t ____lastSnapshotTick_9;
 };
 
 // Fusion.Protocol.CommunicatorBase
@@ -2304,25 +2086,6 @@ struct DisconnectReasonExt_tCF98124B1D6E80AC5E7132A9B652D4085AB30C6C  : public R
 {
 };
 
-// Fusion.Photon.Realtime.EnterRoomParams
-struct EnterRoomParams_t85623F8A2F73A36F20442EA7F5CC767A2D2CA61B  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.EnterRoomParams::RoomName
-	String_t* ___RoomName_0;
-	// Fusion.Photon.Realtime.RoomOptions Fusion.Photon.Realtime.EnterRoomParams::RoomOptions
-	RoomOptions_t2D3E5FF3D6AE3DFFDCD809BD64BD43DCE69A434F* ___RoomOptions_1;
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.EnterRoomParams::Lobby
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Lobby_2;
-	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.EnterRoomParams::PlayerProperties
-	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___PlayerProperties_3;
-	// System.Boolean Fusion.Photon.Realtime.EnterRoomParams::OnGameServer
-	bool ___OnGameServer_4;
-	// Fusion.Photon.Realtime.JoinMode Fusion.Photon.Realtime.EnterRoomParams::JoinMode
-	uint8_t ___JoinMode_5;
-	// System.String[] Fusion.Photon.Realtime.EnterRoomParams::ExpectedUsers
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_6;
-};
-
 // Fusion.ErrorCodeExt
 struct ErrorCodeExt_t4EEAE6B5FA75E79998A985BA450D764DBE8C1A6F  : public RuntimeObject
 {
@@ -2340,23 +2103,6 @@ struct LobbyInfo_t5F666E1575123FE4714F1B6067A8EAA55CFFA5CF  : public RuntimeObje
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
 {
-};
-
-// Fusion.Protocol.Message
-struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B  : public RuntimeObject
-{
-	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message::ProtocolVersion
-	uint8_t ___ProtocolVersion_1;
-	// System.Version Fusion.Protocol.Message::FusionSerializationVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___FusionSerializationVersion_2;
-	// System.String Fusion.Protocol.Message::_customData
-	String_t* ____customData_4;
-};
-
-struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B_StaticFields
-{
-	// System.Version Fusion.Protocol.Message::InvalidVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___InvalidVersion_3;
 };
 
 // Fusion.NetworkBehaviourCallbacks
@@ -2393,119 +2139,6 @@ struct NetworkBehaviourUtils_tDE75448D488A676E05E89DBE1250E2C833173376_StaticFie
 	SortedList_2_tA0245D71C023CB5869C03A0544E18E9FD1373237* ____staticInvokers_6;
 	// System.Boolean Fusion.NetworkBehaviourUtils::InvokeRpc
 	bool ___InvokeRpc_7;
-};
-
-// Fusion.NetworkProjectConfig
-struct NetworkProjectConfig_t0D1807A7DE80BB18A606CEF45A35BFA1C29D8BBF  : public RuntimeObject
-{
-	// System.Int32 Fusion.NetworkProjectConfig::Version
-	int32_t ___Version_3;
-	// System.String Fusion.NetworkProjectConfig::TypeId
-	String_t* ___TypeId_4;
-	// Fusion.NetworkProjectConfig/PeerModes Fusion.NetworkProjectConfig::PeerMode
-	int32_t ___PeerMode_5;
-	// Fusion.NetworkProjectConfig/PhysicsEngines Fusion.NetworkProjectConfig::PhysicsEngine
-	int32_t ___PhysicsEngine_6;
-	// Fusion.NetworkProjectConfig/PhysicsModes Fusion.NetworkProjectConfig::ServerPhysicsMode
-	int32_t ___ServerPhysicsMode_7;
-	// System.Boolean Fusion.NetworkProjectConfig::UseLagCompensation
-	bool ___UseLagCompensation_8;
-	// Fusion.LagCompensationSettings Fusion.NetworkProjectConfig::LagCompensation
-	LagCompensationSettings_t6EBFE93B06C8E6568E57EB928F1BD57EFDB0C3F1* ___LagCompensation_9;
-	// Fusion.NetworkProjectConfig/SceneLoadSpawnModes Fusion.NetworkProjectConfig::SceneLoadSpawnMode
-	int32_t ___SceneLoadSpawnMode_10;
-	// Fusion.NetworkProjectConfig/DeltaCompressors Fusion.NetworkProjectConfig::DeltaCompressor
-	int32_t ___DeltaCompressor_11;
-	// System.Boolean Fusion.NetworkProjectConfig::InvokeRenderInBatchMode
-	bool ___InvokeRenderInBatchMode_12;
-	// System.UInt16 Fusion.NetworkProjectConfig::MaxNetworkedObjectCount
-	uint16_t ___MaxNetworkedObjectCount_13;
-	// System.Boolean Fusion.NetworkProjectConfig::NetworkIdIsObjectName
-	bool ___NetworkIdIsObjectName_14;
-	// System.Boolean Fusion.NetworkProjectConfig::HideNetworkObjectInactivityGuard
-	bool ___HideNetworkObjectInactivityGuard_15;
-	// System.Boolean Fusion.NetworkProjectConfig::EnableHostMigration
-	bool ___EnableHostMigration_16;
-	// System.UInt32 Fusion.NetworkProjectConfig::HostMigrationSnapshotInterval
-	uint32_t ___HostMigrationSnapshotInterval_17;
-	// Fusion.NetworkPrefabTable Fusion.NetworkProjectConfig::PrefabTable
-	NetworkPrefabTable_t64D4EFDBA5D92F4D0BC13FA94741947629F4D62F* ___PrefabTable_18;
-	// Fusion.SimulationConfig Fusion.NetworkProjectConfig::Simulation
-	SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3* ___Simulation_19;
-	// Fusion.InterpolationConfiguration Fusion.NetworkProjectConfig::Interpolation
-	InterpolationConfiguration_tB5D3A4AFB0A322F24BEAAEE154278A97D0C3E26A* ___Interpolation_20;
-	// Fusion.NetworkConfiguration Fusion.NetworkProjectConfig::Network
-	NetworkConfiguration_t4091A6502AFF002F7318CAC4A52FB587662DBC56* ___Network_21;
-	// Fusion.NetworkSimulationConfiguration Fusion.NetworkProjectConfig::NetworkConditions
-	NetworkSimulationConfiguration_t32FB88A97B412BEC5292D119E40B83174568EF28* ___NetworkConditions_22;
-	// Fusion.HeapConfiguration Fusion.NetworkProjectConfig::Heap
-	HeapConfiguration_t721D83F0851DFA413E8FF21F4CEB67430196A1DC* ___Heap_23;
-	// Fusion.AccuracyDefaults Fusion.NetworkProjectConfig::AccuracyDefaults
-	AccuracyDefaults_t5BFB104965CD241D9829673CC05FC3814E98A721* ___AccuracyDefaults_24;
-	// System.String[] Fusion.NetworkProjectConfig::AssembliesToWeave
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___AssembliesToWeave_25;
-	// System.Boolean Fusion.NetworkProjectConfig::UseSerializableDictionary
-	bool ___UseSerializableDictionary_26;
-	// System.Boolean Fusion.NetworkProjectConfig::NullChecksForNetworkedProperties
-	bool ___NullChecksForNetworkedProperties_27;
-	// System.Boolean Fusion.NetworkProjectConfig::CheckRpcAttributeUsage
-	bool ___CheckRpcAttributeUsage_28;
-	// System.Boolean Fusion.NetworkProjectConfig::CheckNetworkedPropertiesBeingEmpty
-	bool ___CheckNetworkedPropertiesBeingEmpty_29;
-};
-
-// Fusion.Photon.Realtime.OpJoinRandomRoomParams
-struct OpJoinRandomRoomParams_t5D3247CAF9D33093605A1207115C5BA72D65D79C  : public RuntimeObject
-{
-	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedCustomRoomProperties
-	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___ExpectedCustomRoomProperties_0;
-	// System.Byte Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedMaxPlayers
-	uint8_t ___ExpectedMaxPlayers_1;
-	// Fusion.Photon.Realtime.MatchmakingMode Fusion.Photon.Realtime.OpJoinRandomRoomParams::MatchingType
-	uint8_t ___MatchingType_2;
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.OpJoinRandomRoomParams::TypedLobby
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___TypedLobby_3;
-	// System.String Fusion.Photon.Realtime.OpJoinRandomRoomParams::SqlLobbyFilter
-	String_t* ___SqlLobbyFilter_4;
-	// System.String[] Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedUsers
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_5;
-};
-
-// System.Reflection.ParameterInfo
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
-{
-	// System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::AttrsImpl
-	int32_t ___AttrsImpl_0;
-	// System.Type System.Reflection.ParameterInfo::ClassImpl
-	Type_t* ___ClassImpl_1;
-	// System.Object System.Reflection.ParameterInfo::DefaultValueImpl
-	RuntimeObject* ___DefaultValueImpl_2;
-	// System.Reflection.MemberInfo System.Reflection.ParameterInfo::MemberImpl
-	MemberInfo_t* ___MemberImpl_3;
-	// System.String System.Reflection.ParameterInfo::NameImpl
-	String_t* ___NameImpl_4;
-	// System.Int32 System.Reflection.ParameterInfo::PositionImpl
-	int32_t ___PositionImpl_5;
-};
-// Native definition for P/Invoke marshalling of System.Reflection.ParameterInfo
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
-{
-	int32_t ___AttrsImpl_0;
-	Type_t* ___ClassImpl_1;
-	Il2CppIUnknown* ___DefaultValueImpl_2;
-	MemberInfo_t* ___MemberImpl_3;
-	char* ___NameImpl_4;
-	int32_t ___PositionImpl_5;
-};
-// Native definition for COM marshalling of System.Reflection.ParameterInfo
-struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
-{
-	int32_t ___AttrsImpl_0;
-	Type_t* ___ClassImpl_1;
-	Il2CppIUnknown* ___DefaultValueImpl_2;
-	MemberInfo_t* ___MemberImpl_3;
-	Il2CppChar* ___NameImpl_4;
-	int32_t ___PositionImpl_5;
 };
 
 // Fusion.PeerPing
@@ -2613,33 +2246,6 @@ struct ScheduledRequestsExt_t17B2A2ED412549C2140CB2E6924872ED9092CC0B  : public 
 {
 };
 
-// Fusion.SessionInfo
-struct SessionInfo_t191C09E2A2B9A71925D9B0EDEA501A286FD4BCAB  : public RuntimeObject
-{
-	// System.String Fusion.SessionInfo::<Name>k__BackingField
-	String_t* ___U3CNameU3Ek__BackingField_0;
-	// System.String Fusion.SessionInfo::<Region>k__BackingField
-	String_t* ___U3CRegionU3Ek__BackingField_1;
-	// System.Collections.ObjectModel.ReadOnlyDictionary`2<System.String,Fusion.SessionProperty> Fusion.SessionInfo::<Properties>k__BackingField
-	ReadOnlyDictionary_2_tF107A4E266D96B1C819AC88DCD8B01E10FE1407B* ___U3CPropertiesU3Ek__BackingField_2;
-	// System.Int32 Fusion.SessionInfo::<PlayerCount>k__BackingField
-	int32_t ___U3CPlayerCountU3Ek__BackingField_3;
-	// System.Int32 Fusion.SessionInfo::<MaxPlayers>k__BackingField
-	int32_t ___U3CMaxPlayersU3Ek__BackingField_4;
-	// System.Boolean Fusion.SessionInfo::_isOpen
-	bool ____isOpen_6;
-	// System.Boolean Fusion.SessionInfo::_isVisible
-	bool ____isVisible_7;
-	// Fusion.SessionInfo/SessionUpdateState Fusion.SessionInfo::_updateState
-	int32_t ____updateState_8;
-	// System.Func`2<System.Boolean,System.Boolean> Fusion.SessionInfo::OnIsVisibleChanged
-	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___OnIsVisibleChanged_9;
-	// System.Func`2<System.Boolean,System.Boolean> Fusion.SessionInfo::OnIsOpenChanged
-	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___OnIsOpenChanged_10;
-	// System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionProperty>,System.Boolean> Fusion.SessionInfo::OnCustomPropertiesChanged
-	Func_2_t8CC9EC102ED47278789727E1A88E62AD49F65BCD* ___OnCustomPropertiesChanged_11;
-};
-
 // Fusion.SimulationBehaviourUpdater
 struct SimulationBehaviourUpdater_t1D2813CD5F3514AE8854F58396E79C2053157565  : public RuntimeObject
 {
@@ -2655,33 +2261,6 @@ struct SimulationBehaviourUpdater_t1D2813CD5F3514AE8854F58396E79C2053157565  : p
 	HashSet_1_tAE2F12E55878645F5BE7C4D5603228A6FAB429C7* ____behavioursChecked_4;
 	// System.Collections.Generic.List`1<Fusion.SimulationBehaviour> Fusion.SimulationBehaviourUpdater::_pendingRemovals
 	List_1_tE1AC51705CC4329677635D2597DCBEE9D7E06507* ____pendingRemovals_5;
-};
-
-// Fusion.SimulationConfig
-struct SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3  : public RuntimeObject
-{
-	// System.Int32 Fusion.SimulationConfig::InputDataWordCount
-	int32_t ___InputDataWordCount_0;
-	// System.Int32 Fusion.SimulationConfig::TickRate
-	int32_t ___TickRate_1;
-	// System.Int32 Fusion.SimulationConfig::MaxPrediction
-	int32_t ___MaxPrediction_2;
-	// System.Int32 Fusion.SimulationConfig::DefaultPlayers
-	int32_t ___DefaultPlayers_3;
-	// Fusion.SimulationConfig/StateReplicationModes Fusion.SimulationConfig::ReplicationMode
-	int32_t ___ReplicationMode_4;
-	// Fusion.SimulationConfig/Topologies Fusion.SimulationConfig::Topology
-	int32_t ___Topology_5;
-	// System.Boolean Fusion.SimulationConfig::HostMigration
-	bool ___HostMigration_6;
-	// System.Boolean Fusion.SimulationConfig::ObjectInterest
-	bool ___ObjectInterest_7;
-	// System.Boolean Fusion.SimulationConfig::SimulationCulling
-	bool ___SimulationCulling_8;
-	// System.Int32 Fusion.SimulationConfig::ServerPacketInterval
-	int32_t ___ServerPacketInterval_9;
-	// System.Int32 Fusion.SimulationConfig::ClientPacketInterval
-	int32_t ___ClientPacketInterval_10;
 };
 
 // System.Diagnostics.Stopwatch
@@ -2727,78 +2306,6 @@ struct StunClient_t5DDD34A64DB7FE62604BB5F7521ECDA90461147F_StaticFields
 {
 	// System.Collections.Concurrent.ConcurrentDictionary`2<System.Guid,System.Collections.Concurrent.ConcurrentDictionary`2<System.Int32,Fusion.Sockets.NetAddress>> Fusion.Sockets.Stun.StunClient::PendingRequests
 	ConcurrentDictionary_2_t0AB8964A445C252F847C74DDE40996AA0C5A0CF9* ___PendingRequests_0;
-};
-
-// System.Threading.Tasks.Task
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
-{
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
-	int32_t ___m_taskId_1;
-	// System.Delegate System.Threading.Tasks.Task::m_action
-	Delegate_t* ___m_action_2;
-	// System.Object System.Threading.Tasks.Task::m_stateObject
-	RuntimeObject* ___m_stateObject_3;
-	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
-	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
-	int32_t ___m_stateFlags_6;
-	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_23;
-	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
-};
-
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
-{
-	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
-	int32_t ___s_taskIdCounter_0;
-	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_24;
-	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_25;
-	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
-	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
-	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
-	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
-	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
-	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
-	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_37;
-};
-
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
-{
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
-	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
-};
-
-// Fusion.Photon.Realtime.TypedLobby
-struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933  : public RuntimeObject
-{
-	// System.String Fusion.Photon.Realtime.TypedLobby::Name
-	String_t* ___Name_0;
-	// Fusion.Photon.Realtime.LobbyType Fusion.Photon.Realtime.TypedLobby::Type
-	uint8_t ___Type_1;
-};
-
-struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933_StaticFields
-{
-	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.TypedLobby::Default
-	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Default_2;
 };
 
 // System.ValueType
@@ -2960,35 +2467,8 @@ struct Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01
 	bool ___value_1;
 };
 
-// System.Nullable`1<ExitGames.Client.Photon.ConnectionProtocol>
-struct Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	uint8_t ___value_1;
-};
-
 // System.Nullable`1<System.Int32>
 struct Nullable_1_tCF32C56A2641879C053C86F273C0C6EC1B40BC28 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
-};
-
-// System.Nullable`1<System.Int32Enum>
-struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	int32_t ___value_1;
-};
-
-// System.Nullable`1<Fusion.SimulationModes>
-struct Nullable_1_tA7AB74DCC49231122BDE6A56B38A849C29538EF7 
 {
 	// System.Boolean System.Nullable`1::hasValue
 	bool ___hasValue_0;
@@ -3017,65 +2497,8 @@ struct TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35
 	Task_1_t824317F4B958F7512E8F7300511752937A6C6043* ___m_task_0;
 };
 
-// System.Threading.Tasks.Task`1<System.Boolean>
-struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	bool ___m_result_38;
-};
-
-struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_39;
-};
-
-// System.Threading.Tasks.Task`1<System.Int16>
-struct Task_1_t276D7011BE5BCB2515024F19F12E4D7C3C875268  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	int16_t ___m_result_38;
-};
-
-struct Task_1_t276D7011BE5BCB2515024F19F12E4D7C3C875268_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t9252C6BB8EEAFA81C31A60264B8A80C6B22004B9* ___s_defaultFactory_39;
-};
-
-// System.Threading.Tasks.Task`1<Fusion.Sockets.Stun.StunResult>
-struct Task_1_t8460003437F8D7EFA58416E4C5C31EE4470CD535  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E* ___m_result_38;
-};
-
-struct Task_1_t8460003437F8D7EFA58416E4C5C31EE4470CD535_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tF273E15FC23694072039750386D8105578874E59* ___s_defaultFactory_39;
-};
-
 // System.ValueTuple`2<System.Int32,System.Int32>
 struct ValueTuple_2_t973F7AB0EF5DD3619E518A966941F10D8098F52D 
-{
-	// T1 System.ValueTuple`2::Item1
-	int32_t ___Item1_0;
-	// T2 System.ValueTuple`2::Item2
-	int32_t ___Item2_1;
-};
-
-// System.ValueTuple`2<System.Int32Enum,System.Int32Enum>
-struct ValueTuple_2_t9270F8474E554C7C106A7F7DE4F0D15C12802EAB 
-{
-	// T1 System.ValueTuple`2::Item1
-	int32_t ___Item1_0;
-	// T2 System.ValueTuple`2::Item2
-	int32_t ___Item2_1;
-};
-
-// System.ValueTuple`2<Fusion.SimulationModes,Fusion.SimulationStages>
-struct ValueTuple_2_tBD95C30B265D22C273E01800BFE8A0AC514FCE47 
 {
 	// T1 System.ValueTuple`2::Item1
 	int32_t ___Item1_0;
@@ -3225,17 +2648,6 @@ struct AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshale
 	Il2CppMethodPointer ___m_defaultContextAction_1;
 };
 
-// Fusion.BehaviourActionAttribute
-struct BehaviourActionAttribute_t253258EB559B4F1D24719F65C056CA53B5476BBE  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// Fusion.BehaviourActionAttribute/ActionFlags Fusion.BehaviourActionAttribute::ConditionFlags
-	int32_t ___ConditionFlags_0;
-	// System.String Fusion.BehaviourActionAttribute::ExecuteMethod
-	String_t* ___ExecuteMethod_1;
-	// System.String Fusion.BehaviourActionAttribute::ConditionMember
-	String_t* ___ConditionMember_2;
-};
-
 // System.Boolean
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
@@ -3297,13 +2709,6 @@ struct CloudCommunicator_tCE73B6724974FAEA9AC2576C14A7C2EE8951DDA6  : public Com
 	FusionRelayClient_tF4E4806C8E0A4E90508E047E04159B42AF50EA14* ____client_5;
 	// System.Byte[] Fusion.CloudCommunicator::_buffer
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ____buffer_6;
-};
-
-// Fusion.Protocol.Disconnect
-struct Disconnect_tF830E9507E44FB232BF6A61F307CCDA678770BDC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.DisconnectReason Fusion.Protocol.Disconnect::DisconnectReason
-	uint8_t ___DisconnectReason_5;
 };
 
 // System.Double
@@ -3370,13 +2775,6 @@ struct Guid_t_StaticFields
 	Guid_t ___Empty_0;
 };
 
-// Fusion.Protocol.HostMigration
-struct HostMigration_t993547CB8CCEB0971E6050E36B4EFC675D156960  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.PeerMode Fusion.Protocol.HostMigration::PeerMode
-	uint8_t ___PeerMode_5;
-};
-
 // System.Int16
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -3419,19 +2817,6 @@ struct IsReadOnlyAttribute_t32160C7DE820BDEC0A42505016268DC5235FB637  : public A
 // System.Runtime.CompilerServices.IsUnmanagedAttribute
 struct IsUnmanagedAttribute_t262B150A2C775BA0C57569E293335794AA80FA87  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-};
-
-// Fusion.Protocol.Join
-struct Join_t4912387F3E002031619D27C75C15840E7AF3B87C  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.JoinMessageType Fusion.Protocol.Join::Type
-	uint8_t ___Type_5;
-	// Fusion.Protocol.PluginGameMode Fusion.Protocol.Join::GameMode
-	uint8_t ___GameMode_6;
-	// Fusion.Protocol.PeerMode Fusion.Protocol.Join::PeerMode
-	uint8_t ___PeerMode_7;
-	// Fusion.Protocol.JoinRequests Fusion.Protocol.Join::JoinRequests
-	uint32_t ___JoinRequests_8;
 };
 
 // System.Reflection.MethodBase
@@ -3479,23 +2864,6 @@ struct NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC
 	int32_t ___SequenceBytes_4;
 };
 
-// Fusion.Sockets.NetConfigSimulationOscillator
-struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
-{
-	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
-	int32_t ___Shape_0;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
-	double ___Min_1;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
-	double ___Max_2;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
-	double ___Period_3;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
-	double ___Threshold_4;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
-	double ___Additional_5;
-};
-
 // Fusion.NetworkAssemblyIgnoreAttribute
 struct NetworkAssemblyIgnoreAttribute_t4F5BA5FE893C272F0FF54855BF906A1AF72082AE  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
@@ -3532,15 +2900,6 @@ struct NetworkBehaviourWeavedAttribute_t38A264E7BF3C748E42A50378ED009C8466B8AA44
 {
 	// System.Int32 Fusion.NetworkBehaviourWeavedAttribute::<WordCount>k__BackingField
 	int32_t ___U3CWordCountU3Ek__BackingField_0;
-};
-
-// Fusion.Protocol.NetworkConfigSync
-struct NetworkConfigSync_tD7D5D4D045B7F38C78A89B6CF91A09E6B08FF33D  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.SyncType Fusion.Protocol.NetworkConfigSync::Type
-	uint8_t ___Type_5;
-	// System.String Fusion.Protocol.NetworkConfigSync::NetworkConfig
-	String_t* ___NetworkConfig_6;
 };
 
 // Fusion.NetworkDeserializeMethodAttribute
@@ -3705,19 +3064,6 @@ struct NetworkStructWeavedAttribute_t7932CCF4EA787C0A109B243C2AA10D13F62C94D9  :
 	int32_t ___U3CWordCountU3Ek__BackingField_0;
 	// System.Boolean Fusion.NetworkStructWeavedAttribute::<IsGenericComposite>k__BackingField
 	bool ___U3CIsGenericCompositeU3Ek__BackingField_1;
-};
-
-// Fusion.NetworkedAttribute
-struct NetworkedAttribute_t5A2A2F324F7D275F492F94769AAAB1ECD7163022  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Fusion.NetworkedAttribute::<OnChanged>k__BackingField
-	String_t* ___U3COnChangedU3Ek__BackingField_0;
-	// Fusion.OnChangedTargets Fusion.NetworkedAttribute::<OnChangedTargets>k__BackingField
-	int32_t ___U3COnChangedTargetsU3Ek__BackingField_1;
-	// System.String Fusion.NetworkedAttribute::<Default>k__BackingField
-	String_t* ___U3CDefaultU3Ek__BackingField_2;
-	// System.String Fusion.NetworkedAttribute::<Group>k__BackingField
-	String_t* ___U3CGroupU3Ek__BackingField_3;
 };
 
 // Fusion.NetworkedWeavedAttribute
@@ -3917,61 +3263,6 @@ struct SceneRef_tE5791BED46D94AF338C6D8BD3DC57DA52B6BF6C9
 	};
 };
 
-// Fusion.ScriptHelpAttribute
-struct ScriptHelpAttribute_t00123F3495D461D81B04DCBE35D7EADE63900DB5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// System.String Fusion.ScriptHelpAttribute::<Url>k__BackingField
-	String_t* ___U3CUrlU3Ek__BackingField_0;
-	// Fusion.EditorHeaderBackColor Fusion.ScriptHelpAttribute::<BackColor>k__BackingField
-	int32_t ___U3CBackColorU3Ek__BackingField_1;
-	// Fusion.EditorHeaderIcon Fusion.ScriptHelpAttribute::<Icon>k__BackingField
-	int32_t ___U3CIconU3Ek__BackingField_2;
-	// System.String Fusion.ScriptHelpAttribute::<Title>k__BackingField
-	String_t* ___U3CTitleU3Ek__BackingField_3;
-};
-
-// ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 
-{
-	// ExitGames.Client.Photon.DeliveryMode ExitGames.Client.Photon.SendOptions::DeliveryMode
-	int32_t ___DeliveryMode_2;
-	// System.Boolean ExitGames.Client.Photon.SendOptions::Encrypt
-	bool ___Encrypt_3;
-	// System.Byte ExitGames.Client.Photon.SendOptions::Channel
-	uint8_t ___Channel_4;
-};
-
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields
-{
-	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendReliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendReliable_0;
-	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendUnreliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendUnreliable_1;
-};
-// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_pinvoke
-{
-	int32_t ___DeliveryMode_2;
-	int32_t ___Encrypt_3;
-	uint8_t ___Channel_4;
-};
-// Native definition for COM marshalling of ExitGames.Client.Photon.SendOptions
-struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_com
-{
-	int32_t ___DeliveryMode_2;
-	int32_t ___Encrypt_3;
-	uint8_t ___Channel_4;
-};
-
-// Fusion.SimulationBehaviourAttribute
-struct SimulationBehaviourAttribute_t83A404BE3C1E294B666B4C288D1975067716C88B  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
-{
-	// Fusion.SimulationStages Fusion.SimulationBehaviourAttribute::<Stages>k__BackingField
-	int32_t ___U3CStagesU3Ek__BackingField_0;
-	// Fusion.SimulationModes Fusion.SimulationBehaviourAttribute::<Modes>k__BackingField
-	int32_t ___U3CModesU3Ek__BackingField_1;
-};
-
 // Fusion.SimulationBehaviourListScope
 struct SimulationBehaviourListScope_t4D78AFED15B710F8F3C9B70C5EB0705BA6C6F891 
 {
@@ -3996,27 +3287,6 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 	float ___m_value_0;
 };
 
-// Fusion.Protocol.Snapshot
-struct Snapshot_t6214C0BF071F5B4CB06F00CBA15A2299FCFD0147  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// System.Int32 Fusion.Protocol.Snapshot::<Tick>k__BackingField
-	int32_t ___U3CTickU3Ek__BackingField_5;
-	// System.UInt32 Fusion.Protocol.Snapshot::<NetworkID>k__BackingField
-	uint32_t ___U3CNetworkIDU3Ek__BackingField_6;
-	// Fusion.Protocol.SnapshotType Fusion.Protocol.Snapshot::<SnapshotType>k__BackingField
-	uint8_t ___U3CSnapshotTypeU3Ek__BackingField_7;
-	// System.Int32 Fusion.Protocol.Snapshot::<TotalSize>k__BackingField
-	int32_t ___U3CTotalSizeU3Ek__BackingField_8;
-	// System.Byte[] Fusion.Protocol.Snapshot::<Data>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CDataU3Ek__BackingField_9;
-	// System.UInt64 Fusion.Protocol.Snapshot::<CRC>k__BackingField
-	uint64_t ___U3CCRCU3Ek__BackingField_10;
-	// System.Byte[] Fusion.Protocol.Snapshot::<SnapshotBuffer>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CSnapshotBufferU3Ek__BackingField_11;
-	// System.Int32 Fusion.Protocol.Snapshot::<SnapshotSize>k__BackingField
-	int32_t ___U3CSnapshotSizeU3Ek__BackingField_12;
-};
-
 // NanoSockets.Socket
 struct Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 
 {
@@ -4034,15 +3304,6 @@ struct Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6
 			int64_t ___handle_0_forAlignmentOnly;
 		};
 	};
-};
-
-// Fusion.Protocol.Start
-struct Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// System.Int32 Fusion.Protocol.Start::RemoteServerID
-	int32_t ___RemoteServerID_5;
-	// Fusion.Protocol.StartRequests Fusion.Protocol.Start::StartRequests
-	uint32_t ___StartRequests_6;
 };
 
 // System.Runtime.CompilerServices.TaskAwaiter
@@ -4388,51 +3649,6 @@ struct Bucket_t140CF84BD6FEFEFE31F8D6E12D2F1DC9C0A77242
 	};
 };
 
-// Fusion.Allocator/Config
-struct Config_tD93749329F82395A7C811892F37A5A495112E36B 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int32 Fusion.Allocator/Config::BlockShift
-			int32_t ___BlockShift_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int32_t ___BlockShift_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___BlockCount_4_OffsetPadding[4];
-			// System.Int32 Fusion.Allocator/Config::BlockCount
-			int32_t ___BlockCount_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___BlockCount_4_OffsetPadding_forAlignmentOnly[4];
-			int32_t ___BlockCount_4_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___GlobalsSize_5_OffsetPadding[8];
-			// System.Int32 Fusion.Allocator/Config::GlobalsSize
-			int32_t ___GlobalsSize_5;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___GlobalsSize_5_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___GlobalsSize_5_forAlignmentOnly;
-		};
-	};
-};
-
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
 struct ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 
 {
@@ -4530,31 +3746,6 @@ struct U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2
 		};
 		uint8_t U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2F__padding[16];
 	};
-};
-
-// Fusion.NetworkRunner/DeferredShutdownParams
-struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF 
-{
-	// System.Boolean Fusion.NetworkRunner/DeferredShutdownParams::ShutdownRequested
-	bool ___ShutdownRequested_0;
-	// Fusion.ShutdownReason Fusion.NetworkRunner/DeferredShutdownParams::ShutdownReason
-	int32_t ___ShutdownReason_1;
-	// System.Boolean Fusion.NetworkRunner/DeferredShutdownParams::DestroyGO
-	bool ___DestroyGO_2;
-};
-// Native definition for P/Invoke marshalling of Fusion.NetworkRunner/DeferredShutdownParams
-struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF_marshaled_pinvoke
-{
-	int32_t ___ShutdownRequested_0;
-	int32_t ___ShutdownReason_1;
-	int32_t ___DestroyGO_2;
-};
-// Native definition for COM marshalling of Fusion.NetworkRunner/DeferredShutdownParams
-struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF_marshaled_com
-{
-	int32_t ___ShutdownRequested_0;
-	int32_t ___ShutdownReason_1;
-	int32_t ___DestroyGO_2;
 };
 
 // Fusion.NetworkRunner/HostSnapshotCompressionJob
@@ -4704,19 +3895,6 @@ struct Nullable_1_tC45089A0BD074FF0A859152F3B8175B86B2FCB29
 	HostSnapshotCompressionJob_tF5EE776934ACB6499EF7BCC85793FDA2FB03431A ___value_1;
 };
 
-// System.Threading.Tasks.Task`1<System.ValueTuple`4<System.Int32,System.Int32,System.UInt32,System.Byte[]>>
-struct Task_1_tA50E0FC8C794B14A7067272144F7B01E26BEE012  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	ValueTuple_4_t61EBEFFA37324B0D28540E71472822FA266B806B ___m_result_38;
-};
-
-struct Task_1_tA50E0FC8C794B14A7067272144F7B01E26BEE012_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tAAE2CF767019C38BBF830978301C092E2CB1506D* ___s_defaultFactory_39;
-};
-
 // Fusion.AccuracyDefaults
 struct AccuracyDefaults_t5BFB104965CD241D9829673CC05FC3814E98A721  : public RuntimeObject
 {
@@ -4761,6 +3939,2602 @@ struct AccuracyRangeAttribute_t8D8C7EE365C96A0E4199858CEF795744812EA889  : publi
 	int32_t ___places_3;
 	// System.Boolean Fusion.AccuracyRangeAttribute::logarithmic
 	bool ___logarithmic_4;
+};
+
+// Fusion.AccuracyRangePreset
+struct AccuracyRangePreset_tAC4CEEB21C18B6061F74BC932F222A24EA495E12 
+{
+	// System.Int32 Fusion.AccuracyRangePreset::value__
+	int32_t ___value___2;
+};
+
+// System.Net.Sockets.AddressFamily
+struct AddressFamily_t01AA8C9FD15E4727B241F1F453D88444337C7524 
+{
+	// System.Int32 System.Net.Sockets.AddressFamily::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.AnimatorControllerParameterType
+struct AnimatorControllerParameterType_t2AD68F1C718AFCCBF9CF62AEBEAD0439276E4E6E 
+{
+	// System.Int32 UnityEngine.AnimatorControllerParameterType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.AnimatorSyncSettings
+struct AnimatorSyncSettings_t1E7D8E946FD237603E90C35EC132EDCB5883B6D0 
+{
+	// System.Int32 Fusion.AnimatorSyncSettings::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.AssemblyContentType
+struct AssemblyContentType_tE0A2224D247DD97616065CB0ECB16912B756D745 
+{
+	// System.Int32 System.Reflection.AssemblyContentType::value__
+	int32_t ___value___2;
+};
+
+// System.Configuration.Assemblies.AssemblyHashAlgorithm
+struct AssemblyHashAlgorithm_t6202395EA0C9A01D6342348A9535DF4CA47010D1 
+{
+	// System.Int32 System.Configuration.Assemblies.AssemblyHashAlgorithm::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.AssemblyNameFlags
+struct AssemblyNameFlags_t48EB44AFB7A3310746DD78ACC3DC5AE6D3D91122 
+{
+	// System.Int32 System.Reflection.AssemblyNameFlags::value__
+	int32_t ___value___2;
+};
+
+// System.Configuration.Assemblies.AssemblyVersionCompatibility
+struct AssemblyVersionCompatibility_t1E27EE4AB4137C64EE164A25A184E844AC722159 
+{
+	// System.Int32 System.Configuration.Assemblies.AssemblyVersionCompatibility::value__
+	int32_t ___value___2;
+};
+
+// System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D 
+{
+	// System.Threading.SynchronizationContext System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_synchronizationContext
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_coreState
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
+	// System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_task
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_pinvoke
+{
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke ___m_coreState_1;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
+struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_com
+{
+	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
+	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com ___m_coreState_1;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+};
+
+// Fusion.Photon.Realtime.AuthModeOption
+struct AuthModeOption_t97880215A3A327DE8EDE98941C3C5AC7B39CBAF8 
+{
+	// System.Int32 Fusion.Photon.Realtime.AuthModeOption::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.BindingFlags
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
+};
+
+// System.Threading.CancellationTokenSource
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B  : public RuntimeObject
+{
+	// System.Threading.ManualResetEvent modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_kernelEvent
+	ManualResetEvent_t63959486AA41A113A4353D0BF4A68E77EBA0A158* ____kernelEvent_3;
+	// System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_registeredCallbacksLists
+	SparselyPopulatedArray_1U5BU5D_t8E75A036E16E53CF08AAAF37EB6621DE3B26307E* ____registeredCallbacksLists_4;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_state
+	int32_t ____state_9;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_threadIDExecutingCallbacks
+	int32_t ____threadIDExecutingCallbacks_10;
+	// System.Boolean System.Threading.CancellationTokenSource::_disposed
+	bool ____disposed_11;
+	// System.Threading.CancellationCallbackInfo modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_executingCallback
+	CancellationCallbackInfo_tC8BE558ED1E173434DD1919D574C9FAFE501E22D* ____executingCallback_12;
+	// System.Threading.Timer modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.CancellationTokenSource::_timer
+	Timer_t763C1D5F5A36087DC92C7DA4D1F8AB578F83AB00* ____timer_13;
+};
+
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B_StaticFields
+{
+	// System.Threading.CancellationTokenSource System.Threading.CancellationTokenSource::s_canceledSource
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___s_canceledSource_0;
+	// System.Threading.CancellationTokenSource System.Threading.CancellationTokenSource::s_neverCanceledSource
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___s_neverCanceledSource_1;
+	// System.Int32 System.Threading.CancellationTokenSource::s_nLists
+	int32_t ___s_nLists_2;
+	// System.Threading.TimerCallback System.Threading.CancellationTokenSource::s_timerCallback
+	TimerCallback_t7455CAFACC7054E62879920AFC84C5DA98B8C7CD* ___s_timerCallback_14;
+};
+
+// Fusion.CastEnumAttribute
+struct CastEnumAttribute_tAF8C859C8B641A43D75EF9C9E745EAAC34175BF3  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
+{
+	// System.String Fusion.CastEnumAttribute::GetTypeMethodName
+	String_t* ___GetTypeMethodName_1;
+	// System.Type Fusion.CastEnumAttribute::CastToType
+	Type_t* ___CastToType_2;
+};
+
+// Fusion.Photon.Realtime.ClientAppType
+struct ClientAppType_t1941DFECFA31CC00C9CAD40DC86358F713FE0B6A 
+{
+	// System.Int32 Fusion.Photon.Realtime.ClientAppType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ClientState
+struct ClientState_t1BBC2968AC578BFB2A00BE64C26499908E9BD326 
+{
+	// System.Int32 Fusion.Photon.Realtime.ClientState::value__
+	int32_t ___value___2;
+};
+
+// Fusion.CloudServices
+struct CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C  : public RuntimeObject
+{
+	// System.Boolean Fusion.CloudServices::<IsNATPunchthroughEnabled>k__BackingField
+	bool ___U3CIsNATPunchthroughEnabledU3Ek__BackingField_0;
+	// System.String Fusion.CloudServices::<CustomSTUNServer>k__BackingField
+	String_t* ___U3CCustomSTUNServerU3Ek__BackingField_1;
+	// Fusion.CloudServicesMetadata Fusion.CloudServices::_metadata
+	CloudServicesMetadata_t14D7AB08C976EC366D34A338D9D0714E2E1E0833* ____metadata_2;
+	// Fusion.NetworkRunner Fusion.CloudServices::_runner
+	NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ____runner_3;
+	// Fusion.CloudCommunicator Fusion.CloudServices::_communicator
+	CloudCommunicator_tCE73B6724974FAEA9AC2576C14A7C2EE8951DDA6* ____communicator_4;
+	// System.Diagnostics.Stopwatch Fusion.CloudServices::_watch
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ____watch_5;
+	// System.Threading.CancellationTokenSource Fusion.CloudServices::_cancellationTokenSource
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ____cancellationTokenSource_6;
+	// System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionInfo> Fusion.CloudServices::cachedSessionList
+	Dictionary_2_t515F6297566C4E26633B4D6AE4B8E3F2058A6919* ___cachedSessionList_7;
+	// System.Diagnostics.Stopwatch Fusion.CloudServices::_snapshotWatch
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ____snapshotWatch_8;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.CloudServices::_lastSnapshotTick
+	int32_t ____lastSnapshotTick_9;
+};
+
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C 
+{
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter System.Runtime.CompilerServices.ConfiguredTaskAwaitable::m_configuredTaskAwaiter
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___m_configuredTaskAwaiter_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_pinvoke
+{
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_pinvoke ___m_configuredTaskAwaiter_0;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
+struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_com
+{
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_com ___m_configuredTaskAwaiter_0;
+};
+
+// ExitGames.Client.Photon.ConnectionProtocol
+struct ConnectionProtocol_t5F53E5A9D1B47CD4A9FAE10E5F648DE2596D46F2 
+{
+	// System.Byte ExitGames.Client.Photon.ConnectionProtocol::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.CustomAuthenticationType
+struct CustomAuthenticationType_t2F71D5BDDBFD54DC85047B26C0B651BE3B3C7B42 
+{
+	// System.Byte Fusion.Photon.Realtime.CustomAuthenticationType::value__
+	uint8_t ___value___2;
+};
+
+// ExitGames.Client.Photon.DebugLevel
+struct DebugLevel_t02AE6C5FD0E09AFE78382E0B5C15DC2223D35D98 
+{
+	// System.Byte ExitGames.Client.Photon.DebugLevel::value__
+	uint8_t ___value___2;
+};
+
+// System.Delegate
+struct Delegate_t  : public RuntimeObject
+{
+	// System.IntPtr System.Delegate::method_ptr
+	Il2CppMethodPointer ___method_ptr_0;
+	// System.IntPtr System.Delegate::invoke_impl
+	intptr_t ___invoke_impl_1;
+	// System.Object System.Delegate::m_target
+	RuntimeObject* ___m_target_2;
+	// System.IntPtr System.Delegate::method
+	intptr_t ___method_3;
+	// System.IntPtr System.Delegate::delegate_trampoline
+	intptr_t ___delegate_trampoline_4;
+	// System.IntPtr System.Delegate::extra_arg
+	intptr_t ___extra_arg_5;
+	// System.IntPtr System.Delegate::method_code
+	intptr_t ___method_code_6;
+	// System.IntPtr System.Delegate::interp_method
+	intptr_t ___interp_method_7;
+	// System.IntPtr System.Delegate::interp_invoke_impl
+	intptr_t ___interp_invoke_impl_8;
+	// System.Reflection.MethodInfo System.Delegate::method_info
+	MethodInfo_t* ___method_info_9;
+	// System.Reflection.MethodInfo System.Delegate::original_method_info
+	MethodInfo_t* ___original_method_info_10;
+	// System.DelegateData System.Delegate::data
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	// System.Boolean System.Delegate::method_is_virtual
+	bool ___method_is_virtual_12;
+};
+// Native definition for P/Invoke marshalling of System.Delegate
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+// Native definition for COM marshalling of System.Delegate
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr_0;
+	intptr_t ___invoke_impl_1;
+	Il2CppIUnknown* ___m_target_2;
+	intptr_t ___method_3;
+	intptr_t ___delegate_trampoline_4;
+	intptr_t ___extra_arg_5;
+	intptr_t ___method_code_6;
+	intptr_t ___interp_method_7;
+	intptr_t ___interp_invoke_impl_8;
+	MethodInfo_t* ___method_info_9;
+	MethodInfo_t* ___original_method_info_10;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
+	int32_t ___method_is_virtual_12;
+};
+
+// ExitGames.Client.Photon.DeliveryMode
+struct DeliveryMode_tBD00E8E8A6BB25D15E75BBBDD17DCEB12B803593 
+{
+	// System.Int32 ExitGames.Client.Photon.DeliveryMode::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.DisconnectCause
+struct DisconnectCause_t709E42D48BD96DAF09DC567677AEEA2C09691025 
+{
+	// System.Int32 Fusion.Photon.Realtime.DisconnectCause::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.DisconnectReason
+struct DisconnectReason_t7000D9CA3936DC4DDFAFEA4CF50B16F711B28E60 
+{
+	// System.Byte Fusion.Protocol.DisconnectReason::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.DoIfCompareOperator
+struct DoIfCompareOperator_tD7DB5F80AA209855267D502B6E35C7274900587B 
+{
+	// System.Int32 Fusion.DoIfCompareOperator::value__
+	int32_t ___value___2;
+};
+
+// Fusion.DrawIfHideType
+struct DrawIfHideType_tA460AAE9EF9EDFF28CC05C3C05D843721B7D98DB 
+{
+	// System.Int32 Fusion.DrawIfHideType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.EditorHeaderBackColor
+struct EditorHeaderBackColor_t4361FFF3D3C4AB1DBEE1FEFD161F29C5D0930178 
+{
+	// System.Int32 Fusion.EditorHeaderBackColor::value__
+	int32_t ___value___2;
+};
+
+// Fusion.EditorHeaderIcon
+struct EditorHeaderIcon_tA30A8D27AEFE91603406C2ABA2748FFF97712AF9 
+{
+	// System.Int32 Fusion.EditorHeaderIcon::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Ema
+struct Ema_tD4D8EAC1B50E83530F92DE762C4E000813D14631 
+{
+	// System.Int32 Fusion.Ema::_cnt
+	int32_t ____cnt_1;
+	// System.Double Fusion.Ema::_val
+	double ____val_2;
+	// System.Double Fusion.Ema::_var
+	double ____var_3;
+	// System.Double Fusion.Ema::_lst
+	double ____lst_4;
+	// Fusion.Ema/<_wnd>e__FixedBuffer Fusion.Ema::_wnd
+	U3C_wndU3Ee__FixedBuffer_tAF5BBD14D49AB6A8EF0281F0826CAFB09A2CDEBF ____wnd_5;
+};
+
+// Fusion.Photon.Realtime.EncryptionMode
+struct EncryptionMode_t877F76AEE07E13721EBF9E8B3343C0E2B3191BB7 
+{
+	// System.Int32 Fusion.Photon.Realtime.EncryptionMode::value__
+	int32_t ___value___2;
+};
+
+// System.Exception
+struct Exception_t  : public RuntimeObject
+{
+	// System.String System.Exception::_className
+	String_t* ____className_1;
+	// System.String System.Exception::_message
+	String_t* ____message_2;
+	// System.Collections.IDictionary System.Exception::_data
+	RuntimeObject* ____data_3;
+	// System.Exception System.Exception::_innerException
+	Exception_t* ____innerException_4;
+	// System.String System.Exception::_helpURL
+	String_t* ____helpURL_5;
+	// System.Object System.Exception::_stackTrace
+	RuntimeObject* ____stackTrace_6;
+	// System.String System.Exception::_stackTraceString
+	String_t* ____stackTraceString_7;
+	// System.String System.Exception::_remoteStackTraceString
+	String_t* ____remoteStackTraceString_8;
+	// System.Int32 System.Exception::_remoteStackIndex
+	int32_t ____remoteStackIndex_9;
+	// System.Object System.Exception::_dynamicMethods
+	RuntimeObject* ____dynamicMethods_10;
+	// System.Int32 System.Exception::_HResult
+	int32_t ____HResult_11;
+	// System.String System.Exception::_source
+	String_t* ____source_12;
+	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	// System.IntPtr[] System.Exception::native_trace_ips
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
+	// System.Int32 System.Exception::caught_in_unmanaged
+	int32_t ___caught_in_unmanaged_16;
+};
+
+struct Exception_t_StaticFields
+{
+	// System.Object System.Exception::s_EDILock
+	RuntimeObject* ___s_EDILock_0;
+};
+// Native definition for P/Invoke marshalling of System.Exception
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className_1;
+	char* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_pinvoke* ____innerException_4;
+	char* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	char* ____stackTraceString_7;
+	char* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	char* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+// Native definition for COM marshalling of System.Exception
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className_1;
+	Il2CppChar* ____message_2;
+	RuntimeObject* ____data_3;
+	Exception_t_marshaled_com* ____innerException_4;
+	Il2CppChar* ____helpURL_5;
+	Il2CppIUnknown* ____stackTrace_6;
+	Il2CppChar* ____stackTraceString_7;
+	Il2CppChar* ____remoteStackTraceString_8;
+	int32_t ____remoteStackIndex_9;
+	Il2CppIUnknown* ____dynamicMethods_10;
+	int32_t ____HResult_11;
+	Il2CppChar* ____source_12;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
+	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
+	int32_t ___caught_in_unmanaged_16;
+};
+
+// Fusion.GameMode
+struct GameMode_t17AF2DB672210858400997F114A6E432E87599C3 
+{
+	// System.Int32 Fusion.GameMode::value__
+	int32_t ___value___2;
+};
+
+// Fusion.InlineHelpButtonPlacement
+struct InlineHelpButtonPlacement_tCB7A285AA203E659254FF444492B6E00B44D5084 
+{
+	// System.Int32 Fusion.InlineHelpButtonPlacement::value__
+	int32_t ___value___2;
+};
+
+// System.Int32Enum
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	// System.Int32 System.Int32Enum::value__
+	int32_t ___value___2;
+};
+
+// Fusion.InterpolationData
+struct InterpolationData_t3CBF1D5890B9A39D2B867A5BCC7905A183ABB153 
+{
+	// System.Int32* Fusion.InterpolationData::From
+	int32_t* ___From_0;
+	// Fusion.Tick Fusion.InterpolationData::FromTick
+	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___FromTick_1;
+	// System.Int32* Fusion.InterpolationData::To
+	int32_t* ___To_2;
+	// Fusion.Tick Fusion.InterpolationData::ToTick
+	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___ToTick_3;
+	// System.Single Fusion.InterpolationData::Alpha
+	float ___Alpha_4;
+};
+
+// Unity.Jobs.JobHandle
+struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
+{
+	// System.IntPtr Unity.Jobs.JobHandle::jobGroup
+	intptr_t ___jobGroup_0;
+	// System.Int32 Unity.Jobs.JobHandle::version
+	int32_t ___version_1;
+};
+
+// Fusion.Protocol.JoinMessageType
+struct JoinMessageType_t731EB4AFF990C99923A644D81393454BB04F69B0 
+{
+	// System.Byte Fusion.Protocol.JoinMessageType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.JoinMode
+struct JoinMode_tCFB559582F5F5CA916DC46978FB0252F9D835F83 
+{
+	// System.Byte Fusion.Photon.Realtime.JoinMode::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.JoinProcessStage
+struct JoinProcessStage_tF9EA8572E1BCA90B9158E42F4445F20DAC00E9E0 
+{
+	// System.Int32 Fusion.JoinProcessStage::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.JoinRequests
+struct JoinRequests_tCE52799D868276741022ADF2351644F7C1065F1E 
+{
+	// System.UInt32 Fusion.Protocol.JoinRequests::value__
+	uint32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.JoinType
+struct JoinType_tDD9F78BFB915B284334B8DF7DA0A9C8B7587EB3E 
+{
+	// System.Int32 Fusion.Photon.Realtime.JoinType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.LobbyType
+struct LobbyType_tCE0C0769F5C7AAEAAC44723F6071798BC27C4073 
+{
+	// System.Byte Fusion.Photon.Realtime.LobbyType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.MatchmakingMode
+struct MatchmakingMode_tB2BFC6C6255CAE0AF35C2F8CE2266D8ECC4AD530 
+{
+	// System.Byte Fusion.Photon.Realtime.MatchmakingMode::value__
+	uint8_t ___value___2;
+};
+
+// System.Reflection.MethodInfo
+struct MethodInfo_t  : public MethodBase_t
+{
+};
+
+// Fusion.NATPunchStage
+struct NATPunchStage_tA3DC2C687AB0875F66F5FA1B0A292D559C885C1A 
+{
+	// System.Int32 Fusion.NATPunchStage::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.NATType
+struct NATType_tA4CE5E0E6F04B1D91FB863D289B080E6D5E6ECEF 
+{
+	// System.Byte Fusion.Sockets.Stun.NATType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.NetAddress
+struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// NanoSockets.Address Fusion.Sockets.NetAddress::NativeAddress
+			Address_t0C64043894DC43092287210A04CAD369B08FDBF3 ___NativeAddress_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Address_t0C64043894DC43092287210A04CAD369B08FDBF3 ___NativeAddress_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.UInt64 Fusion.Sockets.NetAddress::Block0
+			uint64_t ___Block0_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint64_t ___Block0_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Block1_2_OffsetPadding[8];
+			// System.UInt64 Fusion.Sockets.NetAddress::Block1
+			uint64_t ___Block1_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Block1_2_OffsetPadding_forAlignmentOnly[8];
+			uint64_t ___Block1_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Block2_3_OffsetPadding[16];
+			// System.UInt64 Fusion.Sockets.NetAddress::Block2
+			uint64_t ___Block2_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Block2_3_OffsetPadding_forAlignmentOnly[16];
+			uint64_t ___Block2_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ____actorId_4_OffsetPadding[20];
+			// System.Int32 Fusion.Sockets.NetAddress::_actorId
+			int32_t ____actorId_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ____actorId_4_OffsetPadding_forAlignmentOnly[20];
+			int32_t ____actorId_4_forAlignmentOnly;
+		};
+	};
+};
+
+struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678_StaticFields
+{
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetAddress::AnyIPv4Addr
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___AnyIPv4Addr_5;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetAddress::AnyIPv6Addr
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___AnyIPv6Addr_6;
+};
+
+// Fusion.Sockets.NetSocket
+struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int64 Fusion.Sockets.NetSocket::Handle
+			int64_t ___Handle_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___Handle_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// NanoSockets.Socket Fusion.Sockets.NetSocket::NativeSocket
+			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.NetworkBehaviourId
+struct NetworkBehaviourId_tB7569FC690A65B12D926BA5ECF5F04D0C5A4E0D3 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.NetworkId Fusion.NetworkBehaviourId::Object
+			NetworkId_t55BD78F35465C7B51581907AC1DB01F8568237F2 ___Object_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			NetworkId_t55BD78F35465C7B51581907AC1DB01F8568237F2 ___Object_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Behaviour_2_OffsetPadding[4];
+			// System.Int32 Fusion.NetworkBehaviourId::Behaviour
+			int32_t ___Behaviour_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Behaviour_2_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___Behaviour_2_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.NetworkObjectFlags
+struct NetworkObjectFlags_t93D25A53BF53B7DC5DF235125D04A0A6E4076AC1 
+{
+	// System.Int32 Fusion.NetworkObjectFlags::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkObjectGuid
+struct NetworkObjectGuid_t99EAC957EE861D66626645313D35A1F49AF134B4 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.NetworkObjectGuid/<RawGuidValue>e__FixedBuffer Fusion.NetworkObjectGuid::RawGuidValue
+			U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2F ___RawGuidValue_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2F ___RawGuidValue_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int64 Fusion.NetworkObjectGuid::_data0
+			int64_t ____data0_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ____data0_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ____data1_4_OffsetPadding[8];
+			// System.Int64 Fusion.NetworkObjectGuid::_data1
+			int64_t ____data1_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ____data1_4_OffsetPadding_forAlignmentOnly[8];
+			int64_t ____data1_4_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.NormalizedRectAttribute
+struct NormalizedRectAttribute_t0F39203C2EE4DECA9E5769C2191A745D4C1972D8  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
+{
+	// System.Boolean Fusion.NormalizedRectAttribute::InvertY
+	bool ___InvertY_1;
+	// System.Single Fusion.NormalizedRectAttribute::AspectRatio
+	float ___AspectRatio_2;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// Fusion.OnChangedTargets
+struct OnChangedTargets_t0FDEFC4B3EB934900B9F4241449D7D4DA75F8AA9 
+{
+	// System.Int32 Fusion.OnChangedTargets::value__
+	int32_t ___value___2;
+};
+
+// Fusion.OrderAfterAttribute
+struct OrderAfterAttribute_tF651B1A3AFA47C3BD106927FDA7E301DB48E2802  : public OrderAttribute_t5EAF8FC2468F944498EF73436CC079E4523127FA
+{
+	// System.Type[] Fusion.OrderAfterAttribute::<After>k__BackingField
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___U3CAfterU3Ek__BackingField_0;
+};
+
+// Fusion.OrderBeforeAttribute
+struct OrderBeforeAttribute_tC219D84D1404E87DA26183214B22C740119AB147  : public OrderAttribute_t5EAF8FC2468F944498EF73436CC079E4523127FA
+{
+	// System.Type[] Fusion.OrderBeforeAttribute::<Before>k__BackingField
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___U3CBeforeU3Ek__BackingField_0;
+};
+
+// Fusion.PageSizes
+struct PageSizes_tB6CD8BB2971FB344867C0AC5083CB4E33ADDACAF 
+{
+	// System.Int32 Fusion.PageSizes::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.ParameterAttributes
+struct ParameterAttributes_tDAEC8B3C5986B042F8F9B0845505D0FC15F92E68 
+{
+	// System.Int32 System.Reflection.ParameterAttributes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.PeerMode
+struct PeerMode_tFBF3E63ADDAA6D23B3C9E1FBB6D76B809AC0935E 
+{
+	// System.Byte Fusion.Protocol.PeerMode::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Protocol.PluginGameMode
+struct PluginGameMode_t5B06B34EF78089704790BD835CC25E1AE7049595 
+{
+	// System.Byte Fusion.Protocol.PluginGameMode::value__
+	uint8_t ___value___2;
+};
+
+// System.Reflection.ProcessorArchitecture
+struct ProcessorArchitecture_t549C86643DDABC4E0C6DC968F0C74A707ADCAD9B 
+{
+	// System.Int32 System.Reflection.ProcessorArchitecture::value__
+	int32_t ___value___2;
+};
+
+// Fusion.PropertyAttribute
+struct PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
+{
+};
+
+// Fusion.Protocol.ProtocolMessageVersion
+struct ProtocolMessageVersion_t4F7EC6C0233FB035A643A0ED6DA02FA918315BAF 
+{
+	// System.Byte Fusion.Protocol.ProtocolMessageVersion::value__
+	uint8_t ___value___2;
+};
+
+// System.RuntimeFieldHandle
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	// System.IntPtr System.RuntimeFieldHandle::value
+	intptr_t ___value_0;
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// Fusion.ScheduledRequests
+struct ScheduledRequests_tA1EAC0CB3463DC95E7693A508D25DD0F89A0111B 
+{
+	// System.UInt32 Fusion.ScheduledRequests::value__
+	uint32_t ___value___2;
+};
+
+// Fusion.Photon.Realtime.ServerConnection
+struct ServerConnection_t0C7CFE9FA580F22A60BFB7775893157507BFD177 
+{
+	// System.Int32 Fusion.Photon.Realtime.ServerConnection::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SessionLobby
+struct SessionLobby_t49DD3DCF05E47019BFF87560E1E386EC0F21FAC2 
+{
+	// System.Int32 Fusion.SessionLobby::value__
+	int32_t ___value___2;
+};
+
+// Fusion.ShutdownReason
+struct ShutdownReason_t70810C4D2DBBD8592C89DC771ED0008CA44D8017 
+{
+	// System.Int32 Fusion.ShutdownReason::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationBehaviourFlags
+struct SimulationBehaviourFlags_tBAC208E16E39B313E78DCE22950158C48938933C 
+{
+	// System.Int32 Fusion.SimulationBehaviourFlags::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationMessage
+struct SimulationMessage_t741F8FBD24BEECD63F62791520B0C4EB9C1D101C 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 Fusion.SimulationMessage::Tick
+			int32_t ___Tick_13;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___Tick_13_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Source_14_OffsetPadding[4];
+			// Fusion.PlayerRef Fusion.SimulationMessage::Source
+			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Source_14;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Source_14_OffsetPadding_forAlignmentOnly[4];
+			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Source_14_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Capacity_15_OffsetPadding[8];
+			// System.Int32 Fusion.SimulationMessage::Capacity
+			int32_t ___Capacity_15;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Capacity_15_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___Capacity_15_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Offset_16_OffsetPadding[12];
+			// System.Int32 Fusion.SimulationMessage::Offset
+			int32_t ___Offset_16;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Offset_16_OffsetPadding_forAlignmentOnly[12];
+			int32_t ___Offset_16_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___References_17_OffsetPadding[16];
+			// System.Int32 Fusion.SimulationMessage::References
+			int32_t ___References_17;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___References_17_OffsetPadding_forAlignmentOnly[16];
+			int32_t ___References_17_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Flags_18_OffsetPadding[20];
+			// System.Int32 Fusion.SimulationMessage::Flags
+			int32_t ___Flags_18;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Flags_18_OffsetPadding_forAlignmentOnly[20];
+			int32_t ___Flags_18_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Target_19_OffsetPadding[24];
+			// Fusion.PlayerRef Fusion.SimulationMessage::Target
+			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Target_19;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Target_19_OffsetPadding_forAlignmentOnly[24];
+			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Target_19_forAlignmentOnly;
+		};
+	};
+};
+
+// UnityEngine.SimulationMode2D
+struct SimulationMode2D_t3912ED313AFB6A56B3A97A5B631DF13DD0E6EFD5 
+{
+	// System.Int32 UnityEngine.SimulationMode2D::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationModes
+struct SimulationModes_t9F7737D5F246EF83B21A3C7CAFF768200F6EFFA0 
+{
+	// System.Int32 Fusion.SimulationModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationStages
+struct SimulationStages_t3330BFE18BB7042588F68C5CBF1E61B66BE06C15 
+{
+	// System.Int32 Fusion.SimulationStages::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.SnapshotType
+struct SnapshotType_t4791A08CE66423F362BEAFC9403187522DCED51B 
+{
+	// System.Byte Fusion.Protocol.SnapshotType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Protocol.StartRequests
+struct StartRequests_t874DA19CE3D7A8D3D3B4B46950665DD4EF38851A 
+{
+	// System.UInt32 Fusion.Protocol.StartRequests::value__
+	uint32_t ___value___2;
+};
+
+// Fusion.Protocol.SyncType
+struct SyncType_t4B2E8A071D04B462D59FA00ADB5D0A7340F49CFB 
+{
+	// System.Byte Fusion.Protocol.SyncType::value__
+	uint8_t ___value___2;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// Fusion.Units
+struct Units_t731569E4E790B5C723A55D47852CC1A4F30FFEA0 
+{
+	// System.Int32 Fusion.Units::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Allocator/Block
+struct Block_tC13A3BA186FDDB0FE683D9BAF4CC147107E30F76 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Ptr Fusion.Allocator/Block::Prev
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Prev_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Prev_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Next_2_OffsetPadding[4];
+			// Fusion.Ptr Fusion.Allocator/Block::Next
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Next_2_OffsetPadding_forAlignmentOnly[4];
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Bucket_3_OffsetPadding[8];
+			// System.Int32 Fusion.Allocator/Block::Bucket
+			int32_t ___Bucket_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Bucket_3_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___Bucket_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___SegmentsFree_4_OffsetPadding[12];
+			// Fusion.Ptr Fusion.Allocator/Block::SegmentsFree
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___SegmentsFree_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___SegmentsFree_4_OffsetPadding_forAlignmentOnly[12];
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___SegmentsFree_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___SegmentsUsed_5_OffsetPadding[16];
+			// System.Int32 Fusion.Allocator/Block::SegmentsUsed
+			int32_t ___SegmentsUsed_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___SegmentsUsed_5_OffsetPadding_forAlignmentOnly[16];
+			int32_t ___SegmentsUsed_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___SegmentsAllocated_6_OffsetPadding[20];
+			// System.Int32 Fusion.Allocator/Block::SegmentsAllocated
+			int32_t ___SegmentsAllocated_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___SegmentsAllocated_6_OffsetPadding_forAlignmentOnly[20];
+			int32_t ___SegmentsAllocated_6_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Index_7_OffsetPadding[24];
+			// System.Int32 Fusion.Allocator/Block::Index
+			int32_t ___Index_7;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Index_7_OffsetPadding_forAlignmentOnly[24];
+			int32_t ___Index_7_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.Allocator/BlockList
+struct BlockList_tD7B643714DB21318AEB314838CBFAD46C1E442D4 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Ptr Fusion.Allocator/BlockList::Head
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Head_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Head_1_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Tail_2_OffsetPadding[4];
+			// Fusion.Ptr Fusion.Allocator/BlockList::Tail
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Tail_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Tail_2_OffsetPadding_forAlignmentOnly[4];
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Tail_2_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.Allocator/Segment
+struct Segment_tA081E46E22F53CE1DF0530683678DD9CBD5289DE 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Ptr Fusion.Allocator/Segment::Next
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_1_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.BehaviourActionAttribute/ActionFlags
+struct ActionFlags_t2350A5D86DD2B115460F8D468B43CC5BB8DE7395 
+{
+	// System.Int32 Fusion.BehaviourActionAttribute/ActionFlags::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape
+struct WaveShape_tD6E4378BFE591B730DFD8C9FF33D8399AC6D8786 
+{
+	// System.Int32 Fusion.Sockets.NetConfigSimulationOscillator/WaveShape::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkBehaviour/InterpolationDataSources
+struct InterpolationDataSources_t0602CE3F07792DED9528EC038CE4B77A2623EA49 
+{
+	// System.Int32 Fusion.NetworkBehaviour/InterpolationDataSources::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkObject/ObjectInterestModes
+struct ObjectInterestModes_t6BE6FE1507C12B1B0D36B94C1E360C11EFC245E1 
+{
+	// System.Int32 Fusion.NetworkObject/ObjectInterestModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkObject/PredictionData
+struct PredictionData_tAB7F59FFE9B92C0D64188C2D2BB591CC45173403 
+{
+	// Fusion.Tick Fusion.NetworkObject/PredictionData::Tick
+	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___Tick_0;
+	// Fusion.NetworkPrefabId Fusion.NetworkObject/PredictionData::Prefab
+	NetworkPrefabId_tD353189021ABA05E620EE2F0BE67171A8C6F7AC9 ___Prefab_1;
+	// Fusion.NetworkObjectPredictionKey Fusion.NetworkObject/PredictionData::Key
+	NetworkObjectPredictionKey_tBF0A538EE9240A4AB5D149BC21F8B174181D8E9A ___Key_2;
+};
+
+// Fusion.NetworkProjectConfig/DeltaCompressors
+struct DeltaCompressors_t9BB5EC576A165B4EBEC058DCE98B1B93CAC8DEC5 
+{
+	// System.Int32 Fusion.NetworkProjectConfig/DeltaCompressors::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkProjectConfig/PeerModes
+struct PeerModes_t3B94AA33729E4004BE5C413101F3926E6476358A 
+{
+	// System.Int32 Fusion.NetworkProjectConfig/PeerModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkProjectConfig/PhysicsEngines
+struct PhysicsEngines_tF4E9038966712923AE23D5BC9B355144D45ABC9F 
+{
+	// System.Int32 Fusion.NetworkProjectConfig/PhysicsEngines::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkProjectConfig/PhysicsModes
+struct PhysicsModes_t72B764B5654784053D68CBD08704EADD801D69AA 
+{
+	// System.Int32 Fusion.NetworkProjectConfig/PhysicsModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkProjectConfig/SceneLoadSpawnModes
+struct SceneLoadSpawnModes_t946813CCA14E9A41F84955F67545E713D917281A 
+{
+	// System.Int32 Fusion.NetworkProjectConfig/SceneLoadSpawnModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkRunner/ShutdownFlags
+struct ShutdownFlags_t2D24E71D053D8E9F9A4D96FC92BF69BFF5623146 
+{
+	// System.Int32 Fusion.NetworkRunner/ShutdownFlags::value__
+	int32_t ___value___2;
+};
+
+// Fusion.NetworkRunner/SimulationPhase
+struct SimulationPhase_t55A327A79216E6C437B0AF9BFB4696616FAF9DE2 
+{
+	// System.Int32 Fusion.NetworkRunner/SimulationPhase::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SessionInfo/SessionUpdateState
+struct SessionUpdateState_t93FB38E827BF1AFD1DF2ACA17AE33E11EC84724E 
+{
+	// System.Int32 Fusion.SessionInfo/SessionUpdateState::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationConfig/StateReplicationModes
+struct StateReplicationModes_t32BF9BB8F00F8617ED73D0419338573902AD28A0 
+{
+	// System.Int32 Fusion.SimulationConfig/StateReplicationModes::value__
+	int32_t ___value___2;
+};
+
+// Fusion.SimulationConfig/Topologies
+struct Topologies_tEA90003A5C1C29EBB393C4B7382F6A41567E066E 
+{
+	// System.Int32 Fusion.SimulationConfig/Topologies::value__
+	int32_t ___value___2;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Fusion.Sockets.NetAddress>
+struct KeyValuePair_2_t3838EEAE64E91BC8F8DEFCBDC5A49EB258BD5A29 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___value_1;
+};
+
+// System.Nullable`1<ExitGames.Client.Photon.ConnectionProtocol>
+struct Nullable_1_tC61504D4999670A5A2480A3B5CB4AC8A71EEE32E 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	uint8_t ___value_1;
+};
+
+// System.Nullable`1<System.Int32Enum>
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// System.Nullable`1<Unity.Jobs.JobHandle>
+struct Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___value_1;
+};
+
+// System.Nullable`1<Fusion.Sockets.NetAddress>
+struct Nullable_1_tD1B18268713E055EC19B121D7B98FE5BC16D60B9 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___value_1;
+};
+
+// System.Nullable`1<Fusion.SimulationModes>
+struct Nullable_1_tA7AB74DCC49231122BDE6A56B38A849C29538EF7 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// System.Threading.Tasks.Task`1<System.ValueTuple`4<System.Int32,System.Int32,System.UInt32,System.Byte[]>>
+struct Task_1_tA50E0FC8C794B14A7067272144F7B01E26BEE012  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	ValueTuple_4_t61EBEFFA37324B0D28540E71472822FA266B806B ___m_result_38;
+};
+
+struct Task_1_tA50E0FC8C794B14A7067272144F7B01E26BEE012_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tAAE2CF767019C38BBF830978301C092E2CB1506D* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.Boolean>
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	bool ___m_result_38;
+};
+
+struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tFAEAC22A1E986463E6956C344A78A7C7197288E0* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<System.Int16>
+struct Task_1_t276D7011BE5BCB2515024F19F12E4D7C3C875268  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	int16_t ___m_result_38;
+};
+
+struct Task_1_t276D7011BE5BCB2515024F19F12E4D7C3C875268_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t9252C6BB8EEAFA81C31A60264B8A80C6B22004B9* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<Fusion.Sockets.Stun.StunResult>
+struct Task_1_t8460003437F8D7EFA58416E4C5C31EE4470CD535  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E* ___m_result_38;
+};
+
+struct Task_1_t8460003437F8D7EFA58416E4C5C31EE4470CD535_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tF273E15FC23694072039750386D8105578874E59* ___s_defaultFactory_39;
+};
+
+// System.ValueTuple`2<System.Int32Enum,System.Int32Enum>
+struct ValueTuple_2_t9270F8474E554C7C106A7F7DE4F0D15C12802EAB 
+{
+	// T1 System.ValueTuple`2::Item1
+	int32_t ___Item1_0;
+	// T2 System.ValueTuple`2::Item2
+	int32_t ___Item2_1;
+};
+
+// System.ValueTuple`2<Fusion.SimulationModes,Fusion.SimulationStages>
+struct ValueTuple_2_tBD95C30B265D22C273E01800BFE8A0AC514FCE47 
+{
+	// T1 System.ValueTuple`2::Item1
+	int32_t ___Item1_0;
+	// T2 System.ValueTuple`2::Item2
+	int32_t ___Item2_1;
+};
+
+// UnityEngine.AnimatorControllerParameter
+struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02  : public RuntimeObject
+{
+	// System.String UnityEngine.AnimatorControllerParameter::m_Name
+	String_t* ___m_Name_0;
+	// UnityEngine.AnimatorControllerParameterType UnityEngine.AnimatorControllerParameter::m_Type
+	int32_t ___m_Type_1;
+	// System.Single UnityEngine.AnimatorControllerParameter::m_DefaultFloat
+	float ___m_DefaultFloat_2;
+	// System.Int32 UnityEngine.AnimatorControllerParameter::m_DefaultInt
+	int32_t ___m_DefaultInt_3;
+	// System.Boolean UnityEngine.AnimatorControllerParameter::m_DefaultBool
+	bool ___m_DefaultBool_4;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.AnimatorControllerParameter
+struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02_marshaled_pinvoke
+{
+	char* ___m_Name_0;
+	int32_t ___m_Type_1;
+	float ___m_DefaultFloat_2;
+	int32_t ___m_DefaultInt_3;
+	int32_t ___m_DefaultBool_4;
+};
+// Native definition for COM marshalling of UnityEngine.AnimatorControllerParameter
+struct AnimatorControllerParameter_t1FA67485445446540D4F2857762C960AE6980E02_marshaled_com
+{
+	Il2CppChar* ___m_Name_0;
+	int32_t ___m_Type_1;
+	float ___m_DefaultFloat_2;
+	int32_t ___m_DefaultInt_3;
+	int32_t ___m_DefaultBool_4;
+};
+
+// Fusion.Photon.Realtime.AppSettings
+struct AppSettings_t676479963A7FA399B63DD6E77830C334B7900E84  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdRealtime
+	String_t* ___AppIdRealtime_0;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdFusion
+	String_t* ___AppIdFusion_1;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdChat
+	String_t* ___AppIdChat_2;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppIdVoice
+	String_t* ___AppIdVoice_3;
+	// System.String Fusion.Photon.Realtime.AppSettings::AppVersion
+	String_t* ___AppVersion_4;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::UseNameServer
+	bool ___UseNameServer_5;
+	// System.String Fusion.Photon.Realtime.AppSettings::FixedRegion
+	String_t* ___FixedRegion_6;
+	// System.String Fusion.Photon.Realtime.AppSettings::BestRegionSummaryFromStorage
+	String_t* ___BestRegionSummaryFromStorage_7;
+	// System.String Fusion.Photon.Realtime.AppSettings::Server
+	String_t* ___Server_8;
+	// System.Int32 Fusion.Photon.Realtime.AppSettings::Port
+	int32_t ___Port_9;
+	// System.String Fusion.Photon.Realtime.AppSettings::ProxyServer
+	String_t* ___ProxyServer_10;
+	// ExitGames.Client.Photon.ConnectionProtocol Fusion.Photon.Realtime.AppSettings::Protocol
+	uint8_t ___Protocol_11;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableProtocolFallback
+	bool ___EnableProtocolFallback_12;
+	// Fusion.Photon.Realtime.AuthModeOption Fusion.Photon.Realtime.AppSettings::AuthMode
+	int32_t ___AuthMode_13;
+	// System.Boolean Fusion.Photon.Realtime.AppSettings::EnableLobbyStatistics
+	bool ___EnableLobbyStatistics_14;
+	// ExitGames.Client.Photon.DebugLevel Fusion.Photon.Realtime.AppSettings::NetworkLogging
+	uint8_t ___NetworkLogging_15;
+};
+
+// System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
+{
+	// System.String System.Reflection.AssemblyName::name
+	String_t* ___name_0;
+	// System.String System.Reflection.AssemblyName::codebase
+	String_t* ___codebase_1;
+	// System.Int32 System.Reflection.AssemblyName::major
+	int32_t ___major_2;
+	// System.Int32 System.Reflection.AssemblyName::minor
+	int32_t ___minor_3;
+	// System.Int32 System.Reflection.AssemblyName::build
+	int32_t ___build_4;
+	// System.Int32 System.Reflection.AssemblyName::revision
+	int32_t ___revision_5;
+	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo_6;
+	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
+	int32_t ___flags_7;
+	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
+	int32_t ___hashalg_8;
+	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	// System.Byte[] System.Reflection.AssemblyName::publicKey
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey_10;
+	// System.Byte[] System.Reflection.AssemblyName::keyToken
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken_11;
+	// System.Configuration.Assemblies.AssemblyVersionCompatibility System.Reflection.AssemblyName::versioncompat
+	int32_t ___versioncompat_12;
+	// System.Version System.Reflection.AssemblyName::version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	// System.Reflection.ProcessorArchitecture System.Reflection.AssemblyName::processor_architecture
+	int32_t ___processor_architecture_14;
+	// System.Reflection.AssemblyContentType System.Reflection.AssemblyName::contentType
+	int32_t ___contentType_15;
+};
+// Native definition for P/Invoke marshalling of System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
+{
+	char* ___name_0;
+	char* ___codebase_1;
+	int32_t ___major_2;
+	int32_t ___minor_3;
+	int32_t ___build_4;
+	int32_t ___revision_5;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo_6;
+	int32_t ___flags_7;
+	int32_t ___hashalg_8;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	Il2CppSafeArray/*NONE*/* ___publicKey_10;
+	Il2CppSafeArray/*NONE*/* ___keyToken_11;
+	int32_t ___versioncompat_12;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	int32_t ___processor_architecture_14;
+	int32_t ___contentType_15;
+};
+// Native definition for COM marshalling of System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
+{
+	Il2CppChar* ___name_0;
+	Il2CppChar* ___codebase_1;
+	int32_t ___major_2;
+	int32_t ___minor_3;
+	int32_t ___build_4;
+	int32_t ___revision_5;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo_6;
+	int32_t ___flags_7;
+	int32_t ___hashalg_8;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	Il2CppSafeArray/*NONE*/* ___publicKey_10;
+	Il2CppSafeArray/*NONE*/* ___keyToken_11;
+	int32_t ___versioncompat_12;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	int32_t ___processor_architecture_14;
+	int32_t ___contentType_15;
+};
+
+// Fusion.AssemblyNameAttribute
+struct AssemblyNameAttribute_t802083D9E8BFF679D4BBD17A96EE842AEFA5F504  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 
+{
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::m_builder
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
+{
+	// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::s_cachedCompleted
+	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted_0;
+};
+// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_pinvoke
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
+struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
+{
+	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
+};
+
+// Fusion.Photon.Realtime.AuthenticationValues
+struct AuthenticationValues_t966D2FC1B918F833E8AF124E7FD256C9C1FCD982  : public RuntimeObject
+{
+	// Fusion.Photon.Realtime.CustomAuthenticationType Fusion.Photon.Realtime.AuthenticationValues::authType
+	uint8_t ___authType_0;
+	// System.String Fusion.Photon.Realtime.AuthenticationValues::<AuthGetParameters>k__BackingField
+	String_t* ___U3CAuthGetParametersU3Ek__BackingField_1;
+	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<AuthPostData>k__BackingField
+	RuntimeObject* ___U3CAuthPostDataU3Ek__BackingField_2;
+	// System.Object Fusion.Photon.Realtime.AuthenticationValues::<Token>k__BackingField
+	RuntimeObject* ___U3CTokenU3Ek__BackingField_3;
+	// System.String Fusion.Photon.Realtime.AuthenticationValues::<UserId>k__BackingField
+	String_t* ___U3CUserIdU3Ek__BackingField_4;
+};
+
+// Fusion.BehaviourActionAttribute
+struct BehaviourActionAttribute_t253258EB559B4F1D24719F65C056CA53B5476BBE  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// Fusion.BehaviourActionAttribute/ActionFlags Fusion.BehaviourActionAttribute::ConditionFlags
+	int32_t ___ConditionFlags_0;
+	// System.String Fusion.BehaviourActionAttribute::ExecuteMethod
+	String_t* ___ExecuteMethod_1;
+	// System.String Fusion.BehaviourActionAttribute::ConditionMember
+	String_t* ___ConditionMember_2;
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// Fusion.DecoratingPropertyAttribute
+struct DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.DefaultForPropertyAttribute
+struct DefaultForPropertyAttribute_t37528865004D772A166D004AC3BDB82358F27867  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.String Fusion.DefaultForPropertyAttribute::<PropertyName>k__BackingField
+	String_t* ___U3CPropertyNameU3Ek__BackingField_1;
+	// System.Int32 Fusion.DefaultForPropertyAttribute::<WordOffset>k__BackingField
+	int32_t ___U3CWordOffsetU3Ek__BackingField_2;
+	// System.Int32 Fusion.DefaultForPropertyAttribute::<WordCount>k__BackingField
+	int32_t ___U3CWordCountU3Ek__BackingField_3;
+};
+
+// Fusion.EditorDisabledAttribute
+struct EditorDisabledAttribute_t60457B5E0DAAE9A2A02B69436632796223E7AD08  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.Boolean Fusion.EditorDisabledAttribute::HideInRelease
+	bool ___HideInRelease_1;
+};
+
+// Fusion.Photon.Realtime.EnterRoomParams
+struct EnterRoomParams_t85623F8A2F73A36F20442EA7F5CC767A2D2CA61B  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.EnterRoomParams::RoomName
+	String_t* ___RoomName_0;
+	// Fusion.Photon.Realtime.RoomOptions Fusion.Photon.Realtime.EnterRoomParams::RoomOptions
+	RoomOptions_t2D3E5FF3D6AE3DFFDCD809BD64BD43DCE69A434F* ___RoomOptions_1;
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.EnterRoomParams::Lobby
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Lobby_2;
+	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.EnterRoomParams::PlayerProperties
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___PlayerProperties_3;
+	// System.Boolean Fusion.Photon.Realtime.EnterRoomParams::OnGameServer
+	bool ___OnGameServer_4;
+	// Fusion.Photon.Realtime.JoinMode Fusion.Photon.Realtime.EnterRoomParams::JoinMode
+	uint8_t ___JoinMode_5;
+	// System.String[] Fusion.Photon.Realtime.EnterRoomParams::ExpectedUsers
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_6;
+};
+
+// Fusion.EnumMaskAttribute
+struct EnumMaskAttribute_t7D010BFCFCF80D1F990FBF882A7BB849F9483514  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.Boolean Fusion.EnumMaskAttribute::definesZero
+	bool ___definesZero_1;
+	// System.Type Fusion.EnumMaskAttribute::castTo
+	Type_t* ___castTo_2;
+};
+
+// Fusion.FixedBufferPropertyAttribute
+struct FixedBufferPropertyAttribute_t56CD351DCDE8EE79DA41D050F0283996ED53BE83  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.Type Fusion.FixedBufferPropertyAttribute::<Type>k__BackingField
+	Type_t* ___U3CTypeU3Ek__BackingField_1;
+	// System.Type Fusion.FixedBufferPropertyAttribute::<SurrogateType>k__BackingField
+	Type_t* ___U3CSurrogateTypeU3Ek__BackingField_2;
+	// System.Int32 Fusion.FixedBufferPropertyAttribute::<Capacity>k__BackingField
+	int32_t ___U3CCapacityU3Ek__BackingField_3;
+};
+
+// Fusion.InlineEditorAttribute
+struct InlineEditorAttribute_t87C84CB18FB0C977B8BD864A8D700F7B77A56598  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.KeyValuePairAttribute
+struct KeyValuePairAttribute_t48DDDBFBE3D22743AEA54B512AA6943C70336FD6  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.Protocol.Message
+struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B  : public RuntimeObject
+{
+	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message::ProtocolVersion
+	uint8_t ___ProtocolVersion_1;
+	// System.Version Fusion.Protocol.Message::FusionSerializationVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___FusionSerializationVersion_2;
+	// System.String Fusion.Protocol.Message::_customData
+	String_t* ____customData_4;
+};
+
+struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B_StaticFields
+{
+	// System.Version Fusion.Protocol.Message::InvalidVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___InvalidVersion_3;
+};
+
+// Fusion.MultiPropertyDrawersFixAttribute
+struct MultiPropertyDrawersFixAttribute_t528AE19F90CF7123EAD92681756861BFF7628E3C  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2 
+{
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetBitBuffer::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::Mtu
+	int32_t ___Mtu_6;
+	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Prev
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Next
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetBitBuffer::Block
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_group
+	int32_t ____group_10;
+	// System.UInt64* Fusion.Sockets.NetBitBuffer::_dataBlockOriginal
+	uint64_t* ____dataBlockOriginal_11;
+	// System.UInt64* Fusion.Sockets.NetBitBuffer::_data
+	uint64_t* ____data_12;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_offsetBits
+	int32_t ____offsetBits_13;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBits
+	int32_t ____lengthBits_14;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBytes
+	int32_t ____lengthBytes_15;
+};
+// Native definition for P/Invoke marshalling of Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_pinvoke
+{
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	int32_t ___Mtu_6;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	int32_t ____group_10;
+	uint64_t* ____dataBlockOriginal_11;
+	uint64_t* ____data_12;
+	int32_t ____offsetBits_13;
+	int32_t ____lengthBits_14;
+	int32_t ____lengthBytes_15;
+};
+// Native definition for COM marshalling of Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_com
+{
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	int32_t ___Mtu_6;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	int32_t ____group_10;
+	uint64_t* ____dataBlockOriginal_11;
+	uint64_t* ____data_12;
+	int32_t ____offsetBits_13;
+	int32_t ____lengthBits_14;
+	int32_t ____lengthBytes_15;
+};
+
+// Fusion.Sockets.NetConfigSimulationOscillator
+struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
+{
+	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
+	int32_t ___Shape_0;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
+	double ___Min_1;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
+	double ___Max_2;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
+	double ___Period_3;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
+	double ___Threshold_4;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
+	double ___Additional_5;
+};
+
+// Fusion.NetworkPrefabAttribute
+struct NetworkPrefabAttribute_tEC8D1EB65A6FF8E350FDF8B03DF99AE070815A08  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.NetworkProjectConfig
+struct NetworkProjectConfig_t0D1807A7DE80BB18A606CEF45A35BFA1C29D8BBF  : public RuntimeObject
+{
+	// System.Int32 Fusion.NetworkProjectConfig::Version
+	int32_t ___Version_3;
+	// System.String Fusion.NetworkProjectConfig::TypeId
+	String_t* ___TypeId_4;
+	// Fusion.NetworkProjectConfig/PeerModes Fusion.NetworkProjectConfig::PeerMode
+	int32_t ___PeerMode_5;
+	// Fusion.NetworkProjectConfig/PhysicsEngines Fusion.NetworkProjectConfig::PhysicsEngine
+	int32_t ___PhysicsEngine_6;
+	// Fusion.NetworkProjectConfig/PhysicsModes Fusion.NetworkProjectConfig::ServerPhysicsMode
+	int32_t ___ServerPhysicsMode_7;
+	// System.Boolean Fusion.NetworkProjectConfig::UseLagCompensation
+	bool ___UseLagCompensation_8;
+	// Fusion.LagCompensationSettings Fusion.NetworkProjectConfig::LagCompensation
+	LagCompensationSettings_t6EBFE93B06C8E6568E57EB928F1BD57EFDB0C3F1* ___LagCompensation_9;
+	// Fusion.NetworkProjectConfig/SceneLoadSpawnModes Fusion.NetworkProjectConfig::SceneLoadSpawnMode
+	int32_t ___SceneLoadSpawnMode_10;
+	// Fusion.NetworkProjectConfig/DeltaCompressors Fusion.NetworkProjectConfig::DeltaCompressor
+	int32_t ___DeltaCompressor_11;
+	// System.Boolean Fusion.NetworkProjectConfig::InvokeRenderInBatchMode
+	bool ___InvokeRenderInBatchMode_12;
+	// System.UInt16 Fusion.NetworkProjectConfig::MaxNetworkedObjectCount
+	uint16_t ___MaxNetworkedObjectCount_13;
+	// System.Boolean Fusion.NetworkProjectConfig::NetworkIdIsObjectName
+	bool ___NetworkIdIsObjectName_14;
+	// System.Boolean Fusion.NetworkProjectConfig::HideNetworkObjectInactivityGuard
+	bool ___HideNetworkObjectInactivityGuard_15;
+	// System.Boolean Fusion.NetworkProjectConfig::EnableHostMigration
+	bool ___EnableHostMigration_16;
+	// System.UInt32 Fusion.NetworkProjectConfig::HostMigrationSnapshotInterval
+	uint32_t ___HostMigrationSnapshotInterval_17;
+	// Fusion.NetworkPrefabTable Fusion.NetworkProjectConfig::PrefabTable
+	NetworkPrefabTable_t64D4EFDBA5D92F4D0BC13FA94741947629F4D62F* ___PrefabTable_18;
+	// Fusion.SimulationConfig Fusion.NetworkProjectConfig::Simulation
+	SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3* ___Simulation_19;
+	// Fusion.InterpolationConfiguration Fusion.NetworkProjectConfig::Interpolation
+	InterpolationConfiguration_tB5D3A4AFB0A322F24BEAAEE154278A97D0C3E26A* ___Interpolation_20;
+	// Fusion.NetworkConfiguration Fusion.NetworkProjectConfig::Network
+	NetworkConfiguration_t4091A6502AFF002F7318CAC4A52FB587662DBC56* ___Network_21;
+	// Fusion.NetworkSimulationConfiguration Fusion.NetworkProjectConfig::NetworkConditions
+	NetworkSimulationConfiguration_t32FB88A97B412BEC5292D119E40B83174568EF28* ___NetworkConditions_22;
+	// Fusion.HeapConfiguration Fusion.NetworkProjectConfig::Heap
+	HeapConfiguration_t721D83F0851DFA413E8FF21F4CEB67430196A1DC* ___Heap_23;
+	// Fusion.AccuracyDefaults Fusion.NetworkProjectConfig::AccuracyDefaults
+	AccuracyDefaults_t5BFB104965CD241D9829673CC05FC3814E98A721* ___AccuracyDefaults_24;
+	// System.String[] Fusion.NetworkProjectConfig::AssembliesToWeave
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___AssembliesToWeave_25;
+	// System.Boolean Fusion.NetworkProjectConfig::UseSerializableDictionary
+	bool ___UseSerializableDictionary_26;
+	// System.Boolean Fusion.NetworkProjectConfig::NullChecksForNetworkedProperties
+	bool ___NullChecksForNetworkedProperties_27;
+	// System.Boolean Fusion.NetworkProjectConfig::CheckRpcAttributeUsage
+	bool ___CheckRpcAttributeUsage_28;
+	// System.Boolean Fusion.NetworkProjectConfig::CheckNetworkedPropertiesBeingEmpty
+	bool ___CheckNetworkedPropertiesBeingEmpty_29;
+};
+
+// Fusion.NetworkedAttribute
+struct NetworkedAttribute_t5A2A2F324F7D275F492F94769AAAB1ECD7163022  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String Fusion.NetworkedAttribute::<OnChanged>k__BackingField
+	String_t* ___U3COnChangedU3Ek__BackingField_0;
+	// Fusion.OnChangedTargets Fusion.NetworkedAttribute::<OnChangedTargets>k__BackingField
+	int32_t ___U3COnChangedTargetsU3Ek__BackingField_1;
+	// System.String Fusion.NetworkedAttribute::<Default>k__BackingField
+	String_t* ___U3CDefaultU3Ek__BackingField_2;
+	// System.String Fusion.NetworkedAttribute::<Group>k__BackingField
+	String_t* ___U3CGroupU3Ek__BackingField_3;
+};
+
+// Fusion.Photon.Realtime.OpJoinRandomRoomParams
+struct OpJoinRandomRoomParams_t5D3247CAF9D33093605A1207115C5BA72D65D79C  : public RuntimeObject
+{
+	// ExitGames.Client.Photon.Hashtable Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedCustomRoomProperties
+	Hashtable_tD626399B3ADFD501225241D7366103F35472542A* ___ExpectedCustomRoomProperties_0;
+	// System.Byte Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedMaxPlayers
+	uint8_t ___ExpectedMaxPlayers_1;
+	// Fusion.Photon.Realtime.MatchmakingMode Fusion.Photon.Realtime.OpJoinRandomRoomParams::MatchingType
+	uint8_t ___MatchingType_2;
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.OpJoinRandomRoomParams::TypedLobby
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___TypedLobby_3;
+	// System.String Fusion.Photon.Realtime.OpJoinRandomRoomParams::SqlLobbyFilter
+	String_t* ___SqlLobbyFilter_4;
+	// System.String[] Fusion.Photon.Realtime.OpJoinRandomRoomParams::ExpectedUsers
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___ExpectedUsers_5;
+};
+
+// System.Reflection.ParameterInfo
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F  : public RuntimeObject
+{
+	// System.Reflection.ParameterAttributes System.Reflection.ParameterInfo::AttrsImpl
+	int32_t ___AttrsImpl_0;
+	// System.Type System.Reflection.ParameterInfo::ClassImpl
+	Type_t* ___ClassImpl_1;
+	// System.Object System.Reflection.ParameterInfo::DefaultValueImpl
+	RuntimeObject* ___DefaultValueImpl_2;
+	// System.Reflection.MemberInfo System.Reflection.ParameterInfo::MemberImpl
+	MemberInfo_t* ___MemberImpl_3;
+	// System.String System.Reflection.ParameterInfo::NameImpl
+	String_t* ___NameImpl_4;
+	// System.Int32 System.Reflection.ParameterInfo::PositionImpl
+	int32_t ___PositionImpl_5;
+};
+// Native definition for P/Invoke marshalling of System.Reflection.ParameterInfo
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_pinvoke
+{
+	int32_t ___AttrsImpl_0;
+	Type_t* ___ClassImpl_1;
+	Il2CppIUnknown* ___DefaultValueImpl_2;
+	MemberInfo_t* ___MemberImpl_3;
+	char* ___NameImpl_4;
+	int32_t ___PositionImpl_5;
+};
+// Native definition for COM marshalling of System.Reflection.ParameterInfo
+struct ParameterInfo_tBC2D68304851A59EFB2EAE6B168714CD45445F2F_marshaled_com
+{
+	int32_t ___AttrsImpl_0;
+	Type_t* ___ClassImpl_1;
+	Il2CppIUnknown* ___DefaultValueImpl_2;
+	MemberInfo_t* ___MemberImpl_3;
+	Il2CppChar* ___NameImpl_4;
+	int32_t ___PositionImpl_5;
+};
+
+// Fusion.Pow2SliderAttribute
+struct Pow2SliderAttribute_tAAF68A71A33ECA08E54A6AB056EE8A4CDFB78412  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// Fusion.Units Fusion.Pow2SliderAttribute::Unit
+	int32_t ___Unit_1;
+	// System.Int32 Fusion.Pow2SliderAttribute::MinPower
+	int32_t ___MinPower_2;
+	// System.Int32 Fusion.Pow2SliderAttribute::MaxPower
+	int32_t ___MaxPower_3;
+	// System.Boolean Fusion.Pow2SliderAttribute::AllowZero
+	bool ___AllowZero_4;
+};
+
+// Fusion.ResolveNetworkPrefabSourceUnityAttribute
+struct ResolveNetworkPrefabSourceUnityAttribute_t20D3F3A392BED19DBA9115FAC01234ED33459019  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.ScenePathAttribute
+struct ScenePathAttribute_tFEA558D37F5A4D6C45A7013F15CAE616A9288561  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.ScriptHelpAttribute
+struct ScriptHelpAttribute_t00123F3495D461D81B04DCBE35D7EADE63900DB5  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String Fusion.ScriptHelpAttribute::<Url>k__BackingField
+	String_t* ___U3CUrlU3Ek__BackingField_0;
+	// Fusion.EditorHeaderBackColor Fusion.ScriptHelpAttribute::<BackColor>k__BackingField
+	int32_t ___U3CBackColorU3Ek__BackingField_1;
+	// Fusion.EditorHeaderIcon Fusion.ScriptHelpAttribute::<Icon>k__BackingField
+	int32_t ___U3CIconU3Ek__BackingField_2;
+	// System.String Fusion.ScriptHelpAttribute::<Title>k__BackingField
+	String_t* ___U3CTitleU3Ek__BackingField_3;
+};
+
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+
+// ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 
+{
+	// ExitGames.Client.Photon.DeliveryMode ExitGames.Client.Photon.SendOptions::DeliveryMode
+	int32_t ___DeliveryMode_2;
+	// System.Boolean ExitGames.Client.Photon.SendOptions::Encrypt
+	bool ___Encrypt_3;
+	// System.Byte ExitGames.Client.Photon.SendOptions::Channel
+	uint8_t ___Channel_4;
+};
+
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_StaticFields
+{
+	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendReliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendReliable_0;
+	// ExitGames.Client.Photon.SendOptions ExitGames.Client.Photon.SendOptions::SendUnreliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ___SendUnreliable_1;
+};
+// Native definition for P/Invoke marshalling of ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_pinvoke
+{
+	int32_t ___DeliveryMode_2;
+	int32_t ___Encrypt_3;
+	uint8_t ___Channel_4;
+};
+// Native definition for COM marshalling of ExitGames.Client.Photon.SendOptions
+struct SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8_marshaled_com
+{
+	int32_t ___DeliveryMode_2;
+	int32_t ___Encrypt_3;
+	uint8_t ___Channel_4;
+};
+
+// Fusion.SessionInfo
+struct SessionInfo_t191C09E2A2B9A71925D9B0EDEA501A286FD4BCAB  : public RuntimeObject
+{
+	// System.String Fusion.SessionInfo::<Name>k__BackingField
+	String_t* ___U3CNameU3Ek__BackingField_0;
+	// System.String Fusion.SessionInfo::<Region>k__BackingField
+	String_t* ___U3CRegionU3Ek__BackingField_1;
+	// System.Collections.ObjectModel.ReadOnlyDictionary`2<System.String,Fusion.SessionProperty> Fusion.SessionInfo::<Properties>k__BackingField
+	ReadOnlyDictionary_2_tF107A4E266D96B1C819AC88DCD8B01E10FE1407B* ___U3CPropertiesU3Ek__BackingField_2;
+	// System.Int32 Fusion.SessionInfo::<PlayerCount>k__BackingField
+	int32_t ___U3CPlayerCountU3Ek__BackingField_3;
+	// System.Int32 Fusion.SessionInfo::<MaxPlayers>k__BackingField
+	int32_t ___U3CMaxPlayersU3Ek__BackingField_4;
+	// System.Boolean Fusion.SessionInfo::_isOpen
+	bool ____isOpen_6;
+	// System.Boolean Fusion.SessionInfo::_isVisible
+	bool ____isVisible_7;
+	// Fusion.SessionInfo/SessionUpdateState Fusion.SessionInfo::_updateState
+	int32_t ____updateState_8;
+	// System.Func`2<System.Boolean,System.Boolean> Fusion.SessionInfo::OnIsVisibleChanged
+	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___OnIsVisibleChanged_9;
+	// System.Func`2<System.Boolean,System.Boolean> Fusion.SessionInfo::OnIsOpenChanged
+	Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB* ___OnIsOpenChanged_10;
+	// System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionProperty>,System.Boolean> Fusion.SessionInfo::OnCustomPropertiesChanged
+	Func_2_t8CC9EC102ED47278789727E1A88E62AD49F65BCD* ___OnCustomPropertiesChanged_11;
+};
+
+// Fusion.Simulation
+struct Simulation_t1D52B02F9D931E87FAEB15A3EE8B13ED014DB584  : public RuntimeObject
+{
+	// System.Boolean Fusion.Simulation::_isShutdown
+	bool ____isShutdown_0;
+	// Fusion.Allocator* Fusion.Simulation::_tempAllocator
+	Allocator_t4184B6C7C53A6059F1EBA19A30D551CDECA2F69C* ____tempAllocator_1;
+	// Fusion.Simulation/ICallbacks Fusion.Simulation::_callbacks
+	RuntimeObject* ____callbacks_2;
+	// Fusion.Simulation/IDeltaCompressor Fusion.Simulation::_deltaCompressor
+	RuntimeObject* ____deltaCompressor_3;
+	// Fusion.SimulationModes Fusion.Simulation::_mode
+	int32_t ____mode_4;
+	// Fusion.SimulationStages Fusion.Simulation::_stage
+	int32_t ____stage_5;
+	// Fusion.SimulationConfig Fusion.Simulation::_config
+	SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3* ____config_6;
+	// Fusion.NetworkProjectConfig Fusion.Simulation::_projectConfig
+	NetworkProjectConfig_t0D1807A7DE80BB18A606CEF45A35BFA1C29D8BBF* ____projectConfig_7;
+	// Fusion.SimulationSnapshot/IHistory Fusion.Simulation::_history
+	RuntimeObject* ____history_8;
+	// Fusion.SimulationSnapshot/Pool Fusion.Simulation::_historyPool
+	Pool_t94B36B5211F5726F27ECB87BBB65622E9352649F* ____historyPool_9;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_state
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____state_10;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_statePrevious
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____statePrevious_11;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_stateInterestGroups
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____stateInterestGroups_12;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_stateResume
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____stateResume_13;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_interpTo
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____interpTo_14;
+	// Fusion.SimulationSnapshot Fusion.Simulation::_interpFrom
+	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____interpFrom_15;
+	// System.Single Fusion.Simulation::_interpAlpha
+	float ____interpAlpha_16;
+	// Fusion.SimulationInput Fusion.Simulation::_inputRoot
+	SimulationInput_t746478ED3A35A9BD7DD598FAA9414FF9EE1EB3CE* ____inputRoot_17;
+	// Fusion.SimulationInput/Pool Fusion.Simulation::_inputPool
+	Pool_tEA343E0EEBD986713252B3966A8E562D1480C9C0* ____inputPool_18;
+	// Fusion.SimulationInputCollection Fusion.Simulation::_inputCollection
+	SimulationInputCollection_t2836F7376BF7A073028F01449B49284B878AD5D8* ____inputCollection_19;
+	// Fusion.Simulation/StateReplicator Fusion.Simulation::_stateReplicator
+	StateReplicator_tA9076DE3271C0C145077541D38DD5B71A3A90110* ____stateReplicator_20;
+	// Fusion.SimulationConnection[] Fusion.Simulation::_connections
+	SimulationConnectionU5BU5D_t62B2055039AACC0463162B9BC1E436D9971238FB* ____connections_21;
+	// Fusion.SimulationPlayer[] Fusion.Simulation::_players
+	SimulationPlayerU5BU5D_t75947032AD34E363BB465CCEE841C03561BD452F* ____players_22;
+	// Fusion.TickAccumulator Fusion.Simulation::_accumulator
+	TickAccumulator_tAFB103CC4EFFCB08B71BD5A49EB2D6AA987CD789 ____accumulator_23;
+	// System.Int32 Fusion.Simulation::_stepSize
+	int32_t ____stepSize_24;
+	// System.Single Fusion.Simulation::_stepDeltaFloat
+	float ____stepDeltaFloat_25;
+	// System.Double Fusion.Simulation::_stepDeltaDouble
+	double ____stepDeltaDouble_26;
+	// System.Double Fusion.Simulation::_updateTime
+	double ____updateTime_27;
+	// System.Double Fusion.Simulation::_updateDelta
+	double ____updateDelta_28;
+	// Fusion.Ema Fusion.Simulation::_updateDeltaAvg
+	Ema_tD4D8EAC1B50E83530F92DE762C4E000813D14631 ____updateDeltaAvg_29;
+	// System.Boolean Fusion.Simulation::_isLastTick
+	bool ____isLastTick_30;
+	// System.Boolean Fusion.Simulation::_isFirstTick
+	bool ____isFirstTick_31;
+	// System.Boolean Fusion.Simulation::_isResimulation
+	bool ____isResimulation_32;
+	// System.Boolean Fusion.Simulation::_isResume
+	bool ____isResume_33;
+	// System.Boolean Fusion.Simulation::_isInTick
+	bool ____isInTick_34;
+	// System.Nullable`1<System.Boolean> Fusion.Simulation::_isPaused
+	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isPaused_35;
+	// Fusion.Simulation/AreaOfInterest* Fusion.Simulation::_aoi
+	AreaOfInterest_tE699100A37FF049E8A8803A316471B57918E724D* ____aoi_36;
+	// System.Collections.Generic.Dictionary`2<Fusion.Tick,System.Double> Fusion.Simulation::_tickUpdateTimes
+	Dictionary_2_t2D47F24289EB49259EDF0EED6C7AD475E8F9D7F4* ____tickUpdateTimes_37;
+	// System.Collections.Generic.List`1<Fusion.NetworkId> Fusion.Simulation::_globalInterestObjects
+	List_1_t8673857563BA6C5F285B36C12CE318D403D7CE03* ____globalInterestObjects_38;
+	// System.Collections.Generic.HashSet`1<Fusion.NetworkId> Fusion.Simulation::_previous
+	HashSet_1_t2C926D07D7CF5EFCD14EBADD17D9A0C03399575C* ____previous_39;
+	// System.Collections.Generic.HashSet`1<Fusion.NetworkId> Fusion.Simulation::_current
+	HashSet_1_t2C926D07D7CF5EFCD14EBADD17D9A0C03399575C* ____current_40;
+	// Fusion.Sockets.INetSocket Fusion.Simulation::_netSocket
+	RuntimeObject* ____netSocket_43;
+	// Fusion.Sockets.NetPeer* Fusion.Simulation::_netPeer
+	NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1* ____netPeer_44;
+	// Fusion.Sockets.NetPeerGroup* Fusion.Simulation::_netPeerGroup
+	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____netPeerGroup_45;
+	// System.Random Fusion.Simulation::_netPeerRng
+	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ____netPeerRng_46;
+	// Fusion.Simulation/Statistics Fusion.Simulation::Stats
+	Statistics_tD1C23BFDBC0120C241A05AA7A3F61271076DBA89* ___Stats_47;
+};
+
+// Fusion.SimulationBehaviourAttribute
+struct SimulationBehaviourAttribute_t83A404BE3C1E294B666B4C288D1975067716C88B  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// Fusion.SimulationStages Fusion.SimulationBehaviourAttribute::<Stages>k__BackingField
+	int32_t ___U3CStagesU3Ek__BackingField_0;
+	// Fusion.SimulationModes Fusion.SimulationBehaviourAttribute::<Modes>k__BackingField
+	int32_t ___U3CModesU3Ek__BackingField_1;
+};
+
+// Fusion.SimulationConfig
+struct SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3  : public RuntimeObject
+{
+	// System.Int32 Fusion.SimulationConfig::InputDataWordCount
+	int32_t ___InputDataWordCount_0;
+	// System.Int32 Fusion.SimulationConfig::TickRate
+	int32_t ___TickRate_1;
+	// System.Int32 Fusion.SimulationConfig::MaxPrediction
+	int32_t ___MaxPrediction_2;
+	// System.Int32 Fusion.SimulationConfig::DefaultPlayers
+	int32_t ___DefaultPlayers_3;
+	// Fusion.SimulationConfig/StateReplicationModes Fusion.SimulationConfig::ReplicationMode
+	int32_t ___ReplicationMode_4;
+	// Fusion.SimulationConfig/Topologies Fusion.SimulationConfig::Topology
+	int32_t ___Topology_5;
+	// System.Boolean Fusion.SimulationConfig::HostMigration
+	bool ___HostMigration_6;
+	// System.Boolean Fusion.SimulationConfig::ObjectInterest
+	bool ___ObjectInterest_7;
+	// System.Boolean Fusion.SimulationConfig::SimulationCulling
+	bool ___SimulationCulling_8;
+	// System.Int32 Fusion.SimulationConfig::ServerPacketInterval
+	int32_t ___ServerPacketInterval_9;
+	// System.Int32 Fusion.SimulationConfig::ClientPacketInterval
+	int32_t ___ClientPacketInterval_10;
+};
+
+// Fusion.Sockets.Stun.StunResult
+struct StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E  : public RuntimeObject
+{
+	// Fusion.Sockets.Stun.NATType Fusion.Sockets.Stun.StunResult::NatType
+	uint8_t ___NatType_0;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.Stun.StunResult::<PublicEndPoint>k__BackingField
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CPublicEndPointU3Ek__BackingField_1;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.Stun.StunResult::<PrivateEndPoint>k__BackingField
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CPrivateEndPointU3Ek__BackingField_2;
+};
+
+struct StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E_StaticFields
+{
+	// Fusion.Sockets.Stun.StunResult Fusion.Sockets.Stun.StunResult::Invalid
+	StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E* ___Invalid_3;
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// Fusion.ToggleLeftAttribute
+struct ToggleLeftAttribute_tBE5320D893303C34F9F90B5DE224515A7BDC2E7F  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// Fusion.Photon.Realtime.TypedLobby
+struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933  : public RuntimeObject
+{
+	// System.String Fusion.Photon.Realtime.TypedLobby::Name
+	String_t* ___Name_0;
+	// Fusion.Photon.Realtime.LobbyType Fusion.Photon.Realtime.TypedLobby::Type
+	uint8_t ___Type_1;
+};
+
+struct TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933_StaticFields
+{
+	// Fusion.Photon.Realtime.TypedLobby Fusion.Photon.Realtime.TypedLobby::Default
+	TypedLobby_t750B6C219375FAA7C5A5A598A4E477F9F1B60933* ___Default_2;
+};
+
+// Fusion.UnitAttribute
+struct UnitAttribute_t70CC7432E643A853128DF62AB2DCDA575436BB7B  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// Fusion.Units Fusion.UnitAttribute::<Unit>k__BackingField
+	int32_t ___U3CUnitU3Ek__BackingField_1;
+	// System.Double Fusion.UnitAttribute::<Min>k__BackingField
+	double ___U3CMinU3Ek__BackingField_2;
+	// System.Double Fusion.UnitAttribute::<Max>k__BackingField
+	double ___U3CMaxU3Ek__BackingField_3;
+	// System.Int32 Fusion.UnitAttribute::DecimalPlaces
+	int32_t ___DecimalPlaces_4;
+	// System.Boolean Fusion.UnitAttribute::Clamp
+	bool ___Clamp_5;
+	// System.Boolean Fusion.UnitAttribute::UseInverse
+	bool ___UseInverse_6;
+	// System.String Fusion.UnitAttribute::InverseName
+	String_t* ___InverseName_7;
+	// Fusion.Units Fusion.UnitAttribute::InverseUnit
+	int32_t ___InverseUnit_8;
+	// System.Int32 Fusion.UnitAttribute::InverseDecimalPlaces
+	int32_t ___InverseDecimalPlaces_9;
+};
+
+// Fusion.UnityAssetGuidAttribute
+struct UnityAssetGuidAttribute_tED48F4A8DDB85C3E04F9D20E517583C67CE24804  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+};
+
+// Fusion.UnityResourcePathAttribute
+struct UnityResourcePathAttribute_t7EC20547A948A03DF73526731E5D1350DFD3BDCC  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.Type Fusion.UnityResourcePathAttribute::<ResourceType>k__BackingField
+	Type_t* ___U3CResourceTypeU3Ek__BackingField_1;
+};
+
+// Fusion.VersaMaskAttribute
+struct VersaMaskAttribute_t16A83918EFC31E1882D0CB021FDC40D241DF13B9  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
+{
+	// System.Boolean Fusion.VersaMaskAttribute::definesZero
+	bool ___definesZero_1;
+	// System.Type Fusion.VersaMaskAttribute::castTo
+	Type_t* ___castTo_2;
+	// System.Boolean Fusion.VersaMaskAttribute::AlwaysExpanded
+	bool ___AlwaysExpanded_3;
+	// System.Boolean Fusion.VersaMaskAttribute::ShowBitmask
+	bool ___ShowBitmask_4;
+};
+
+// Fusion.Allocator/Config
+struct Config_tD93749329F82395A7C811892F37A5A495112E36B 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int32 Fusion.Allocator/Config::BlockShift
+			int32_t ___BlockShift_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int32_t ___BlockShift_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___BlockCount_4_OffsetPadding[4];
+			// System.Int32 Fusion.Allocator/Config::BlockCount
+			int32_t ___BlockCount_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___BlockCount_4_OffsetPadding_forAlignmentOnly[4];
+			int32_t ___BlockCount_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___GlobalsSize_5_OffsetPadding[8];
+			// System.Int32 Fusion.Allocator/Config::GlobalsSize
+			int32_t ___GlobalsSize_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___GlobalsSize_5_OffsetPadding_forAlignmentOnly[8];
+			int32_t ___GlobalsSize_5_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.CloudServices/<ConfirmJoin>d__79
+struct U3CConfirmJoinU3Ed__79_t8BEA1E6CDD44F82A1E7507AC0E93DC1CB16ACAA7 
+{
+	// System.Int32 Fusion.CloudServices/<ConfirmJoin>d__79::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> Fusion.CloudServices/<ConfirmJoin>d__79::<>t__builder
+	AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA ___U3CU3Et__builder_1;
+	// Fusion.CloudServices Fusion.CloudServices/<ConfirmJoin>d__79::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.TaskAwaiter Fusion.CloudServices/<ConfirmJoin>d__79::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+};
+
+// Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75
+struct U3CHandleReflexiveInfoMessageU3Ed__75_tCB80F186BDA7EBF77D7E747C2318084908A7BEAB 
+{
+	// System.Int32 Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// Fusion.CloudServices Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
+	// Fusion.Protocol.ReflexiveInfo Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::reflexiveInfo
+	ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC* ___reflexiveInfo_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>u__1
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
+};
+
+// Fusion.CloudServices/<HandleStartMessage>d__72
+struct U3CHandleStartMessageU3Ed__72_t64CC6A73AE0E4D981FEC71381DEA67270FC796CF 
+{
+	// System.Int32 Fusion.CloudServices/<HandleStartMessage>d__72::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<HandleStartMessage>d__72::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// Fusion.CloudServices Fusion.CloudServices/<HandleStartMessage>d__72::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
+	// Fusion.Protocol.Start Fusion.CloudServices/<HandleStartMessage>d__72::start
+	Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF* ___start_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> Fusion.CloudServices/<HandleStartMessage>d__72::<>u__1
+	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
+	// Fusion.CloudServicesMetadata Fusion.CloudServices/<HandleStartMessage>d__72::<>7__wrap1
+	CloudServicesMetadata_t14D7AB08C976EC366D34A338D9D0714E2E1E0833* ___U3CU3E7__wrap1_5;
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Fusion.Sockets.Stun.StunResult> Fusion.CloudServices/<HandleStartMessage>d__72::<>u__2
+	ConfiguredTaskAwaiter_t5F0CC23881F741E9C8CFCD059FD1DF69CA118B1E ___U3CU3Eu__2_6;
+};
+
+// Fusion.CloudServices/<QueryReflexiveInfo>d__80
+struct U3CQueryReflexiveInfoU3Ed__80_tFFF78F001061A7F1467A1799DD08EF95809D3B13 
+{
+	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Fusion.Sockets.Stun.StunResult> Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>t__builder
+	AsyncTaskMethodBuilder_1_tC8C21C96FFD8D60E648997BA315DA039D916B663 ___U3CU3Et__builder_1;
+	// Fusion.CloudServices Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
+	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<publicAddr1>5__2
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CpublicAddr1U3E5__2_3;
+	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<publicAddr2>5__3
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CpublicAddr2U3E5__3_4;
+	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<localAddr>5__4
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3ClocalAddrU3E5__4_5;
+	// System.Net.Sockets.AddressFamily Fusion.CloudServices/<QueryReflexiveInfo>d__80::<family>5__5
+	int32_t ___U3CfamilyU3E5__5_6;
+	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<attemptDelay>5__6
+	int32_t ___U3CattemptDelayU3E5__6_7;
+	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<stunTimeout>5__7
+	int32_t ___U3CstunTimeoutU3E5__7_8;
+	// System.Guid Fusion.CloudServices/<QueryReflexiveInfo>d__80::<requestID>5__8
+	Guid_t ___U3CrequestIDU3E5__8_9;
+	// System.Diagnostics.Stopwatch Fusion.CloudServices/<QueryReflexiveInfo>d__80::<watch>5__9
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___U3CwatchU3E5__9_10;
+	// System.Diagnostics.Stopwatch Fusion.CloudServices/<QueryReflexiveInfo>d__80::<attemptWatch>5__10
+	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___U3CattemptWatchU3E5__10_11;
+	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>u__1
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1_12;
+	// System.Runtime.CompilerServices.TaskAwaiter Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>u__2
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_13;
+	// System.Boolean Fusion.CloudServices/<QueryReflexiveInfo>d__80::<validRequest>5__11
+	bool ___U3CvalidRequestU3E5__11_14;
+};
+
+// Fusion.CloudServices/<SendStateSnapshot>d__70
+struct U3CSendStateSnapshotU3Ed__70_tA1EE4A1A9CDE767B7628F932C8052D9D71CBD8D3 
+{
+	// System.Int32 Fusion.CloudServices/<SendStateSnapshot>d__70::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<SendStateSnapshot>d__70::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// Fusion.CloudServices Fusion.CloudServices/<SendStateSnapshot>d__70::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
+	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Fusion.CloudServices/<SendStateSnapshot>d__70::<>u__1
+	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`4<System.Int32,System.Int32,System.UInt32,System.Byte[]>> Fusion.CloudServices/<SendStateSnapshot>d__70::<>u__2
+	TaskAwaiter_1_t516A3701B5DBFEAEBC9731CBB080200D63371B81 ___U3CU3Eu__2_4;
+};
+
+// Fusion.CloudServices/<StartReversePing>d__82
+struct U3CStartReversePingU3Ed__82_t41B447DD8782CC777DC27E5D59CCB3A23349C68F 
+{
+	// System.Int32 Fusion.CloudServices/<StartReversePing>d__82::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<StartReversePing>d__82::<>t__builder
+	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
+	// Fusion.Sockets.NetAddress Fusion.CloudServices/<StartReversePing>d__82::remoteAddr
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___remoteAddr_2;
+	// Fusion.CloudServices Fusion.CloudServices/<StartReversePing>d__82::<>4__this
+	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_3;
+	// System.Threading.CancellationToken Fusion.CloudServices/<StartReversePing>d__82::cancellationToken
+	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken_4;
+	// System.Int32 Fusion.CloudServices/<StartReversePing>d__82::<i>5__2
+	int32_t ___U3CiU3E5__2_5;
+	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Fusion.CloudServices/<StartReversePing>d__82::<>u__1
+	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_6;
+};
+
+// Fusion.NetworkRunner/DeferredShutdownParams
+struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF 
+{
+	// System.Boolean Fusion.NetworkRunner/DeferredShutdownParams::ShutdownRequested
+	bool ___ShutdownRequested_0;
+	// Fusion.ShutdownReason Fusion.NetworkRunner/DeferredShutdownParams::ShutdownReason
+	int32_t ___ShutdownReason_1;
+	// System.Boolean Fusion.NetworkRunner/DeferredShutdownParams::DestroyGO
+	bool ___DestroyGO_2;
+};
+// Native definition for P/Invoke marshalling of Fusion.NetworkRunner/DeferredShutdownParams
+struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF_marshaled_pinvoke
+{
+	int32_t ___ShutdownRequested_0;
+	int32_t ___ShutdownReason_1;
+	int32_t ___DestroyGO_2;
+};
+// Native definition for COM marshalling of Fusion.NetworkRunner/DeferredShutdownParams
+struct DeferredShutdownParams_t3F598A811D32AD9AE4A814809263F7035376B9AF_marshaled_com
+{
+	int32_t ___ShutdownRequested_0;
+	int32_t ___ShutdownReason_1;
+	int32_t ___DestroyGO_2;
+};
+
+// System.Action`1<System.Exception>
+struct Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04  : public MulticastDelegate_t
+{
+};
+
+// System.Action`1<System.String>
+struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.Disconnect>
+struct Action_2_t4D61D7A9E2BF09A6366DE4EB6F0F274656C09683  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.HostMigration>
+struct Action_2_t93152F1868DB874ECC4BCCD748AFD57C4405ADF5  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.Join>
+struct Action_2_t9C16B7525813714DF764C5C414E8EE6B13E75966  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.NetworkConfigSync>
+struct Action_2_t3BC3A4522133213E1828EA1D1B37E1E80C427463  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.ReflexiveInfo>
+struct Action_2_t7EA63EF2E6F58046E38F49C25B2FCCE41A8CA438  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.Snapshot>
+struct Action_2_t2A27AFE330BC954BB4C91A6AF508A3038293D160  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.Start>
+struct Action_2_tA54547AC8782B257D20206CB07E7D67699FA9F1B  : public MulticastDelegate_t
+{
+};
+
+// System.Comparison`1<Fusion.RpcInvokeData>
+struct Comparison_1_t9D174B1572B59EBD8BBDDE05971BC40672BA572A  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionProperty>,System.Boolean>
+struct Func_2_t8CC9EC102ED47278789727E1A88E62AD49F65BCD  : public MulticastDelegate_t
+{
+};
+
+// System.Func`2<System.Boolean,System.Boolean>
+struct Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB  : public MulticastDelegate_t
+{
+};
+
+// System.Action
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
 };
 
 // Fusion.Allocator
@@ -4964,29 +6738,21 @@ struct Allocator_t4184B6C7C53A6059F1EBA19A30D551CDECA2F69C
 	};
 };
 
-// System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D 
+// System.ArgumentException
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-	// System.Threading.SynchronizationContext System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_synchronizationContext
-	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
-	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_coreState
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
-	// System.Threading.Tasks.Task System.Runtime.CompilerServices.AsyncVoidMethodBuilder::m_task
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
+	// System.String System.ArgumentException::_paramName
+	String_t* ____paramName_18;
 };
-// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_pinvoke
+
+// System.AsyncCallback
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
 {
-	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_pinvoke ___m_coreState_1;
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
 };
-// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncVoidMethodBuilder
-struct AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D_marshaled_com
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
 {
-	SynchronizationContext_tCDB842BBE53B050802CBBB59C6E6DC45B5B06DC0* ___m_synchronizationContext_0;
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF_marshaled_com ___m_coreState_1;
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_task_2;
 };
 
 // Fusion.BehaviourButtonActionAttribute
@@ -5008,217 +6774,54 @@ struct BehaviourWarnAttribute_tCFFF58DE59BBA96BEDCDFE9B722A144E962FE6F3  : publi
 	String_t* ___WarnText_3;
 };
 
-// Fusion.CastEnumAttribute
-struct CastEnumAttribute_tAF8C859C8B641A43D75EF9C9E745EAAC34175BF3  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
+// Fusion.Protocol.Disconnect
+struct Disconnect_tF830E9507E44FB232BF6A61F307CCDA678770BDC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
-	// System.String Fusion.CastEnumAttribute::GetTypeMethodName
-	String_t* ___GetTypeMethodName_1;
-	// System.Type Fusion.CastEnumAttribute::CastToType
-	Type_t* ___CastToType_2;
+	// Fusion.Protocol.DisconnectReason Fusion.Protocol.Disconnect::DisconnectReason
+	uint8_t ___DisconnectReason_5;
 };
 
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable
-struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C 
+// Fusion.DoIfAttribute
+struct DoIfAttribute_t5945D27D610DEB5B0DE2BE0B634BF5097F5B1C97  : public DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318
 {
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter System.Runtime.CompilerServices.ConfiguredTaskAwaitable::m_configuredTaskAwaiter
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___m_configuredTaskAwaiter_0;
-};
-// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
-struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_pinvoke
-{
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_pinvoke ___m_configuredTaskAwaiter_0;
-};
-// Native definition for COM marshalling of System.Runtime.CompilerServices.ConfiguredTaskAwaitable
-struct ConfiguredTaskAwaitable_tABE012B321A51A20F0D34F8122B9EAE3A054875C_marshaled_com
-{
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618_marshaled_com ___m_configuredTaskAwaiter_0;
+	// System.String Fusion.DoIfAttribute::ConditionMember
+	String_t* ___ConditionMember_2;
+	// System.Double Fusion.DoIfAttribute::CompareToValue
+	double ___CompareToValue_3;
+	// Fusion.DoIfCompareOperator Fusion.DoIfAttribute::Compare
+	int32_t ___Compare_4;
 };
 
-// System.Delegate
-struct Delegate_t  : public RuntimeObject
+// Fusion.Protocol.HostMigration
+struct HostMigration_t993547CB8CCEB0971E6050E36B4EFC675D156960  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
-	// System.IntPtr System.Delegate::method_ptr
-	Il2CppMethodPointer ___method_ptr_0;
-	// System.IntPtr System.Delegate::invoke_impl
-	intptr_t ___invoke_impl_1;
-	// System.Object System.Delegate::m_target
-	RuntimeObject* ___m_target_2;
-	// System.IntPtr System.Delegate::method
-	intptr_t ___method_3;
-	// System.IntPtr System.Delegate::delegate_trampoline
-	intptr_t ___delegate_trampoline_4;
-	// System.IntPtr System.Delegate::extra_arg
-	intptr_t ___extra_arg_5;
-	// System.IntPtr System.Delegate::method_code
-	intptr_t ___method_code_6;
-	// System.IntPtr System.Delegate::interp_method
-	intptr_t ___interp_method_7;
-	// System.IntPtr System.Delegate::interp_invoke_impl
-	intptr_t ___interp_invoke_impl_8;
-	// System.Reflection.MethodInfo System.Delegate::method_info
-	MethodInfo_t* ___method_info_9;
-	// System.Reflection.MethodInfo System.Delegate::original_method_info
-	MethodInfo_t* ___original_method_info_10;
-	// System.DelegateData System.Delegate::data
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	// System.Boolean System.Delegate::method_is_virtual
-	bool ___method_is_virtual_12;
-};
-// Native definition for P/Invoke marshalling of System.Delegate
-struct Delegate_t_marshaled_pinvoke
-{
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
-};
-// Native definition for COM marshalling of System.Delegate
-struct Delegate_t_marshaled_com
-{
-	intptr_t ___method_ptr_0;
-	intptr_t ___invoke_impl_1;
-	Il2CppIUnknown* ___m_target_2;
-	intptr_t ___method_3;
-	intptr_t ___delegate_trampoline_4;
-	intptr_t ___extra_arg_5;
-	intptr_t ___method_code_6;
-	intptr_t ___interp_method_7;
-	intptr_t ___interp_invoke_impl_8;
-	MethodInfo_t* ___method_info_9;
-	MethodInfo_t* ___original_method_info_10;
-	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
-	int32_t ___method_is_virtual_12;
+	// Fusion.Protocol.PeerMode Fusion.Protocol.HostMigration::PeerMode
+	uint8_t ___PeerMode_5;
 };
 
-// Fusion.Ema
-struct Ema_tD4D8EAC1B50E83530F92DE762C4E000813D14631 
+// Fusion.InlineHelpAttribute
+struct InlineHelpAttribute_t1C3784F862BEF720C7A79F403E7A48B60D04CE29  : public DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318
 {
-	// System.Int32 Fusion.Ema::_cnt
-	int32_t ____cnt_1;
-	// System.Double Fusion.Ema::_val
-	double ____val_2;
-	// System.Double Fusion.Ema::_var
-	double ____var_3;
-	// System.Double Fusion.Ema::_lst
-	double ____lst_4;
-	// Fusion.Ema/<_wnd>e__FixedBuffer Fusion.Ema::_wnd
-	U3C_wndU3Ee__FixedBuffer_tAF5BBD14D49AB6A8EF0281F0826CAFB09A2CDEBF ____wnd_5;
+	// Fusion.InlineHelpButtonPlacement Fusion.InlineHelpAttribute::ButtonPlacement
+	int32_t ___ButtonPlacement_3;
 };
 
-// System.Exception
-struct Exception_t  : public RuntimeObject
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
-	// System.String System.Exception::_className
-	String_t* ____className_1;
-	// System.String System.Exception::_message
-	String_t* ____message_2;
-	// System.Collections.IDictionary System.Exception::_data
-	RuntimeObject* ____data_3;
-	// System.Exception System.Exception::_innerException
-	Exception_t* ____innerException_4;
-	// System.String System.Exception::_helpURL
-	String_t* ____helpURL_5;
-	// System.Object System.Exception::_stackTrace
-	RuntimeObject* ____stackTrace_6;
-	// System.String System.Exception::_stackTraceString
-	String_t* ____stackTraceString_7;
-	// System.String System.Exception::_remoteStackTraceString
-	String_t* ____remoteStackTraceString_8;
-	// System.Int32 System.Exception::_remoteStackIndex
-	int32_t ____remoteStackIndex_9;
-	// System.Object System.Exception::_dynamicMethods
-	RuntimeObject* ____dynamicMethods_10;
-	// System.Int32 System.Exception::_HResult
-	int32_t ____HResult_11;
-	// System.String System.Exception::_source
-	String_t* ____source_12;
-	// System.Runtime.Serialization.SafeSerializationManager System.Exception::_safeSerializationManager
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	// System.Diagnostics.StackTrace[] System.Exception::captured_traces
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	// System.IntPtr[] System.Exception::native_trace_ips
-	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips_15;
-	// System.Int32 System.Exception::caught_in_unmanaged
-	int32_t ___caught_in_unmanaged_16;
 };
 
-struct Exception_t_StaticFields
+// Fusion.Protocol.Join
+struct Join_t4912387F3E002031619D27C75C15840E7AF3B87C  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
-	// System.Object System.Exception::s_EDILock
-	RuntimeObject* ___s_EDILock_0;
-};
-// Native definition for P/Invoke marshalling of System.Exception
-struct Exception_t_marshaled_pinvoke
-{
-	char* ____className_1;
-	char* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_pinvoke* ____innerException_4;
-	char* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	char* ____stackTraceString_7;
-	char* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	char* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
-};
-// Native definition for COM marshalling of System.Exception
-struct Exception_t_marshaled_com
-{
-	Il2CppChar* ____className_1;
-	Il2CppChar* ____message_2;
-	RuntimeObject* ____data_3;
-	Exception_t_marshaled_com* ____innerException_4;
-	Il2CppChar* ____helpURL_5;
-	Il2CppIUnknown* ____stackTrace_6;
-	Il2CppChar* ____stackTraceString_7;
-	Il2CppChar* ____remoteStackTraceString_8;
-	int32_t ____remoteStackIndex_9;
-	Il2CppIUnknown* ____dynamicMethods_10;
-	int32_t ____HResult_11;
-	Il2CppChar* ____source_12;
-	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager_13;
-	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces_14;
-	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
-	int32_t ___caught_in_unmanaged_16;
-};
-
-// Fusion.InterpolationData
-struct InterpolationData_t3CBF1D5890B9A39D2B867A5BCC7905A183ABB153 
-{
-	// System.Int32* Fusion.InterpolationData::From
-	int32_t* ___From_0;
-	// Fusion.Tick Fusion.InterpolationData::FromTick
-	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___FromTick_1;
-	// System.Int32* Fusion.InterpolationData::To
-	int32_t* ___To_2;
-	// Fusion.Tick Fusion.InterpolationData::ToTick
-	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___ToTick_3;
-	// System.Single Fusion.InterpolationData::Alpha
-	float ___Alpha_4;
-};
-
-// Unity.Jobs.JobHandle
-struct JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 
-{
-	// System.IntPtr Unity.Jobs.JobHandle::jobGroup
-	intptr_t ___jobGroup_0;
-	// System.Int32 Unity.Jobs.JobHandle::version
-	int32_t ___version_1;
+	// Fusion.Protocol.JoinMessageType Fusion.Protocol.Join::Type
+	uint8_t ___Type_5;
+	// Fusion.Protocol.PluginGameMode Fusion.Protocol.Join::GameMode
+	uint8_t ___GameMode_6;
+	// Fusion.Protocol.PeerMode Fusion.Protocol.Join::PeerMode
+	uint8_t ___PeerMode_7;
+	// Fusion.Protocol.JoinRequests Fusion.Protocol.Join::JoinRequests
+	uint32_t ___JoinRequests_8;
 };
 
 // Fusion.Photon.Realtime.LoadBalancingClient
@@ -5332,88 +6935,6 @@ struct LoadBalancingClient_t6C87C8E5C7B7B26F6F3944AD36E3A0C8D6D42BAA_StaticField
 	Dictionary_2_tCA6FC027A4EAE9285D2860309E61DB2B271D9A80* ___ProtocolToNameServerPort_11;
 };
 
-// System.Reflection.MethodInfo
-struct MethodInfo_t  : public MethodBase_t
-{
-};
-
-// Fusion.Sockets.NetAddress
-struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// NanoSockets.Address Fusion.Sockets.NetAddress::NativeAddress
-			Address_t0C64043894DC43092287210A04CAD369B08FDBF3 ___NativeAddress_0;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Address_t0C64043894DC43092287210A04CAD369B08FDBF3 ___NativeAddress_0_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.UInt64 Fusion.Sockets.NetAddress::Block0
-			uint64_t ___Block0_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			uint64_t ___Block0_1_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Block1_2_OffsetPadding[8];
-			// System.UInt64 Fusion.Sockets.NetAddress::Block1
-			uint64_t ___Block1_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Block1_2_OffsetPadding_forAlignmentOnly[8];
-			uint64_t ___Block1_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Block2_3_OffsetPadding[16];
-			// System.UInt64 Fusion.Sockets.NetAddress::Block2
-			uint64_t ___Block2_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Block2_3_OffsetPadding_forAlignmentOnly[16];
-			uint64_t ___Block2_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ____actorId_4_OffsetPadding[20];
-			// System.Int32 Fusion.Sockets.NetAddress::_actorId
-			int32_t ____actorId_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ____actorId_4_OffsetPadding_forAlignmentOnly[20];
-			int32_t ____actorId_4_forAlignmentOnly;
-		};
-	};
-};
-
-struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678_StaticFields
-{
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetAddress::AnyIPv4Addr
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___AnyIPv4Addr_5;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetAddress::AnyIPv6Addr
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___AnyIPv6Addr_6;
-};
-
 // Fusion.Sockets.NetConfigSimulation
 struct NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 
 {
@@ -5429,1244 +6950,13 @@ struct NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7
 	double ___DuplicateChance_4;
 };
 
-// Fusion.Sockets.NetSocket
-struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int64 Fusion.Sockets.NetSocket::Handle
-			int64_t ___Handle_0;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int64_t ___Handle_0_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// NanoSockets.Socket Fusion.Sockets.NetSocket::NativeSocket
-			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.NetworkBehaviourId
-struct NetworkBehaviourId_tB7569FC690A65B12D926BA5ECF5F04D0C5A4E0D3 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.NetworkId Fusion.NetworkBehaviourId::Object
-			NetworkId_t55BD78F35465C7B51581907AC1DB01F8568237F2 ___Object_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			NetworkId_t55BD78F35465C7B51581907AC1DB01F8568237F2 ___Object_1_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Behaviour_2_OffsetPadding[4];
-			// System.Int32 Fusion.NetworkBehaviourId::Behaviour
-			int32_t ___Behaviour_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Behaviour_2_OffsetPadding_forAlignmentOnly[4];
-			int32_t ___Behaviour_2_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.NetworkObjectGuid
-struct NetworkObjectGuid_t99EAC957EE861D66626645313D35A1F49AF134B4 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.NetworkObjectGuid/<RawGuidValue>e__FixedBuffer Fusion.NetworkObjectGuid::RawGuidValue
-			U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2F ___RawGuidValue_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			U3CRawGuidValueU3Ee__FixedBuffer_t048BC06BF094CC07E5C83A903FE344CCF482DD2F ___RawGuidValue_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int64 Fusion.NetworkObjectGuid::_data0
-			int64_t ____data0_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int64_t ____data0_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ____data1_4_OffsetPadding[8];
-			// System.Int64 Fusion.NetworkObjectGuid::_data1
-			int64_t ____data1_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ____data1_4_OffsetPadding_forAlignmentOnly[8];
-			int64_t ____data1_4_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.NormalizedRectAttribute
-struct NormalizedRectAttribute_t0F39203C2EE4DECA9E5769C2191A745D4C1972D8  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
-{
-	// System.Boolean Fusion.NormalizedRectAttribute::InvertY
-	bool ___InvertY_1;
-	// System.Single Fusion.NormalizedRectAttribute::AspectRatio
-	float ___AspectRatio_2;
-};
-
-// UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
-{
-	// System.IntPtr UnityEngine.Object::m_CachedPtr
-	intptr_t ___m_CachedPtr_0;
-};
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
-// Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
-{
-	intptr_t ___m_CachedPtr_0;
-};
-// Native definition for COM marshalling of UnityEngine.Object
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
-{
-	intptr_t ___m_CachedPtr_0;
-};
-
-// Fusion.OrderAfterAttribute
-struct OrderAfterAttribute_tF651B1A3AFA47C3BD106927FDA7E301DB48E2802  : public OrderAttribute_t5EAF8FC2468F944498EF73436CC079E4523127FA
-{
-	// System.Type[] Fusion.OrderAfterAttribute::<After>k__BackingField
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___U3CAfterU3Ek__BackingField_0;
-};
-
-// Fusion.OrderBeforeAttribute
-struct OrderBeforeAttribute_tC219D84D1404E87DA26183214B22C740119AB147  : public OrderAttribute_t5EAF8FC2468F944498EF73436CC079E4523127FA
-{
-	// System.Type[] Fusion.OrderBeforeAttribute::<Before>k__BackingField
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___U3CBeforeU3Ek__BackingField_0;
-};
-
-// Fusion.OrderNode
-struct OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948  : public RuntimeObject
-{
-	// System.Type Fusion.OrderNode::Type
-	Type_t* ___Type_2;
-	// Fusion.OrderNode Fusion.OrderNode::Prev
-	OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948* ___Prev_3;
-	// Fusion.OrderNode Fusion.OrderNode::Next
-	OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948* ___Next_4;
-	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::Before
-	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___Before_5;
-	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::After
-	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___After_6;
-	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::OrigBefore
-	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___OrigBefore_7;
-	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::OrigAfter
-	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___OrigAfter_8;
-	// System.ValueTuple`2<Fusion.SimulationModes,Fusion.SimulationStages> Fusion.OrderNode::SimFlags
-	ValueTuple_2_tBD95C30B265D22C273E01800BFE8A0AC514FCE47 ___SimFlags_9;
-	// System.Boolean Fusion.OrderNode::IsDefaultOrder
-	bool ___IsDefaultOrder_10;
-	// System.Boolean Fusion.OrderNode::FoundBefores
-	bool ___FoundBefores_11;
-	// System.Boolean Fusion.OrderNode::FoundAfters
-	bool ___FoundAfters_12;
-};
-
-// Fusion.PropertyAttribute
-struct PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F  : public PropertyAttribute_t5E0CB5A6CDA6E24CBD4FF26DE3B0C29D8BB54BF0
-{
-};
-
-// System.RuntimeFieldHandle
-struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
-{
-	// System.IntPtr System.RuntimeFieldHandle::value
-	intptr_t ___value_0;
-};
-
-// System.RuntimeTypeHandle
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	// System.IntPtr System.RuntimeTypeHandle::value
-	intptr_t ___value_0;
-};
-
-// Fusion.SimulationMessage
-struct SimulationMessage_t741F8FBD24BEECD63F62791520B0C4EB9C1D101C 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int32 Fusion.SimulationMessage::Tick
-			int32_t ___Tick_13;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int32_t ___Tick_13_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Source_14_OffsetPadding[4];
-			// Fusion.PlayerRef Fusion.SimulationMessage::Source
-			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Source_14;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Source_14_OffsetPadding_forAlignmentOnly[4];
-			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Source_14_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Capacity_15_OffsetPadding[8];
-			// System.Int32 Fusion.SimulationMessage::Capacity
-			int32_t ___Capacity_15;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Capacity_15_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___Capacity_15_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Offset_16_OffsetPadding[12];
-			// System.Int32 Fusion.SimulationMessage::Offset
-			int32_t ___Offset_16;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Offset_16_OffsetPadding_forAlignmentOnly[12];
-			int32_t ___Offset_16_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___References_17_OffsetPadding[16];
-			// System.Int32 Fusion.SimulationMessage::References
-			int32_t ___References_17;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___References_17_OffsetPadding_forAlignmentOnly[16];
-			int32_t ___References_17_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Flags_18_OffsetPadding[20];
-			// System.Int32 Fusion.SimulationMessage::Flags
-			int32_t ___Flags_18;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Flags_18_OffsetPadding_forAlignmentOnly[20];
-			int32_t ___Flags_18_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Target_19_OffsetPadding[24];
-			// Fusion.PlayerRef Fusion.SimulationMessage::Target
-			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Target_19;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Target_19_OffsetPadding_forAlignmentOnly[24];
-			PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___Target_19_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.Allocator/Block
-struct Block_tC13A3BA186FDDB0FE683D9BAF4CC147107E30F76 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Ptr Fusion.Allocator/Block::Prev
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Prev_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Prev_1_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Next_2_OffsetPadding[4];
-			// Fusion.Ptr Fusion.Allocator/Block::Next
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Next_2_OffsetPadding_forAlignmentOnly[4];
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Bucket_3_OffsetPadding[8];
-			// System.Int32 Fusion.Allocator/Block::Bucket
-			int32_t ___Bucket_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Bucket_3_OffsetPadding_forAlignmentOnly[8];
-			int32_t ___Bucket_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___SegmentsFree_4_OffsetPadding[12];
-			// Fusion.Ptr Fusion.Allocator/Block::SegmentsFree
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___SegmentsFree_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___SegmentsFree_4_OffsetPadding_forAlignmentOnly[12];
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___SegmentsFree_4_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___SegmentsUsed_5_OffsetPadding[16];
-			// System.Int32 Fusion.Allocator/Block::SegmentsUsed
-			int32_t ___SegmentsUsed_5;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___SegmentsUsed_5_OffsetPadding_forAlignmentOnly[16];
-			int32_t ___SegmentsUsed_5_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___SegmentsAllocated_6_OffsetPadding[20];
-			// System.Int32 Fusion.Allocator/Block::SegmentsAllocated
-			int32_t ___SegmentsAllocated_6;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___SegmentsAllocated_6_OffsetPadding_forAlignmentOnly[20];
-			int32_t ___SegmentsAllocated_6_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Index_7_OffsetPadding[24];
-			// System.Int32 Fusion.Allocator/Block::Index
-			int32_t ___Index_7;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Index_7_OffsetPadding_forAlignmentOnly[24];
-			int32_t ___Index_7_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.Allocator/BlockList
-struct BlockList_tD7B643714DB21318AEB314838CBFAD46C1E442D4 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Ptr Fusion.Allocator/BlockList::Head
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Head_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Head_1_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Tail_2_OffsetPadding[4];
-			// Fusion.Ptr Fusion.Allocator/BlockList::Tail
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Tail_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Tail_2_OffsetPadding_forAlignmentOnly[4];
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Tail_2_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.Allocator/Segment
-struct Segment_tA081E46E22F53CE1DF0530683678DD9CBD5289DE 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Ptr Fusion.Allocator/Segment::Next
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F ___Next_1_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.NetworkObject/PredictionData
-struct PredictionData_tAB7F59FFE9B92C0D64188C2D2BB591CC45173403 
-{
-	// Fusion.Tick Fusion.NetworkObject/PredictionData::Tick
-	Tick_t57D39A4600C22C5C14D12A0C565FEB34404FD02F ___Tick_0;
-	// Fusion.NetworkPrefabId Fusion.NetworkObject/PredictionData::Prefab
-	NetworkPrefabId_tD353189021ABA05E620EE2F0BE67171A8C6F7AC9 ___Prefab_1;
-	// Fusion.NetworkObjectPredictionKey Fusion.NetworkObject/PredictionData::Key
-	NetworkObjectPredictionKey_tBF0A538EE9240A4AB5D149BC21F8B174181D8E9A ___Key_2;
-};
-
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Fusion.Sockets.NetAddress>
-struct KeyValuePair_2_t3838EEAE64E91BC8F8DEFCBDC5A49EB258BD5A29 
-{
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___value_1;
-};
-
-// System.Nullable`1<Unity.Jobs.JobHandle>
-struct Nullable_1_t2153F26F688901E0795BA65DEA582FDC46AB9489 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 ___value_1;
-};
-
-// System.Nullable`1<Fusion.Sockets.NetAddress>
-struct Nullable_1_tD1B18268713E055EC19B121D7B98FE5BC16D60B9 
-{
-	// System.Boolean System.Nullable`1::hasValue
-	bool ___hasValue_0;
-	// T System.Nullable`1::value
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___value_1;
-};
-
-// Fusion.AssemblyNameAttribute
-struct AssemblyNameAttribute_t802083D9E8BFF679D4BBD17A96EE842AEFA5F504  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 
-{
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::m_builder
-	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
-};
-
-struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_StaticFields
-{
-	// System.Threading.Tasks.Task`1<System.Threading.Tasks.VoidTaskResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder::s_cachedCompleted
-	Task_1_tE41CFF640EB7C045550D9D0D92BE67533B084C17* ___s_cachedCompleted_0;
-};
-// Native definition for P/Invoke marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_pinvoke
-{
-	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
-};
-// Native definition for COM marshalling of System.Runtime.CompilerServices.AsyncTaskMethodBuilder
-struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshaled_com
-{
-	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
-};
-
-// UnityEngine.Component
-struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-
-// Fusion.DecoratingPropertyAttribute
-struct DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.DefaultForPropertyAttribute
-struct DefaultForPropertyAttribute_t37528865004D772A166D004AC3BDB82358F27867  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.String Fusion.DefaultForPropertyAttribute::<PropertyName>k__BackingField
-	String_t* ___U3CPropertyNameU3Ek__BackingField_1;
-	// System.Int32 Fusion.DefaultForPropertyAttribute::<WordOffset>k__BackingField
-	int32_t ___U3CWordOffsetU3Ek__BackingField_2;
-	// System.Int32 Fusion.DefaultForPropertyAttribute::<WordCount>k__BackingField
-	int32_t ___U3CWordCountU3Ek__BackingField_3;
-};
-
-// Fusion.EditorDisabledAttribute
-struct EditorDisabledAttribute_t60457B5E0DAAE9A2A02B69436632796223E7AD08  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.Boolean Fusion.EditorDisabledAttribute::HideInRelease
-	bool ___HideInRelease_1;
-};
-
-// Fusion.EnumMaskAttribute
-struct EnumMaskAttribute_t7D010BFCFCF80D1F990FBF882A7BB849F9483514  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.Boolean Fusion.EnumMaskAttribute::definesZero
-	bool ___definesZero_1;
-	// System.Type Fusion.EnumMaskAttribute::castTo
-	Type_t* ___castTo_2;
-};
-
-// Fusion.FixedBufferPropertyAttribute
-struct FixedBufferPropertyAttribute_t56CD351DCDE8EE79DA41D050F0283996ED53BE83  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.Type Fusion.FixedBufferPropertyAttribute::<Type>k__BackingField
-	Type_t* ___U3CTypeU3Ek__BackingField_1;
-	// System.Type Fusion.FixedBufferPropertyAttribute::<SurrogateType>k__BackingField
-	Type_t* ___U3CSurrogateTypeU3Ek__BackingField_2;
-	// System.Int32 Fusion.FixedBufferPropertyAttribute::<Capacity>k__BackingField
-	int32_t ___U3CCapacityU3Ek__BackingField_3;
-};
-
-// Fusion.Photon.Realtime.FusionRelayClient
-struct FusionRelayClient_tF4E4806C8E0A4E90508E047E04159B42AF50EA14  : public LoadBalancingClient_t6C87C8E5C7B7B26F6F3944AD36E3A0C8D6D42BAA
-{
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Photon.Realtime.FusionRelayClient::_ackSent
-	bool ____ackSent_54;
-	// System.Byte modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Photon.Realtime.FusionRelayClient::_fallbackThreadId
-	uint8_t ____fallbackThreadId_55;
-	// System.Action Fusion.Photon.Realtime.FusionRelayClient::OnRoomChanged
-	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnRoomChanged_59;
-	// Fusion.Photon.Realtime.RaiseEventOptions Fusion.Photon.Realtime.FusionRelayClient::_raiseEventOptions
-	RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643* ____raiseEventOptions_60;
-	// ExitGames.Client.Photon.SendOptions Fusion.Photon.Realtime.FusionRelayClient::_optionsUnreliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ____optionsUnreliable_61;
-	// ExitGames.Client.Photon.SendOptions Fusion.Photon.Realtime.FusionRelayClient::_optionsReliable
-	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ____optionsReliable_62;
-	// Fusion.Protocol.ICommunicator Fusion.Photon.Realtime.FusionRelayClient::_communicator
-	RuntimeObject* ____communicator_63;
-};
-
-// Fusion.InlineEditorAttribute
-struct InlineEditorAttribute_t87C84CB18FB0C977B8BD864A8D700F7B77A56598  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.KeyValuePairAttribute
-struct KeyValuePairAttribute_t48DDDBFBE3D22743AEA54B512AA6943C70336FD6  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.MultiPropertyDrawersFixAttribute
-struct MultiPropertyDrawersFixAttribute_t528AE19F90CF7123EAD92681756861BFF7628E3C  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// System.MulticastDelegate
-struct MulticastDelegate_t  : public Delegate_t
-{
-	// System.Delegate[] System.MulticastDelegate::delegates
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
-};
-// Native definition for P/Invoke marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates_13;
-};
-// Native definition for COM marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates_13;
-};
-
-// Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2 
-{
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetBitBuffer::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::Mtu
-	int32_t ___Mtu_6;
-	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Prev
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Next
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetBitBuffer::Block
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_group
-	int32_t ____group_10;
-	// System.UInt64* Fusion.Sockets.NetBitBuffer::_dataBlockOriginal
-	uint64_t* ____dataBlockOriginal_11;
-	// System.UInt64* Fusion.Sockets.NetBitBuffer::_data
-	uint64_t* ____data_12;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_offsetBits
-	int32_t ____offsetBits_13;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBits
-	int32_t ____lengthBits_14;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBytes
-	int32_t ____lengthBytes_15;
-};
-// Native definition for P/Invoke marshalling of Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_pinvoke
-{
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	int32_t ___Mtu_6;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	int32_t ____group_10;
-	uint64_t* ____dataBlockOriginal_11;
-	uint64_t* ____data_12;
-	int32_t ____offsetBits_13;
-	int32_t ____lengthBits_14;
-	int32_t ____lengthBytes_15;
-};
-// Native definition for COM marshalling of Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_com
-{
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	int32_t ___Mtu_6;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	int32_t ____group_10;
-	uint64_t* ____dataBlockOriginal_11;
-	uint64_t* ____data_12;
-	int32_t ____offsetBits_13;
-	int32_t ____lengthBits_14;
-	int32_t ____lengthBytes_15;
-};
-
-// Fusion.Sockets.NetConfig
-struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
-{
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
-	int32_t ___ConnectionSendBuffers_0;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
-	int32_t ___ConnectionGroups_1;
-	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
-	int32_t ___MaxConnections_2;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
-	int32_t ___SocketSendBuffer_3;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
-	int32_t ___SocketRecvBuffer_4;
-	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
-	int32_t ___DefaultMtu_5;
-	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
-	int32_t ___PacketSize_6;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
-	int32_t ___ConnectAttempts_7;
-	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
-	double ___ConnectInterval_8;
-	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
-	double ___OperationExpireTime_9;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
-	double ___ConnectionDefaultRtt_10;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
-	double ___ConnectionTimeout_11;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
-	double ___ConnectionPingInterval_12;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
-	double ___ConnectionShutdownTime_13;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
-	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
-	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
-	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
-	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
-};
-
-// Fusion.NetworkPrefabAttribute
-struct NetworkPrefabAttribute_tEC8D1EB65A6FF8E350FDF8B03DF99AE070815A08  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.Pow2SliderAttribute
-struct Pow2SliderAttribute_tAAF68A71A33ECA08E54A6AB056EE8A4CDFB78412  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// Fusion.Units Fusion.Pow2SliderAttribute::Unit
-	int32_t ___Unit_1;
-	// System.Int32 Fusion.Pow2SliderAttribute::MinPower
-	int32_t ___MinPower_2;
-	// System.Int32 Fusion.Pow2SliderAttribute::MaxPower
-	int32_t ___MaxPower_3;
-	// System.Boolean Fusion.Pow2SliderAttribute::AllowZero
-	bool ___AllowZero_4;
-};
-
-// Fusion.Protocol.ReflexiveInfo
-struct ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// System.Int32 Fusion.Protocol.ReflexiveInfo::ActorNr
-	int32_t ___ActorNr_5;
-	// Fusion.Sockets.NetAddress Fusion.Protocol.ReflexiveInfo::PublicAddr
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___PublicAddr_6;
-	// Fusion.Sockets.NetAddress Fusion.Protocol.ReflexiveInfo::PrivateAddr
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___PrivateAddr_7;
-	// Fusion.Sockets.Stun.NATType Fusion.Protocol.ReflexiveInfo::NatType
-	uint8_t ___NatType_8;
-};
-
-// Fusion.ResolveNetworkPrefabSourceUnityAttribute
-struct ResolveNetworkPrefabSourceUnityAttribute_t20D3F3A392BED19DBA9115FAC01234ED33459019  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.ScenePathAttribute
-struct ScenePathAttribute_tFEA558D37F5A4D6C45A7013F15CAE616A9288561  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// UnityEngine.ScriptableObject
-struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
-{
-};
-// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
-{
-};
-// Native definition for COM marshalling of UnityEngine.ScriptableObject
-struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
-{
-};
-
-// Fusion.Simulation
-struct Simulation_t1D52B02F9D931E87FAEB15A3EE8B13ED014DB584  : public RuntimeObject
-{
-	// System.Boolean Fusion.Simulation::_isShutdown
-	bool ____isShutdown_0;
-	// Fusion.Allocator* Fusion.Simulation::_tempAllocator
-	Allocator_t4184B6C7C53A6059F1EBA19A30D551CDECA2F69C* ____tempAllocator_1;
-	// Fusion.Simulation/ICallbacks Fusion.Simulation::_callbacks
-	RuntimeObject* ____callbacks_2;
-	// Fusion.Simulation/IDeltaCompressor Fusion.Simulation::_deltaCompressor
-	RuntimeObject* ____deltaCompressor_3;
-	// Fusion.SimulationModes Fusion.Simulation::_mode
-	int32_t ____mode_4;
-	// Fusion.SimulationStages Fusion.Simulation::_stage
-	int32_t ____stage_5;
-	// Fusion.SimulationConfig Fusion.Simulation::_config
-	SimulationConfig_t9B4FF44B2A934AD687A176AE7350E397471BF4C3* ____config_6;
-	// Fusion.NetworkProjectConfig Fusion.Simulation::_projectConfig
-	NetworkProjectConfig_t0D1807A7DE80BB18A606CEF45A35BFA1C29D8BBF* ____projectConfig_7;
-	// Fusion.SimulationSnapshot/IHistory Fusion.Simulation::_history
-	RuntimeObject* ____history_8;
-	// Fusion.SimulationSnapshot/Pool Fusion.Simulation::_historyPool
-	Pool_t94B36B5211F5726F27ECB87BBB65622E9352649F* ____historyPool_9;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_state
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____state_10;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_statePrevious
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____statePrevious_11;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_stateInterestGroups
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____stateInterestGroups_12;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_stateResume
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____stateResume_13;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_interpTo
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____interpTo_14;
-	// Fusion.SimulationSnapshot Fusion.Simulation::_interpFrom
-	SimulationSnapshot_t19EBA8AF42F9C01C59AB11FD4535CFA83C0CFFF5* ____interpFrom_15;
-	// System.Single Fusion.Simulation::_interpAlpha
-	float ____interpAlpha_16;
-	// Fusion.SimulationInput Fusion.Simulation::_inputRoot
-	SimulationInput_t746478ED3A35A9BD7DD598FAA9414FF9EE1EB3CE* ____inputRoot_17;
-	// Fusion.SimulationInput/Pool Fusion.Simulation::_inputPool
-	Pool_tEA343E0EEBD986713252B3966A8E562D1480C9C0* ____inputPool_18;
-	// Fusion.SimulationInputCollection Fusion.Simulation::_inputCollection
-	SimulationInputCollection_t2836F7376BF7A073028F01449B49284B878AD5D8* ____inputCollection_19;
-	// Fusion.Simulation/StateReplicator Fusion.Simulation::_stateReplicator
-	StateReplicator_tA9076DE3271C0C145077541D38DD5B71A3A90110* ____stateReplicator_20;
-	// Fusion.SimulationConnection[] Fusion.Simulation::_connections
-	SimulationConnectionU5BU5D_t62B2055039AACC0463162B9BC1E436D9971238FB* ____connections_21;
-	// Fusion.SimulationPlayer[] Fusion.Simulation::_players
-	SimulationPlayerU5BU5D_t75947032AD34E363BB465CCEE841C03561BD452F* ____players_22;
-	// Fusion.TickAccumulator Fusion.Simulation::_accumulator
-	TickAccumulator_tAFB103CC4EFFCB08B71BD5A49EB2D6AA987CD789 ____accumulator_23;
-	// System.Int32 Fusion.Simulation::_stepSize
-	int32_t ____stepSize_24;
-	// System.Single Fusion.Simulation::_stepDeltaFloat
-	float ____stepDeltaFloat_25;
-	// System.Double Fusion.Simulation::_stepDeltaDouble
-	double ____stepDeltaDouble_26;
-	// System.Double Fusion.Simulation::_updateTime
-	double ____updateTime_27;
-	// System.Double Fusion.Simulation::_updateDelta
-	double ____updateDelta_28;
-	// Fusion.Ema Fusion.Simulation::_updateDeltaAvg
-	Ema_tD4D8EAC1B50E83530F92DE762C4E000813D14631 ____updateDeltaAvg_29;
-	// System.Boolean Fusion.Simulation::_isLastTick
-	bool ____isLastTick_30;
-	// System.Boolean Fusion.Simulation::_isFirstTick
-	bool ____isFirstTick_31;
-	// System.Boolean Fusion.Simulation::_isResimulation
-	bool ____isResimulation_32;
-	// System.Boolean Fusion.Simulation::_isResume
-	bool ____isResume_33;
-	// System.Boolean Fusion.Simulation::_isInTick
-	bool ____isInTick_34;
-	// System.Nullable`1<System.Boolean> Fusion.Simulation::_isPaused
-	Nullable_1_t78F453FADB4A9F50F267A4E349019C34410D1A01 ____isPaused_35;
-	// Fusion.Simulation/AreaOfInterest* Fusion.Simulation::_aoi
-	AreaOfInterest_tE699100A37FF049E8A8803A316471B57918E724D* ____aoi_36;
-	// System.Collections.Generic.Dictionary`2<Fusion.Tick,System.Double> Fusion.Simulation::_tickUpdateTimes
-	Dictionary_2_t2D47F24289EB49259EDF0EED6C7AD475E8F9D7F4* ____tickUpdateTimes_37;
-	// System.Collections.Generic.List`1<Fusion.NetworkId> Fusion.Simulation::_globalInterestObjects
-	List_1_t8673857563BA6C5F285B36C12CE318D403D7CE03* ____globalInterestObjects_38;
-	// System.Collections.Generic.HashSet`1<Fusion.NetworkId> Fusion.Simulation::_previous
-	HashSet_1_t2C926D07D7CF5EFCD14EBADD17D9A0C03399575C* ____previous_39;
-	// System.Collections.Generic.HashSet`1<Fusion.NetworkId> Fusion.Simulation::_current
-	HashSet_1_t2C926D07D7CF5EFCD14EBADD17D9A0C03399575C* ____current_40;
-	// Fusion.Sockets.INetSocket Fusion.Simulation::_netSocket
-	RuntimeObject* ____netSocket_43;
-	// Fusion.Sockets.NetPeer* Fusion.Simulation::_netPeer
-	NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1* ____netPeer_44;
-	// Fusion.Sockets.NetPeerGroup* Fusion.Simulation::_netPeerGroup
-	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____netPeerGroup_45;
-	// System.Random Fusion.Simulation::_netPeerRng
-	Random_t79716069EDE67D1D7734F60AE402D0CA3FB6B4C8* ____netPeerRng_46;
-	// Fusion.Simulation/Statistics Fusion.Simulation::Stats
-	Statistics_tD1C23BFDBC0120C241A05AA7A3F61271076DBA89* ___Stats_47;
-};
-
-// Fusion.Sockets.Stun.StunResult
-struct StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E  : public RuntimeObject
-{
-	// Fusion.Sockets.Stun.NATType Fusion.Sockets.Stun.StunResult::NatType
-	uint8_t ___NatType_0;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.Stun.StunResult::<PublicEndPoint>k__BackingField
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CPublicEndPointU3Ek__BackingField_1;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.Stun.StunResult::<PrivateEndPoint>k__BackingField
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CPrivateEndPointU3Ek__BackingField_2;
-};
-
-struct StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E_StaticFields
-{
-	// Fusion.Sockets.Stun.StunResult Fusion.Sockets.Stun.StunResult::Invalid
-	StunResult_tCB3A8282A0E5A35FDF809A1843C553FD07660B8E* ___Invalid_3;
-};
-
-// System.SystemException
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
-{
-};
-
-// Fusion.ToggleLeftAttribute
-struct ToggleLeftAttribute_tBE5320D893303C34F9F90B5DE224515A7BDC2E7F  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// System.Type
-struct Type_t  : public MemberInfo_t
-{
-	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
-};
-
-struct Type_t_StaticFields
-{
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
-};
-
-// Fusion.UnitAttribute
-struct UnitAttribute_t70CC7432E643A853128DF62AB2DCDA575436BB7B  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// Fusion.Units Fusion.UnitAttribute::<Unit>k__BackingField
-	int32_t ___U3CUnitU3Ek__BackingField_1;
-	// System.Double Fusion.UnitAttribute::<Min>k__BackingField
-	double ___U3CMinU3Ek__BackingField_2;
-	// System.Double Fusion.UnitAttribute::<Max>k__BackingField
-	double ___U3CMaxU3Ek__BackingField_3;
-	// System.Int32 Fusion.UnitAttribute::DecimalPlaces
-	int32_t ___DecimalPlaces_4;
-	// System.Boolean Fusion.UnitAttribute::Clamp
-	bool ___Clamp_5;
-	// System.Boolean Fusion.UnitAttribute::UseInverse
-	bool ___UseInverse_6;
-	// System.String Fusion.UnitAttribute::InverseName
-	String_t* ___InverseName_7;
-	// Fusion.Units Fusion.UnitAttribute::InverseUnit
-	int32_t ___InverseUnit_8;
-	// System.Int32 Fusion.UnitAttribute::InverseDecimalPlaces
-	int32_t ___InverseDecimalPlaces_9;
-};
-
-// Fusion.UnityAssetGuidAttribute
-struct UnityAssetGuidAttribute_tED48F4A8DDB85C3E04F9D20E517583C67CE24804  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-};
-
-// Fusion.UnityResourcePathAttribute
-struct UnityResourcePathAttribute_t7EC20547A948A03DF73526731E5D1350DFD3BDCC  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.Type Fusion.UnityResourcePathAttribute::<ResourceType>k__BackingField
-	Type_t* ___U3CResourceTypeU3Ek__BackingField_1;
-};
-
-// Fusion.VersaMaskAttribute
-struct VersaMaskAttribute_t16A83918EFC31E1882D0CB021FDC40D241DF13B9  : public PropertyAttribute_t181CE9401C8D16828852F9A486D4EE48C7DB224F
-{
-	// System.Boolean Fusion.VersaMaskAttribute::definesZero
-	bool ___definesZero_1;
-	// System.Type Fusion.VersaMaskAttribute::castTo
-	Type_t* ___castTo_2;
-	// System.Boolean Fusion.VersaMaskAttribute::AlwaysExpanded
-	bool ___AlwaysExpanded_3;
-	// System.Boolean Fusion.VersaMaskAttribute::ShowBitmask
-	bool ___ShowBitmask_4;
-};
-
-// Fusion.CloudServices/<ConfirmJoin>d__79
-struct U3CConfirmJoinU3Ed__79_t8BEA1E6CDD44F82A1E7507AC0E93DC1CB16ACAA7 
-{
-	// System.Int32 Fusion.CloudServices/<ConfirmJoin>d__79::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Boolean> Fusion.CloudServices/<ConfirmJoin>d__79::<>t__builder
-	AsyncTaskMethodBuilder_1_t651E7BA5C7209C40335555F361280911CF711AAA ___U3CU3Et__builder_1;
-	// Fusion.CloudServices Fusion.CloudServices/<ConfirmJoin>d__79::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.TaskAwaiter Fusion.CloudServices/<ConfirmJoin>d__79::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
-};
-
-// Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75
-struct U3CHandleReflexiveInfoMessageU3Ed__75_tCB80F186BDA7EBF77D7E747C2318084908A7BEAB 
-{
-	// System.Int32 Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Fusion.CloudServices Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
-	// Fusion.Protocol.ReflexiveInfo Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::reflexiveInfo
-	ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC* ___reflexiveInfo_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> Fusion.CloudServices/<HandleReflexiveInfoMessage>d__75::<>u__1
-	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
-};
-
-// Fusion.CloudServices/<HandleStartMessage>d__72
-struct U3CHandleStartMessageU3Ed__72_t64CC6A73AE0E4D981FEC71381DEA67270FC796CF 
-{
-	// System.Int32 Fusion.CloudServices/<HandleStartMessage>d__72::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<HandleStartMessage>d__72::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Fusion.CloudServices Fusion.CloudServices/<HandleStartMessage>d__72::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
-	// Fusion.Protocol.Start Fusion.CloudServices/<HandleStartMessage>d__72::start
-	Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF* ___start_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.Boolean> Fusion.CloudServices/<HandleStartMessage>d__72::<>u__1
-	TaskAwaiter_1_t1F3F1A2BD44A71ED705D6586CA2594868672DE35 ___U3CU3Eu__1_4;
-	// Fusion.CloudServicesMetadata Fusion.CloudServices/<HandleStartMessage>d__72::<>7__wrap1
-	CloudServicesMetadata_t14D7AB08C976EC366D34A338D9D0714E2E1E0833* ___U3CU3E7__wrap1_5;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/ConfiguredTaskAwaiter<Fusion.Sockets.Stun.StunResult> Fusion.CloudServices/<HandleStartMessage>d__72::<>u__2
-	ConfiguredTaskAwaiter_t5F0CC23881F741E9C8CFCD059FD1DF69CA118B1E ___U3CU3Eu__2_6;
-};
-
-// Fusion.CloudServices/<QueryReflexiveInfo>d__80
-struct U3CQueryReflexiveInfoU3Ed__80_tFFF78F001061A7F1467A1799DD08EF95809D3B13 
-{
-	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Fusion.Sockets.Stun.StunResult> Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>t__builder
-	AsyncTaskMethodBuilder_1_tC8C21C96FFD8D60E648997BA315DA039D916B663 ___U3CU3Et__builder_1;
-	// Fusion.CloudServices Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
-	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<publicAddr1>5__2
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CpublicAddr1U3E5__2_3;
-	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<publicAddr2>5__3
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3CpublicAddr2U3E5__3_4;
-	// Fusion.Sockets.NetAddress Fusion.CloudServices/<QueryReflexiveInfo>d__80::<localAddr>5__4
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___U3ClocalAddrU3E5__4_5;
-	// System.Net.Sockets.AddressFamily Fusion.CloudServices/<QueryReflexiveInfo>d__80::<family>5__5
-	int32_t ___U3CfamilyU3E5__5_6;
-	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<attemptDelay>5__6
-	int32_t ___U3CattemptDelayU3E5__6_7;
-	// System.Int32 Fusion.CloudServices/<QueryReflexiveInfo>d__80::<stunTimeout>5__7
-	int32_t ___U3CstunTimeoutU3E5__7_8;
-	// System.Guid Fusion.CloudServices/<QueryReflexiveInfo>d__80::<requestID>5__8
-	Guid_t ___U3CrequestIDU3E5__8_9;
-	// System.Diagnostics.Stopwatch Fusion.CloudServices/<QueryReflexiveInfo>d__80::<watch>5__9
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___U3CwatchU3E5__9_10;
-	// System.Diagnostics.Stopwatch Fusion.CloudServices/<QueryReflexiveInfo>d__80::<attemptWatch>5__10
-	Stopwatch_tA188A210449E22C07053A7D3014DD182C7369043* ___U3CattemptWatchU3E5__10_11;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>u__1
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1_12;
-	// System.Runtime.CompilerServices.TaskAwaiter Fusion.CloudServices/<QueryReflexiveInfo>d__80::<>u__2
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__2_13;
-	// System.Boolean Fusion.CloudServices/<QueryReflexiveInfo>d__80::<validRequest>5__11
-	bool ___U3CvalidRequestU3E5__11_14;
-};
-
-// Fusion.CloudServices/<SendStateSnapshot>d__70
-struct U3CSendStateSnapshotU3Ed__70_tA1EE4A1A9CDE767B7628F932C8052D9D71CBD8D3 
-{
-	// System.Int32 Fusion.CloudServices/<SendStateSnapshot>d__70::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<SendStateSnapshot>d__70::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Fusion.CloudServices Fusion.CloudServices/<SendStateSnapshot>d__70::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_2;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Fusion.CloudServices/<SendStateSnapshot>d__70::<>u__1
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<System.ValueTuple`4<System.Int32,System.Int32,System.UInt32,System.Byte[]>> Fusion.CloudServices/<SendStateSnapshot>d__70::<>u__2
-	TaskAwaiter_1_t516A3701B5DBFEAEBC9731CBB080200D63371B81 ___U3CU3Eu__2_4;
-};
-
-// Fusion.CloudServices/<StartReversePing>d__82
-struct U3CStartReversePingU3Ed__82_t41B447DD8782CC777DC27E5D59CCB3A23349C68F 
-{
-	// System.Int32 Fusion.CloudServices/<StartReversePing>d__82::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Fusion.CloudServices/<StartReversePing>d__82::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Fusion.Sockets.NetAddress Fusion.CloudServices/<StartReversePing>d__82::remoteAddr
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___remoteAddr_2;
-	// Fusion.CloudServices Fusion.CloudServices/<StartReversePing>d__82::<>4__this
-	CloudServices_tC404BACC0187CF1F40CF228DCEFA39DA7D4F270C* ___U3CU3E4__this_3;
-	// System.Threading.CancellationToken Fusion.CloudServices/<StartReversePing>d__82::cancellationToken
-	CancellationToken_t51142D9C6D7C02D314DA34A6A7988C528992FFED ___cancellationToken_4;
-	// System.Int32 Fusion.CloudServices/<StartReversePing>d__82::<i>5__2
-	int32_t ___U3CiU3E5__2_5;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Fusion.CloudServices/<StartReversePing>d__82::<>u__1
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_6;
-};
-
-// System.Action`1<System.Exception>
-struct Action_1_tAFBD759E01ADE1CCF9C2015D5EFB3E69A9F26F04  : public MulticastDelegate_t
-{
-};
-
-// System.Action`1<System.String>
-struct Action_1_t3CB5D1A819C3ED3F99E9E39F890F18633253949A  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.Disconnect>
-struct Action_2_t4D61D7A9E2BF09A6366DE4EB6F0F274656C09683  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.HostMigration>
-struct Action_2_t93152F1868DB874ECC4BCCD748AFD57C4405ADF5  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.Join>
-struct Action_2_t9C16B7525813714DF764C5C414E8EE6B13E75966  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.NetworkConfigSync>
-struct Action_2_t3BC3A4522133213E1828EA1D1B37E1E80C427463  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.ReflexiveInfo>
-struct Action_2_t7EA63EF2E6F58046E38F49C25B2FCCE41A8CA438  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.Snapshot>
-struct Action_2_t2A27AFE330BC954BB4C91A6AF508A3038293D160  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.Start>
-struct Action_2_tA54547AC8782B257D20206CB07E7D67699FA9F1B  : public MulticastDelegate_t
-{
-};
-
-// System.Comparison`1<Fusion.RpcInvokeData>
-struct Comparison_1_t9D174B1572B59EBD8BBDDE05971BC40672BA572A  : public MulticastDelegate_t
-{
-};
-
-// System.Func`2<System.Collections.Generic.Dictionary`2<System.String,Fusion.SessionProperty>,System.Boolean>
-struct Func_2_t8CC9EC102ED47278789727E1A88E62AD49F65BCD  : public MulticastDelegate_t
-{
-};
-
-// System.Func`2<System.Boolean,System.Boolean>
-struct Func_2_t66AC14B29DD8B1DDD05693A14E55CF7707C762DB  : public MulticastDelegate_t
-{
-};
-
-// System.Action
-struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
-{
-};
-
-// System.ArgumentException
-struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-	// System.String System.ArgumentException::_paramName
-	String_t* ____paramName_18;
-};
-
-// System.AsyncCallback
-struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
-{
-};
-
-// UnityEngine.Behaviour
-struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
-{
-};
-
-// Fusion.DoIfAttribute
-struct DoIfAttribute_t5945D27D610DEB5B0DE2BE0B634BF5097F5B1C97  : public DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318
-{
-	// System.String Fusion.DoIfAttribute::ConditionMember
-	String_t* ___ConditionMember_2;
-	// System.Double Fusion.DoIfAttribute::CompareToValue
-	double ___CompareToValue_3;
-	// Fusion.DoIfCompareOperator Fusion.DoIfAttribute::Compare
-	int32_t ___Compare_4;
-};
-
-// Fusion.InlineHelpAttribute
-struct InlineHelpAttribute_t1C3784F862BEF720C7A79F403E7A48B60D04CE29  : public DecoratingPropertyAttribute_tFB8CBAA185564186E7F9254714AEAFE67BB7C318
-{
-	// Fusion.InlineHelpButtonPlacement Fusion.InlineHelpAttribute::ButtonPlacement
-	int32_t ___ButtonPlacement_3;
-};
-
-// System.InvalidOperationException
-struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-
-// Fusion.Sockets.NetPeer
-struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1 
-{
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.NetPeer::_state
-	int32_t ____state_9;
-	// Fusion.Sockets.NetConfig Fusion.Sockets.NetPeer::_config
-	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
-	// Fusion.Timer Fusion.Sockets.NetPeer::_recvTimer
-	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
-	// System.Byte* Fusion.Sockets.NetPeer::_fragmentBuffer
-	uint8_t* ____fragmentBuffer_12;
-	// Fusion.Sockets.NetSocket Fusion.Sockets.NetPeer::_socket
-	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetPeer::_address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
-	// Fusion.Sockets.NetBitBufferStack Fusion.Sockets.NetPeer::_sendStack
-	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35 ____sendStack_15;
-	// Fusion.Sockets.NetPeerGroup* Fusion.Sockets.NetPeer::_groups
-	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
-	// Fusion.Sockets.NetPeerGroupMap* Fusion.Sockets.NetPeer::_groupsMap
-	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
-	// System.Int32* Fusion.Sockets.NetPeer::_groupsAssigned
-	int32_t* ____groupsAssigned_18;
-	// Fusion.Sockets.NetCommandRefused* Fusion.Sockets.NetPeer::_refusedCommand
-	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
-	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetPeer::_recv
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
-	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetPeer::_recvBlock
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
-};
-// Native definition for P/Invoke marshalling of Fusion.Sockets.NetPeer
-struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1_marshaled_pinvoke
-{
-	int32_t ____state_9;
-	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
-	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
-	uint8_t* ____fragmentBuffer_12;
-	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
-	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35_marshaled_pinvoke ____sendStack_15;
-	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
-	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
-	int32_t* ____groupsAssigned_18;
-	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
-};
-// Native definition for COM marshalling of Fusion.Sockets.NetPeer
-struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1_marshaled_com
-{
-	int32_t ____state_9;
-	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
-	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
-	uint8_t* ____fragmentBuffer_12;
-	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
-	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35_marshaled_com ____sendStack_15;
-	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
-	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
-	int32_t* ____groupsAssigned_18;
-	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
+// Fusion.Protocol.NetworkConfigSync
+struct NetworkConfigSync_tD7D5D4D045B7F38C78A89B6CF91A09E6B08FF33D  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// Fusion.Protocol.SyncType Fusion.Protocol.NetworkConfigSync::Type
+	uint8_t ___Type_5;
+	// System.String Fusion.Protocol.NetworkConfigSync::NetworkConfig
+	String_t* ___NetworkConfig_6;
 };
 
 // Fusion.NetworkRunnerInitializeArgs
@@ -6751,6 +7041,33 @@ struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public
 {
 };
 
+// Fusion.OrderNode
+struct OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948  : public RuntimeObject
+{
+	// System.Type Fusion.OrderNode::Type
+	Type_t* ___Type_2;
+	// Fusion.OrderNode Fusion.OrderNode::Prev
+	OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948* ___Prev_3;
+	// Fusion.OrderNode Fusion.OrderNode::Next
+	OrderNode_t7D5B3F3D836BCF884E35760F3C9B0AD4705AB948* ___Next_4;
+	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::Before
+	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___Before_5;
+	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::After
+	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___After_6;
+	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::OrigBefore
+	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___OrigBefore_7;
+	// System.Collections.Generic.HashSet`1<Fusion.OrderNode> Fusion.OrderNode::OrigAfter
+	HashSet_1_tE907746A9A2F8E2F28D2A4E4A94174DCFB012D08* ___OrigAfter_8;
+	// System.ValueTuple`2<Fusion.SimulationModes,Fusion.SimulationStages> Fusion.OrderNode::SimFlags
+	ValueTuple_2_tBD95C30B265D22C273E01800BFE8A0AC514FCE47 ___SimFlags_9;
+	// System.Boolean Fusion.OrderNode::IsDefaultOrder
+	bool ___IsDefaultOrder_10;
+	// System.Boolean Fusion.OrderNode::FoundBefores
+	bool ___FoundBefores_11;
+	// System.Boolean Fusion.OrderNode::FoundAfters
+	bool ___FoundAfters_12;
+};
+
 // System.OutOfMemoryException
 struct OutOfMemoryException_tE6DC2F937EC4A8699271D5151C4DF83BDE99EE7F  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
 {
@@ -6769,6 +7086,19 @@ struct PhotonAppSettings_t146FA38CCBFF1AA63AEFA501765C77A5A65624FD_StaticFields
 	PhotonAppSettings_t146FA38CCBFF1AA63AEFA501765C77A5A65624FD* ____instance_5;
 };
 
+// Fusion.Protocol.ReflexiveInfo
+struct ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// System.Int32 Fusion.Protocol.ReflexiveInfo::ActorNr
+	int32_t ___ActorNr_5;
+	// Fusion.Sockets.NetAddress Fusion.Protocol.ReflexiveInfo::PublicAddr
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___PublicAddr_6;
+	// Fusion.Sockets.NetAddress Fusion.Protocol.ReflexiveInfo::PrivateAddr
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___PrivateAddr_7;
+	// Fusion.Sockets.Stun.NATType Fusion.Protocol.ReflexiveInfo::NatType
+	uint8_t ___NatType_8;
+};
+
 // Fusion.RpcInvokeDelegate
 struct RpcInvokeDelegate_t216B2A1AD0F2B6E7F1839A22A85FD7A49208F93D  : public MulticastDelegate_t
 {
@@ -6777,6 +7107,36 @@ struct RpcInvokeDelegate_t216B2A1AD0F2B6E7F1839A22A85FD7A49208F93D  : public Mul
 // Fusion.RpcStaticInvokeDelegate
 struct RpcStaticInvokeDelegate_t4477973B6416D976384609D956C0CAE0DB77CE05  : public MulticastDelegate_t
 {
+};
+
+// Fusion.Protocol.Snapshot
+struct Snapshot_t6214C0BF071F5B4CB06F00CBA15A2299FCFD0147  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// System.Int32 Fusion.Protocol.Snapshot::<Tick>k__BackingField
+	int32_t ___U3CTickU3Ek__BackingField_5;
+	// System.UInt32 Fusion.Protocol.Snapshot::<NetworkID>k__BackingField
+	uint32_t ___U3CNetworkIDU3Ek__BackingField_6;
+	// Fusion.Protocol.SnapshotType Fusion.Protocol.Snapshot::<SnapshotType>k__BackingField
+	uint8_t ___U3CSnapshotTypeU3Ek__BackingField_7;
+	// System.Int32 Fusion.Protocol.Snapshot::<TotalSize>k__BackingField
+	int32_t ___U3CTotalSizeU3Ek__BackingField_8;
+	// System.Byte[] Fusion.Protocol.Snapshot::<Data>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CDataU3Ek__BackingField_9;
+	// System.UInt64 Fusion.Protocol.Snapshot::<CRC>k__BackingField
+	uint64_t ___U3CCRCU3Ek__BackingField_10;
+	// System.Byte[] Fusion.Protocol.Snapshot::<SnapshotBuffer>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CSnapshotBufferU3Ek__BackingField_11;
+	// System.Int32 Fusion.Protocol.Snapshot::<SnapshotSize>k__BackingField
+	int32_t ___U3CSnapshotSizeU3Ek__BackingField_12;
+};
+
+// Fusion.Protocol.Start
+struct Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// System.Int32 Fusion.Protocol.Start::RemoteServerID
+	int32_t ___RemoteServerID_5;
+	// Fusion.Protocol.StartRequests Fusion.Protocol.Start::StartRequests
+	uint32_t ___StartRequests_6;
 };
 
 // Fusion.StartGameArgs
@@ -6960,9 +7320,67 @@ struct DrawIfAttribute_t2BBE84AF62BF79DA8A29B226A78195DEB6257AFB  : public DoIfA
 	int32_t ___Hide_5;
 };
 
+// Fusion.Photon.Realtime.FusionRelayClient
+struct FusionRelayClient_tF4E4806C8E0A4E90508E047E04159B42AF50EA14  : public LoadBalancingClient_t6C87C8E5C7B7B26F6F3944AD36E3A0C8D6D42BAA
+{
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Photon.Realtime.FusionRelayClient::_ackSent
+	bool ____ackSent_54;
+	// System.Byte modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Photon.Realtime.FusionRelayClient::_fallbackThreadId
+	uint8_t ____fallbackThreadId_55;
+	// System.Action Fusion.Photon.Realtime.FusionRelayClient::OnRoomChanged
+	Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___OnRoomChanged_59;
+	// Fusion.Photon.Realtime.RaiseEventOptions Fusion.Photon.Realtime.FusionRelayClient::_raiseEventOptions
+	RaiseEventOptions_tDB107A869F285AD2BAF75ACE34072454ADA1D643* ____raiseEventOptions_60;
+	// ExitGames.Client.Photon.SendOptions Fusion.Photon.Realtime.FusionRelayClient::_optionsUnreliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ____optionsUnreliable_61;
+	// ExitGames.Client.Photon.SendOptions Fusion.Photon.Realtime.FusionRelayClient::_optionsReliable
+	SendOptions_tF9510905DE0E4230B6BF45A2AD2A43773AC32ED8 ____optionsReliable_62;
+	// Fusion.Protocol.ICommunicator Fusion.Photon.Realtime.FusionRelayClient::_communicator
+	RuntimeObject* ____communicator_63;
+};
+
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
 {
+};
+
+// Fusion.Sockets.NetConfig
+struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
+{
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
+	int32_t ___ConnectionSendBuffers_0;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
+	int32_t ___ConnectionGroups_1;
+	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
+	int32_t ___MaxConnections_2;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
+	int32_t ___SocketSendBuffer_3;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
+	int32_t ___SocketRecvBuffer_4;
+	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
+	int32_t ___DefaultMtu_5;
+	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
+	int32_t ___PacketSize_6;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
+	int32_t ___ConnectAttempts_7;
+	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
+	double ___ConnectInterval_8;
+	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
+	double ___OperationExpireTime_9;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
+	double ___ConnectionDefaultRtt_10;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
+	double ___ConnectionTimeout_11;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
+	double ___ConnectionPingInterval_12;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
+	double ___ConnectionShutdownTime_13;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
+	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
+	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
+	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
+	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
 };
 
 // Fusion.WarnIfAttribute
@@ -6977,6 +7395,71 @@ struct WarnIfAttribute_t9A09D54B950D65BF1ECE0E971F036656D2E2E8CA  : public DoIfA
 // Fusion.Behaviour
 struct Behaviour_tC48CB75EA8921074E7C13DF4D997E1CBBB079015  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+};
+
+// Fusion.Sockets.NetPeer
+struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1 
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.NetPeer::_state
+	int32_t ____state_9;
+	// Fusion.Sockets.NetConfig Fusion.Sockets.NetPeer::_config
+	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
+	// Fusion.Timer Fusion.Sockets.NetPeer::_recvTimer
+	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
+	// System.Byte* Fusion.Sockets.NetPeer::_fragmentBuffer
+	uint8_t* ____fragmentBuffer_12;
+	// Fusion.Sockets.NetSocket Fusion.Sockets.NetPeer::_socket
+	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetPeer::_address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
+	// Fusion.Sockets.NetBitBufferStack Fusion.Sockets.NetPeer::_sendStack
+	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35 ____sendStack_15;
+	// Fusion.Sockets.NetPeerGroup* Fusion.Sockets.NetPeer::_groups
+	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
+	// Fusion.Sockets.NetPeerGroupMap* Fusion.Sockets.NetPeer::_groupsMap
+	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
+	// System.Int32* Fusion.Sockets.NetPeer::_groupsAssigned
+	int32_t* ____groupsAssigned_18;
+	// Fusion.Sockets.NetCommandRefused* Fusion.Sockets.NetPeer::_refusedCommand
+	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
+	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetPeer::_recv
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
+	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetPeer::_recvBlock
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
+};
+// Native definition for P/Invoke marshalling of Fusion.Sockets.NetPeer
+struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1_marshaled_pinvoke
+{
+	int32_t ____state_9;
+	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
+	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
+	uint8_t* ____fragmentBuffer_12;
+	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
+	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35_marshaled_pinvoke ____sendStack_15;
+	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
+	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
+	int32_t* ____groupsAssigned_18;
+	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
+};
+// Native definition for COM marshalling of Fusion.Sockets.NetPeer
+struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1_marshaled_com
+{
+	int32_t ____state_9;
+	NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 ____config_10;
+	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____recvTimer_11;
+	uint8_t* ____fragmentBuffer_12;
+	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____socket_13;
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____address_14;
+	NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35_marshaled_com ____sendStack_15;
+	NetPeerGroup_tE5EF42226DD0A04D0B46238BCCA55C5BDFE31CBA* ____groups_16;
+	NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9* ____groupsMap_17;
+	int32_t* ____groupsAssigned_18;
+	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
 };
 
 // Fusion.NetworkObject
@@ -12782,6 +13265,14 @@ IL2CPP_EXTERN_C  String_t* Config_ToString_m8F2E3270812E28F65B986475D4CEAFAEC8A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Fusion.Ptr Fusion.Ptr::get_Null()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ptr_t8FE126659A1A9D3571C496F7AA31B4B7678B972F Ptr_get_Null_mDA3976E5D9FF298CFC5A418A09D5831E4095CFCD (const RuntimeMethod* method) 
 {
@@ -13056,6 +13547,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AccuracyAttribute__ctor_m52AB80B47B146A4
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.AccuracyRangeAttribute::.ctor(Fusion.AccuracyRangePreset)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AccuracyRangeAttribute__ctor_mF3D9A0E0F440079C0A1E4D8814A822C683C76F26 (AccuracyRangeAttribute_t8D8C7EE365C96A0E4199858CEF795744812EA889* __this, int32_t ___preset0, const RuntimeMethod* method) 
 {
@@ -13251,6 +13750,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BehaviourActionAttribute__ctor_mAB280E39
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -13647,6 +14154,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultForPropertyAttribute__ctor_m4F0D1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.DrawIfAttribute::.ctor(System.String,System.Int64,Fusion.DrawIfHideType,Fusion.DoIfCompareOperator)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DrawIfAttribute__ctor_mB0D9DCBF47E43A5226A5FB74D108DA14DAAB21D6 (DrawIfAttribute_t2BBE84AF62BF79DA8A29B226A78195DEB6257AFB* __this, String_t* ___conditionMemberName0, int64_t ___compareToValue1, int32_t ___hide2, int32_t ___compare3, const RuntimeMethod* method) 
 {
@@ -13825,6 +14340,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InlineEditorAttribute__ctor_m0A44B88DEC3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.InlineHelpAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InlineHelpAttribute__ctor_mA652B3CC9FDF6B8D2CA6BFBF15E8B4A2913320DD (InlineHelpAttribute_t1C3784F862BEF720C7A79F403E7A48B60D04CE29* __this, const RuntimeMethod* method) 
 {
@@ -13941,6 +14464,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkDeserializeMethodAttribute__ctor_
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -14463,6 +14994,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleLeftAttribute__ctor_mBBB21FEDF7CF9
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -15002,6 +15541,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VersaMaskAttribute__ctor_m2F7520E5747042
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -21894,6 +22441,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CloudServicesMetadata__cctor_mBAEAA954B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.PeerPing::.ctor(Fusion.Protocol.ReflexiveInfo)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PeerPing__ctor_mED42D97DC9B750821E21B197AD457CDD3DA93C89 (PeerPing_t2C3DE540E68C21565C67F29467BA73CE19C5F430* __this, ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC* ___reflexiveInfo0, const RuntimeMethod* method) 
 {
@@ -26577,13 +27148,7 @@ Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_In
 	}
 	return retVal;
 }
-Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenInst(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
-{
-	NullCheck(___type0);
-	typedef Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*FunctionPointerType) (Type_t*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3*, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___type0, ___behaviour1, method);
-}
-Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenStatic(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
+Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_Open(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
 {
 	typedef Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*FunctionPointerType) (Type_t*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr_0)(___type0, ___behaviour1, method);
@@ -26598,22 +27163,18 @@ Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_In
 }
 Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenVirtual(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
 {
-	NullCheck(___type0);
 	return VirtualFuncInvoker1< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* >::Invoke(il2cpp_codegen_method_get_slot(method), ___type0, ___behaviour1);
 }
 Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenInterface(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
 {
-	NullCheck(___type0);
 	return InterfaceFuncInvoker1< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* >::Invoke(il2cpp_codegen_method_get_slot(method), il2cpp_codegen_method_get_declaring_type(method), ___type0, ___behaviour1);
 }
 Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenGenericVirtual(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
 {
-	NullCheck(___type0);
 	return GenericVirtualFuncInvoker1< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* >::Invoke(method, ___type0, ___behaviour1);
 }
 Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenGenericInterface(InterestGroupsCallback_t436F23C1F5474907D3FECF454A203D184FFF6A8F* __this, Type_t* ___type0, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour1, const RuntimeMethod* method)
 {
-	NullCheck(___type0);
 	return GenericInterfaceFuncInvoker1< Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* >::Invoke(method, ___type0, ___behaviour1);
 }
 // System.Void Fusion.NetworkBehaviour/InterestGroupsCallback::.ctor(System.Object,System.IntPtr)
@@ -26635,7 +27196,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterestGroupsCallback__ctor_m24020702CD
 				__this->___invoke_impl_1 = (intptr_t)&InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_ClosedStaticInvoker;
 		else
 			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenStatic;
+				__this->___invoke_impl_1 = (intptr_t)&InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_Open;
 			else
 				{
 					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -26662,13 +27223,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InterestGroupsCallback__ctor_m24020702CD
 			}
 			else
 			{
-				__this->___invoke_impl_1 = (intptr_t)&InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_OpenInst;
+				__this->___invoke_impl_1 = (intptr_t)&InterestGroupsCallback_Invoke_mD4106623E25B2D9BF6EB0FA9C303C4367F6EE3EF_Open;
 			}
 		}
 		else
 		{
-			if (___object0 == NULL)
-				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 		}
@@ -26695,6 +27254,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F16
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___result0, 0);
 	return (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)__result;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -27687,13 +28254,7 @@ bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_Multicast
 	}
 	return retVal;
 }
-bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenInst(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
-{
-	NullCheck(___behaviour0);
-	typedef bool (*FunctionPointerType) (NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3*, int32_t*, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___method_ptr_0)(___behaviour0, ___old1, method);
-}
-bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenStatic(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
+bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_Open(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
 {
 	typedef bool (*FunctionPointerType) (NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3*, int32_t*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___method_ptr_0)(___behaviour0, ___old1, method);
@@ -27708,22 +28269,18 @@ bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_ClosedSta
 }
 bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenVirtual(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
 {
-	NullCheck(___behaviour0);
 	return VirtualFuncInvoker1< bool, int32_t* >::Invoke(il2cpp_codegen_method_get_slot(method), ___behaviour0, ___old1);
 }
 bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenInterface(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
 {
-	NullCheck(___behaviour0);
 	return InterfaceFuncInvoker1< bool, int32_t* >::Invoke(il2cpp_codegen_method_get_slot(method), il2cpp_codegen_method_get_declaring_type(method), ___behaviour0, ___old1);
 }
 bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenGenericVirtual(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
 {
-	NullCheck(___behaviour0);
 	return GenericVirtualFuncInvoker1< bool, int32_t* >::Invoke(method, ___behaviour0, ___old1);
 }
 bool CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenGenericInterface(CallbackDelegate_t7584EECB167FA5E297A65EF4C7FA52233B5F8D41* __this, NetworkBehaviour_t6DC912DE6ED4D9C556AE37A4CC23D247C52C57B3* ___behaviour0, int32_t* ___old1, const RuntimeMethod* method)
 {
-	NullCheck(___behaviour0);
 	return GenericInterfaceFuncInvoker1< bool, int32_t* >::Invoke(method, ___behaviour0, ___old1);
 }
 // System.Void Fusion.NetworkBehaviourCallbacks/CallbackDelegate::.ctor(System.Object,System.IntPtr)
@@ -27745,7 +28302,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackDelegate__ctor_mDA208ED4CBA12A68
 				__this->___invoke_impl_1 = (intptr_t)&CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_ClosedStaticInvoker;
 		else
 			if (isOpen)
-				__this->___invoke_impl_1 = (intptr_t)&CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenStatic;
+				__this->___invoke_impl_1 = (intptr_t)&CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_Open;
 			else
 				{
 					__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
@@ -27772,13 +28329,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CallbackDelegate__ctor_mDA208ED4CBA12A68
 			}
 			else
 			{
-				__this->___invoke_impl_1 = (intptr_t)&CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_OpenInst;
+				__this->___invoke_impl_1 = (intptr_t)&CallbackDelegate_Invoke_m4C8A3164F50C2FD1D5C5A689165AD97AAB1741D9_Open;
 			}
 		}
 		else
 		{
-			if (___object0 == NULL)
-				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
 			__this->___invoke_impl_1 = (intptr_t)__this->___method_ptr_0;
 			__this->___method_code_6 = (intptr_t)__this->___m_target_2;
 		}
@@ -30354,6 +30909,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec_U3CRegisterRpcInvokeDelegates
 		return L_3;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

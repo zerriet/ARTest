@@ -346,6 +346,8 @@ struct IsReadOnlyAttribute_t8A3AF1C8FE863CD632DC26E6479EEE4259E59918;
 struct IsUnmanagedAttribute_tE8A2CCC0B27A389F11878B3618462E9D2AE6EA33;
 // Fusion.Protocol.Join
 struct Join_t4912387F3E002031619D27C75C15840E7AF3B87C;
+// Fusion.LogOptions
+struct LogOptions_tE40FA081732F4CDE8D5E665BBD54CC2D1C99AA58;
 // System.Reflection.MemberFilter
 struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
 // Fusion.Protocol.Message
@@ -849,83 +851,6 @@ struct Assembly_t_marshaled_com
 {
 };
 
-// System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
-{
-	// System.String System.Reflection.AssemblyName::name
-	String_t* ___name_0;
-	// System.String System.Reflection.AssemblyName::codebase
-	String_t* ___codebase_1;
-	// System.Int32 System.Reflection.AssemblyName::major
-	int32_t ___major_2;
-	// System.Int32 System.Reflection.AssemblyName::minor
-	int32_t ___minor_3;
-	// System.Int32 System.Reflection.AssemblyName::build
-	int32_t ___build_4;
-	// System.Int32 System.Reflection.AssemblyName::revision
-	int32_t ___revision_5;
-	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo_6;
-	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
-	int32_t ___flags_7;
-	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
-	int32_t ___hashalg_8;
-	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	// System.Byte[] System.Reflection.AssemblyName::publicKey
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey_10;
-	// System.Byte[] System.Reflection.AssemblyName::keyToken
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken_11;
-	// System.Configuration.Assemblies.AssemblyVersionCompatibility System.Reflection.AssemblyName::versioncompat
-	int32_t ___versioncompat_12;
-	// System.Version System.Reflection.AssemblyName::version
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	// System.Reflection.ProcessorArchitecture System.Reflection.AssemblyName::processor_architecture
-	int32_t ___processor_architecture_14;
-	// System.Reflection.AssemblyContentType System.Reflection.AssemblyName::contentType
-	int32_t ___contentType_15;
-};
-// Native definition for P/Invoke marshalling of System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
-{
-	char* ___name_0;
-	char* ___codebase_1;
-	int32_t ___major_2;
-	int32_t ___minor_3;
-	int32_t ___build_4;
-	int32_t ___revision_5;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo_6;
-	int32_t ___flags_7;
-	int32_t ___hashalg_8;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	Il2CppSafeArray/*NONE*/* ___publicKey_10;
-	Il2CppSafeArray/*NONE*/* ___keyToken_11;
-	int32_t ___versioncompat_12;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	int32_t ___processor_architecture_14;
-	int32_t ___contentType_15;
-};
-// Native definition for COM marshalling of System.Reflection.AssemblyName
-struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
-{
-	Il2CppChar* ___name_0;
-	Il2CppChar* ___codebase_1;
-	int32_t ___major_2;
-	int32_t ___minor_3;
-	int32_t ___build_4;
-	int32_t ___revision_5;
-	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo_6;
-	int32_t ___flags_7;
-	int32_t ___hashalg_8;
-	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
-	Il2CppSafeArray/*NONE*/* ___publicKey_10;
-	Il2CppSafeArray/*NONE*/* ___keyToken_11;
-	int32_t ___versioncompat_12;
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
-	int32_t ___processor_architecture_14;
-	int32_t ___contentType_15;
-};
-
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
 {
@@ -1021,23 +946,6 @@ struct Maths_tF2A922846CE3679F8802A192B58A060051E7C4CC_StaticFields
 // System.Reflection.MemberInfo
 struct MemberInfo_t  : public RuntimeObject
 {
-};
-
-// Fusion.Protocol.Message
-struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B  : public RuntimeObject
-{
-	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message::ProtocolVersion
-	uint8_t ___ProtocolVersion_1;
-	// System.Version Fusion.Protocol.Message::FusionSerializationVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___FusionSerializationVersion_2;
-	// System.String Fusion.Protocol.Message::_customData
-	String_t* ____customData_4;
-};
-
-struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B_StaticFields
-{
-	// System.Version Fusion.Protocol.Message::InvalidVersion
-	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___InvalidVersion_3;
 };
 
 // Fusion.Sockets.NetConstants
@@ -1202,13 +1110,6 @@ struct Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7  : public RuntimeObject
 	int32_t ____Revision_3;
 };
 
-// Fusion.Protocol.Message/<>c__DisplayClass13_0
-struct U3CU3Ec__DisplayClass13_0_tE2531536FD313183789B275A8269B20BD73978FB  : public RuntimeObject
-{
-	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message/<>c__DisplayClass13_0::targetProtocolMessage
-	uint8_t ___targetProtocolMessage_0;
-};
-
 // Fusion.Sockets.NetAddress/EqualityComparer
 struct EqualityComparer_t57AEEBDB9CF63C4EAC3A525537CC60B55AFABD9F  : public RuntimeObject
 {
@@ -1370,13 +1271,6 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___s_categoryForLatin1_3;
 };
 
-// Fusion.Protocol.Disconnect
-struct Disconnect_tF830E9507E44FB232BF6A61F307CCDA678770BDC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.DisconnectReason Fusion.Protocol.Disconnect::DisconnectReason
-	uint8_t ___DisconnectReason_5;
-};
-
 // System.Double
 struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
 {
@@ -1441,13 +1335,6 @@ struct Guid_t_StaticFields
 	Guid_t ___Empty_0;
 };
 
-// Fusion.Protocol.HostMigration
-struct HostMigration_t993547CB8CCEB0971E6050E36B4EFC675D156960  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.PeerMode Fusion.Protocol.HostMigration::PeerMode
-	uint8_t ___PeerMode_5;
-};
-
 // System.Int16
 struct Int16_tB8EF286A9C33492FA6E6D6E67320BE93E794A175 
 {
@@ -1490,19 +1377,6 @@ struct IsReadOnlyAttribute_t8A3AF1C8FE863CD632DC26E6479EEE4259E59918  : public A
 // System.Runtime.CompilerServices.IsUnmanagedAttribute
 struct IsUnmanagedAttribute_tE8A2CCC0B27A389F11878B3618462E9D2AE6EA33  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
-};
-
-// Fusion.Protocol.Join
-struct Join_t4912387F3E002031619D27C75C15840E7AF3B87C  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.JoinMessageType Fusion.Protocol.Join::Type
-	uint8_t ___Type_5;
-	// Fusion.Protocol.PluginGameMode Fusion.Protocol.Join::GameMode
-	uint8_t ___GameMode_6;
-	// Fusion.Protocol.PeerMode Fusion.Protocol.Join::PeerMode
-	uint8_t ___PeerMode_7;
-	// Fusion.Protocol.JoinRequests Fusion.Protocol.Join::JoinRequests
-	uint32_t ___JoinRequests_8;
 };
 
 // Fusion.LogOptions
@@ -1604,38 +1478,6 @@ struct NetBitBufferStack_tF4B714DA65B4DDDC7EEE24C65878F894289B6E35_marshaled_com
 	int32_t ___Count_2;
 };
 
-// Fusion.Sockets.NetCommandHeader
-struct NetCommandHeader_tB78087C6830DFBBB3F3CD07A6C2BC163C3F95D15 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetCommandHeader::PacketType
-			uint8_t ___PacketType_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			uint8_t ___PacketType_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Command_3_OffsetPadding[1];
-			// Fusion.Sockets.NetCommands Fusion.Sockets.NetCommandHeader::Command
-			uint8_t ___Command_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Command_3_OffsetPadding_forAlignmentOnly[1];
-			uint8_t ___Command_3_forAlignmentOnly;
-		};
-	};
-};
-
 // Fusion.Sockets.NetConfigNotify
 struct NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC 
 {
@@ -1649,23 +1491,6 @@ struct NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC
 	int32_t ___WindowSize_3;
 	// System.Int32 Fusion.Sockets.NetConfigNotify::SequenceBytes
 	int32_t ___SequenceBytes_4;
-};
-
-// Fusion.Sockets.NetConfigSimulationOscillator
-struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
-{
-	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
-	int32_t ___Shape_0;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
-	double ___Min_1;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
-	double ___Max_2;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
-	double ___Period_3;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
-	double ___Threshold_4;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
-	double ___Additional_5;
 };
 
 // Fusion.Sockets.NetConnectionId
@@ -1776,77 +1601,6 @@ struct NetConnectionStats_tC80F4AF0A4FFADB404E98D2F990668676317F39A
 	UnsafeRingBuffer_t37CEF68748F99A082871DCCE1AA0D1E5AF2B1FDB* ____buffer_0;
 };
 
-// Fusion.Sockets.NetNotifyHeader
-struct NetNotifyHeader_t511811DB158181E627B4951DFC947B553E7EBC52 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetNotifyHeader::PacketType
-			uint8_t ___PacketType_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			uint8_t ___PacketType_2_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Fragment_3_OffsetPadding[1];
-			// System.Byte Fusion.Sockets.NetNotifyHeader::Fragment
-			uint8_t ___Fragment_3;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Fragment_3_OffsetPadding_forAlignmentOnly[1];
-			uint8_t ___Fragment_3_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___Sequence_4_OffsetPadding[2];
-			// System.UInt16 Fusion.Sockets.NetNotifyHeader::Sequence
-			uint16_t ___Sequence_4;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___Sequence_4_OffsetPadding_forAlignmentOnly[2];
-			uint16_t ___Sequence_4_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___AckSequence_5_OffsetPadding[4];
-			// System.UInt16 Fusion.Sockets.NetNotifyHeader::AckSequence
-			uint16_t ___AckSequence_5;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___AckSequence_5_OffsetPadding_forAlignmentOnly[4];
-			uint16_t ___AckSequence_5_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			char ___AckMask_6_OffsetPadding[6];
-			// System.UInt64 Fusion.Sockets.NetNotifyHeader::AckMask
-			uint64_t ___AckMask_6;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			char ___AckMask_6_OffsetPadding_forAlignmentOnly[6];
-			uint64_t ___AckMask_6_forAlignmentOnly;
-		};
-	};
-};
-
 // Fusion.Sockets.NetPeerGroupMap
 struct NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9 
 {
@@ -1888,19 +1642,6 @@ struct NetPeerGroupMap_tED413AD9802FA7A8B02A20C7F52DB37D036AA4D9_marshaled_com
 	uint64_t ___CapacityAllocated_6;
 };
 
-// Fusion.Sockets.NetSendEnvelope
-struct NetSendEnvelope_t8D7239CDB2EDAD04F3E247759242A2E4BDACA4F2 
-{
-	// System.Void* Fusion.Sockets.NetSendEnvelope::UserData
-	void* ___UserData_0;
-	// System.UInt16 Fusion.Sockets.NetSendEnvelope::Sequence
-	uint16_t ___Sequence_1;
-	// System.Double Fusion.Sockets.NetSendEnvelope::SendTime
-	double ___SendTime_2;
-	// Fusion.Sockets.NetPacketType Fusion.Sockets.NetSendEnvelope::PacketType
-	uint8_t ___PacketType_3;
-};
-
 // Fusion.Sockets.NetSendEnvelopeRingBuffer
 struct NetSendEnvelopeRingBuffer_t69EE01D02DC5E5EACC18C33A4E5E93E8B7AB6AB2 
 {
@@ -1927,34 +1668,6 @@ struct NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2
 	uint64_t ____mask_2;
 	// System.UInt64 Fusion.Sockets.NetSequencer::_sequence
 	uint64_t ____sequence_3;
-};
-
-// Fusion.Sockets.NetUnreliableHeader
-struct NetUnreliableHeader_t0D7B4F96E32BEEA969823FFDFC9462429D36E895 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetUnreliableHeader::PacketType
-			uint8_t ___PacketType_2;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			uint8_t ___PacketType_2_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.Protocol.NetworkConfigSync
-struct NetworkConfigSync_tD7D5D4D045B7F38C78A89B6CF91A09E6B08FF33D  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// Fusion.Protocol.SyncType Fusion.Protocol.NetworkConfigSync::Type
-	uint8_t ___Type_5;
-	// System.String Fusion.Protocol.NetworkConfigSync::NetworkConfig
-	String_t* ___NetworkConfig_6;
 };
 
 // Fusion.Sockets.ReliableHeader
@@ -2197,27 +1910,6 @@ struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C
 	float ___m_value_0;
 };
 
-// Fusion.Protocol.Snapshot
-struct Snapshot_t6214C0BF071F5B4CB06F00CBA15A2299FCFD0147  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// System.Int32 Fusion.Protocol.Snapshot::<Tick>k__BackingField
-	int32_t ___U3CTickU3Ek__BackingField_5;
-	// System.UInt32 Fusion.Protocol.Snapshot::<NetworkID>k__BackingField
-	uint32_t ___U3CNetworkIDU3Ek__BackingField_6;
-	// Fusion.Protocol.SnapshotType Fusion.Protocol.Snapshot::<SnapshotType>k__BackingField
-	uint8_t ___U3CSnapshotTypeU3Ek__BackingField_7;
-	// System.Int32 Fusion.Protocol.Snapshot::<TotalSize>k__BackingField
-	int32_t ___U3CTotalSizeU3Ek__BackingField_8;
-	// System.Byte[] Fusion.Protocol.Snapshot::<Data>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CDataU3Ek__BackingField_9;
-	// System.UInt64 Fusion.Protocol.Snapshot::<CRC>k__BackingField
-	uint64_t ___U3CCRCU3Ek__BackingField_10;
-	// System.Byte[] Fusion.Protocol.Snapshot::<SnapshotBuffer>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CSnapshotBufferU3Ek__BackingField_11;
-	// System.Int32 Fusion.Protocol.Snapshot::<SnapshotSize>k__BackingField
-	int32_t ___U3CSnapshotSizeU3Ek__BackingField_12;
-};
-
 // NanoSockets.Socket
 struct Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 
 {
@@ -2235,15 +1927,6 @@ struct Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6
 			int64_t ___handle_0_forAlignmentOnly;
 		};
 	};
-};
-
-// Fusion.Protocol.Start
-struct Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
-{
-	// System.Int32 Fusion.Protocol.Start::RemoteServerID
-	int32_t ___RemoteServerID_5;
-	// Fusion.Protocol.StartRequests Fusion.Protocol.Start::StartRequests
-	uint32_t ___StartRequests_6;
 };
 
 // Fusion.Timer
@@ -2917,17 +2600,6 @@ struct StateConnectingData_tD04048E38B2E87AE836ADE6971F8CF8AA9DB53B9
 	double ___AttemptTimeout_1;
 };
 
-// Fusion.Sockets.NetConnection/StateDisconnectedData
-struct StateDisconnectedData_t64E9399FCDFDDD62A450690AC04F829C9C178D0C 
-{
-	// Fusion.Sockets.NetDisconnectReason Fusion.Sockets.NetConnection/StateDisconnectedData::Reason
-	uint8_t ___Reason_0;
-	// System.Int32 Fusion.Sockets.NetConnection/StateDisconnectedData::CallbackInvoked
-	int32_t ___CallbackInvoked_1;
-	// System.Int32 Fusion.Sockets.NetConnection/StateDisconnectedData::SentDisconnectCommand
-	int32_t ___SentDisconnectCommand_2;
-};
-
 // Fusion.Sockets.NetConnection/StateShutdownData
 struct StateShutdownData_t9E6A69F94C47CC7487C98DAFC51B55BA916AD08C 
 {
@@ -3007,6 +2679,41 @@ struct Iterator_1_t9EC10BAF2EB24F68C28D3146A9B17255E4D5C2D2
 	UnsafeBuffer_tF57BDD706C32F0CA2CE86A54987FD20CC2D31132 ____buffer_4;
 };
 
+// System.Reflection.AssemblyContentType
+struct AssemblyContentType_tE0A2224D247DD97616065CB0ECB16912B756D745 
+{
+	// System.Int32 System.Reflection.AssemblyContentType::value__
+	int32_t ___value___2;
+};
+
+// System.Configuration.Assemblies.AssemblyHashAlgorithm
+struct AssemblyHashAlgorithm_t6202395EA0C9A01D6342348A9535DF4CA47010D1 
+{
+	// System.Int32 System.Configuration.Assemblies.AssemblyHashAlgorithm::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.AssemblyNameFlags
+struct AssemblyNameFlags_t48EB44AFB7A3310746DD78ACC3DC5AE6D3D91122 
+{
+	// System.Int32 System.Reflection.AssemblyNameFlags::value__
+	int32_t ___value___2;
+};
+
+// System.Configuration.Assemblies.AssemblyVersionCompatibility
+struct AssemblyVersionCompatibility_t1E27EE4AB4137C64EE164A25A184E844AC722159 
+{
+	// System.Int32 System.Configuration.Assemblies.AssemblyVersionCompatibility::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.BindingFlags
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
+{
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
+};
+
 // System.Delegate
 struct Delegate_t  : public RuntimeObject
 {
@@ -3070,6 +2777,13 @@ struct Delegate_t_marshaled_com
 	MethodInfo_t* ___original_method_info_10;
 	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data_11;
 	int32_t ___method_is_virtual_12;
+};
+
+// Fusion.Protocol.DisconnectReason
+struct DisconnectReason_t7000D9CA3936DC4DDFAFEA4CF50B16F711B28E60 
+{
+	// System.Byte Fusion.Protocol.DisconnectReason::value__
+	uint8_t ___value___2;
 };
 
 // System.Exception
@@ -3155,6 +2869,13 @@ struct Exception_t_marshaled_com
 	int32_t ___caught_in_unmanaged_16;
 };
 
+// Fusion.FusionGraphVisualization
+struct FusionGraphVisualization_t989F5A867C227A92C199E79C10AD87E7901360B0 
+{
+	// System.Int32 Fusion.FusionGraphVisualization::value__
+	int32_t ___value___2;
+};
+
 // Fusion.Profiling.FusionSampler
 struct FusionSampler_t167CA8F6E03461BBE3B6C200D7441DE11F3429B0  : public RuntimeObject
 {
@@ -3172,6 +2893,27 @@ struct FusionSampler_t167CA8F6E03461BBE3B6C200D7441DE11F3429B0  : public Runtime
 	int32_t ____frameCount_16;
 	// Fusion.Timer Fusion.Profiling.FusionSampler::_timer
 	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____timer_17;
+};
+
+// Fusion.Protocol.JoinMessageType
+struct JoinMessageType_t731EB4AFF990C99923A644D81393454BB04F69B0 
+{
+	// System.Byte Fusion.Protocol.JoinMessageType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Protocol.JoinRequests
+struct JoinRequests_tCE52799D868276741022ADF2351644F7C1065F1E 
+{
+	// System.UInt32 Fusion.Protocol.JoinRequests::value__
+	uint32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.NATType
+struct NATType_tA4CE5E0E6F04B1D91FB863D289B080E6D5E6ECEF 
+{
+	// System.Byte Fusion.Sockets.Stun.NATType::value__
+	uint8_t ___value___2;
 };
 
 // Fusion.Sockets.NetAddress
@@ -3290,6 +3032,679 @@ struct NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA_marshaled_com
 	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____self_4;
 	uint8_t* ____memory_5;
 	intptr_t ____freeHead_6;
+};
+
+// Fusion.Sockets.NetCommands
+struct NetCommands_t11A7244AA6F94928F240B41DC5EE5C51B504E334 
+{
+	// System.Byte Fusion.Sockets.NetCommands::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.NetConnectFailedReason
+struct NetConnectFailedReason_t905B1DFE70F60D993914E594B08D89168DF1C333 
+{
+	// System.Byte Fusion.Sockets.NetConnectFailedReason::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.NetConnectionStatus
+struct NetConnectionStatus_tC10AAADCC14026C48DE9D038EEAC9FFBBB7B42E4 
+{
+	// System.Int32 Fusion.Sockets.NetConnectionStatus::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.NetDisconnectReason
+struct NetDisconnectReason_tC71FA2C971C1F1B42889085DDE52F64821C4EDA8 
+{
+	// System.Byte Fusion.Sockets.NetDisconnectReason::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.NetPacketType
+struct NetPacketType_tCBB4BBE8633F81F20968F8712D5E62570557F29E 
+{
+	// System.Byte Fusion.Sockets.NetPacketType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.NetSocket
+struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// System.Int64 Fusion.Sockets.NetSocket::Handle
+			int64_t ___Handle_0;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			int64_t ___Handle_0_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// NanoSockets.Socket Fusion.Sockets.NetSocket::NativeSocket
+			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.Protocol.PeerMode
+struct PeerMode_tFBF3E63ADDAA6D23B3C9E1FBB6D76B809AC0935E 
+{
+	// System.Byte Fusion.Protocol.PeerMode::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Protocol.PluginGameMode
+struct PluginGameMode_t5B06B34EF78089704790BD835CC25E1AE7049595 
+{
+	// System.Byte Fusion.Protocol.PluginGameMode::value__
+	uint8_t ___value___2;
+};
+
+// System.Reflection.ProcessorArchitecture
+struct ProcessorArchitecture_t549C86643DDABC4E0C6DC968F0C74A707ADCAD9B 
+{
+	// System.Int32 System.Reflection.ProcessorArchitecture::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.ProtocolMessageVersion
+struct ProtocolMessageVersion_t4F7EC6C0233FB035A643A0ED6DA02FA918315BAF 
+{
+	// System.Byte Fusion.Protocol.ProtocolMessageVersion::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Sockets.ReliableBuffer
+struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8 
+{
+	// Fusion.Sockets.NetSequencer Fusion.Sockets.ReliableBuffer::_sequencer
+	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
+	// Fusion.Sockets.ReliableList Fusion.Sockets.ReliableBuffer::_receiveList
+	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33 ____receiveList_2;
+	// System.UInt64 Fusion.Sockets.ReliableBuffer::_receiveSequence
+	uint64_t ____receiveSequence_3;
+};
+// Native definition for P/Invoke marshalling of Fusion.Sockets.ReliableBuffer
+struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8_marshaled_pinvoke
+{
+	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
+	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33_marshaled_pinvoke ____receiveList_2;
+	uint64_t ____receiveSequence_3;
+};
+// Native definition for COM marshalling of Fusion.Sockets.ReliableBuffer
+struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8_marshaled_com
+{
+	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
+	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33_marshaled_com ____receiveList_2;
+	uint64_t ____receiveSequence_3;
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// Fusion.Protocol.SnapshotType
+struct SnapshotType_t4791A08CE66423F362BEAFC9403187522DCED51B 
+{
+	// System.Byte Fusion.Protocol.SnapshotType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.Protocol.StartRequests
+struct StartRequests_t874DA19CE3D7A8D3D3B4B46950665DD4EF38851A 
+{
+	// System.UInt32 Fusion.Protocol.StartRequests::value__
+	uint32_t ___value___2;
+};
+
+// NanoSockets.Status
+struct Status_t45C4B4BBD57041D59A667D0EE4709923472BB5C9 
+{
+	// System.Int32 NanoSockets.Status::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Protocol.SyncType
+struct SyncType_t4B2E8A071D04B462D59FA00ADB5D0A7340F49CFB 
+{
+	// System.Byte Fusion.Protocol.SyncType::value__
+	uint8_t ___value___2;
+};
+
+// Fusion.TimerDelta
+struct TimerDelta_tE0762B9BE01CF6EA19BBBAD0502261D73919451E 
+{
+	// Fusion.Timer Fusion.TimerDelta::_timer
+	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____timer_0;
+	// System.Double Fusion.TimerDelta::_timerLast
+	double ____timerLast_1;
+};
+
+// Collections.Unsafe.UnsafeRingBuffer
+struct UnsafeRingBuffer_t37CEF68748F99A082871DCCE1AA0D1E5AF2B1FDB 
+{
+	// Collections.Unsafe.UnsafeBuffer Collections.Unsafe.UnsafeRingBuffer::_items
+	UnsafeBuffer_tF57BDD706C32F0CA2CE86A54987FD20CC2D31132 ____items_0;
+	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_head
+	int32_t ____head_1;
+	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_tail
+	int32_t ____tail_2;
+	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_count
+	int32_t ____count_3;
+	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_overwrite
+	int32_t ____overwrite_4;
+};
+
+// Fusion.Sockets.NetBitBufferBlock/Block
+struct Block_t2BE97BE49D412446932DDAF1B7373C5B5130187B 
+{
+	// System.IntPtr Fusion.Sockets.NetBitBufferBlock/Block::Next
+	intptr_t ___Next_0;
+};
+
+// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape
+struct WaveShape_tD6E4378BFE591B730DFD8C9FF33D8399AC6D8786 
+{
+	// System.Int32 Fusion.Sockets.NetConfigSimulationOscillator/WaveShape::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.NetConnectionMap/EntryState
+struct EntryState_t371EFDDCD3C386DDFCEA2F145750450CCB448671 
+{
+	// System.Int32 Fusion.Sockets.NetConnectionMap/EntryState::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.NetPeerGroupMap/EntryState
+struct EntryState_tA28CFCC77A96858D649DE8AA24FE716C6D6AE82F 
+{
+	// System.Int32 Fusion.Sockets.NetPeerGroupMap/EntryState::value__
+	int32_t ___value___2;
+};
+
+// System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2  : public RuntimeObject
+{
+	// System.String System.Reflection.AssemblyName::name
+	String_t* ___name_0;
+	// System.String System.Reflection.AssemblyName::codebase
+	String_t* ___codebase_1;
+	// System.Int32 System.Reflection.AssemblyName::major
+	int32_t ___major_2;
+	// System.Int32 System.Reflection.AssemblyName::minor
+	int32_t ___minor_3;
+	// System.Int32 System.Reflection.AssemblyName::build
+	int32_t ___build_4;
+	// System.Int32 System.Reflection.AssemblyName::revision
+	int32_t ___revision_5;
+	// System.Globalization.CultureInfo System.Reflection.AssemblyName::cultureinfo
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* ___cultureinfo_6;
+	// System.Reflection.AssemblyNameFlags System.Reflection.AssemblyName::flags
+	int32_t ___flags_7;
+	// System.Configuration.Assemblies.AssemblyHashAlgorithm System.Reflection.AssemblyName::hashalg
+	int32_t ___hashalg_8;
+	// System.Reflection.StrongNameKeyPair System.Reflection.AssemblyName::keypair
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	// System.Byte[] System.Reflection.AssemblyName::publicKey
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___publicKey_10;
+	// System.Byte[] System.Reflection.AssemblyName::keyToken
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___keyToken_11;
+	// System.Configuration.Assemblies.AssemblyVersionCompatibility System.Reflection.AssemblyName::versioncompat
+	int32_t ___versioncompat_12;
+	// System.Version System.Reflection.AssemblyName::version
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	// System.Reflection.ProcessorArchitecture System.Reflection.AssemblyName::processor_architecture
+	int32_t ___processor_architecture_14;
+	// System.Reflection.AssemblyContentType System.Reflection.AssemblyName::contentType
+	int32_t ___contentType_15;
+};
+// Native definition for P/Invoke marshalling of System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_pinvoke
+{
+	char* ___name_0;
+	char* ___codebase_1;
+	int32_t ___major_2;
+	int32_t ___minor_3;
+	int32_t ___build_4;
+	int32_t ___revision_5;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke* ___cultureinfo_6;
+	int32_t ___flags_7;
+	int32_t ___hashalg_8;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	Il2CppSafeArray/*NONE*/* ___publicKey_10;
+	Il2CppSafeArray/*NONE*/* ___keyToken_11;
+	int32_t ___versioncompat_12;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	int32_t ___processor_architecture_14;
+	int32_t ___contentType_15;
+};
+// Native definition for COM marshalling of System.Reflection.AssemblyName
+struct AssemblyName_t555F1570F523D87D970C6E7F27B1B44C83EADDD2_marshaled_com
+{
+	Il2CppChar* ___name_0;
+	Il2CppChar* ___codebase_1;
+	int32_t ___major_2;
+	int32_t ___minor_3;
+	int32_t ___build_4;
+	int32_t ___revision_5;
+	CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com* ___cultureinfo_6;
+	int32_t ___flags_7;
+	int32_t ___hashalg_8;
+	StrongNameKeyPair_t0657447B6CFAA8FE880A228AA578EC20BC6AF8F2* ___keypair_9;
+	Il2CppSafeArray/*NONE*/* ___publicKey_10;
+	Il2CppSafeArray/*NONE*/* ___keyToken_11;
+	int32_t ___versioncompat_12;
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___version_13;
+	int32_t ___processor_architecture_14;
+	int32_t ___contentType_15;
+};
+
+// Fusion.Protocol.Message
+struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B  : public RuntimeObject
+{
+	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message::ProtocolVersion
+	uint8_t ___ProtocolVersion_1;
+	// System.Version Fusion.Protocol.Message::FusionSerializationVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___FusionSerializationVersion_2;
+	// System.String Fusion.Protocol.Message::_customData
+	String_t* ____customData_4;
+};
+
+struct Message_t1AB452A2E0264122E94DB3591672A200EE56377B_StaticFields
+{
+	// System.Version Fusion.Protocol.Message::InvalidVersion
+	Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7* ___InvalidVersion_3;
+};
+
+// System.MulticastDelegate
+struct MulticastDelegate_t  : public Delegate_t
+{
+	// System.Delegate[] System.MulticastDelegate::delegates
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
+};
+// Native definition for P/Invoke marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates_13;
+};
+// Native definition for COM marshalling of System.MulticastDelegate
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates_13;
+};
+
+// Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2 
+{
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetBitBuffer::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::Mtu
+	int32_t ___Mtu_6;
+	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Prev
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Next
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetBitBuffer::Block
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_group
+	int32_t ____group_10;
+	// System.UInt64* Fusion.Sockets.NetBitBuffer::_dataBlockOriginal
+	uint64_t* ____dataBlockOriginal_11;
+	// System.UInt64* Fusion.Sockets.NetBitBuffer::_data
+	uint64_t* ____data_12;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_offsetBits
+	int32_t ____offsetBits_13;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBits
+	int32_t ____lengthBits_14;
+	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBytes
+	int32_t ____lengthBytes_15;
+};
+// Native definition for P/Invoke marshalling of Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_pinvoke
+{
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	int32_t ___Mtu_6;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	int32_t ____group_10;
+	uint64_t* ____dataBlockOriginal_11;
+	uint64_t* ____data_12;
+	int32_t ____offsetBits_13;
+	int32_t ____lengthBits_14;
+	int32_t ____lengthBytes_15;
+};
+// Native definition for COM marshalling of Fusion.Sockets.NetBitBuffer
+struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_com
+{
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
+	int32_t ___Mtu_6;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
+	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
+	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
+	int32_t ____group_10;
+	uint64_t* ____dataBlockOriginal_11;
+	uint64_t* ____data_12;
+	int32_t ____offsetBits_13;
+	int32_t ____lengthBits_14;
+	int32_t ____lengthBytes_15;
+};
+
+// Fusion.Sockets.NetCommandHeader
+struct NetCommandHeader_tB78087C6830DFBBB3F3CD07A6C2BC163C3F95D15 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetCommandHeader::PacketType
+			uint8_t ___PacketType_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___PacketType_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Command_3_OffsetPadding[1];
+			// Fusion.Sockets.NetCommands Fusion.Sockets.NetCommandHeader::Command
+			uint8_t ___Command_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Command_3_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___Command_3_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.Sockets.NetConfigSimulationOscillator
+struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
+{
+	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
+	int32_t ___Shape_0;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
+	double ___Min_1;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
+	double ___Max_2;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
+	double ___Period_3;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
+	double ___Threshold_4;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
+	double ___Additional_5;
+};
+
+// Fusion.Sockets.NetNotifyHeader
+struct NetNotifyHeader_t511811DB158181E627B4951DFC947B553E7EBC52 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetNotifyHeader::PacketType
+			uint8_t ___PacketType_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___PacketType_2_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Fragment_3_OffsetPadding[1];
+			// System.Byte Fusion.Sockets.NetNotifyHeader::Fragment
+			uint8_t ___Fragment_3;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Fragment_3_OffsetPadding_forAlignmentOnly[1];
+			uint8_t ___Fragment_3_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___Sequence_4_OffsetPadding[2];
+			// System.UInt16 Fusion.Sockets.NetNotifyHeader::Sequence
+			uint16_t ___Sequence_4;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___Sequence_4_OffsetPadding_forAlignmentOnly[2];
+			uint16_t ___Sequence_4_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___AckSequence_5_OffsetPadding[4];
+			// System.UInt16 Fusion.Sockets.NetNotifyHeader::AckSequence
+			uint16_t ___AckSequence_5;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___AckSequence_5_OffsetPadding_forAlignmentOnly[4];
+			uint16_t ___AckSequence_5_forAlignmentOnly;
+		};
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			char ___AckMask_6_OffsetPadding[6];
+			// System.UInt64 Fusion.Sockets.NetNotifyHeader::AckMask
+			uint64_t ___AckMask_6;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			char ___AckMask_6_OffsetPadding_forAlignmentOnly[6];
+			uint64_t ___AckMask_6_forAlignmentOnly;
+		};
+	};
+};
+
+// Fusion.Sockets.NetSendEnvelope
+struct NetSendEnvelope_t8D7239CDB2EDAD04F3E247759242A2E4BDACA4F2 
+{
+	// System.Void* Fusion.Sockets.NetSendEnvelope::UserData
+	void* ___UserData_0;
+	// System.UInt16 Fusion.Sockets.NetSendEnvelope::Sequence
+	uint16_t ___Sequence_1;
+	// System.Double Fusion.Sockets.NetSendEnvelope::SendTime
+	double ___SendTime_2;
+	// Fusion.Sockets.NetPacketType Fusion.Sockets.NetSendEnvelope::PacketType
+	uint8_t ___PacketType_3;
+};
+
+// Fusion.Sockets.NetSocketHybrid
+struct NetSocketHybrid_t316BFC3812EFB914F7ABE77ABCB59E8BE84C65DA  : public RuntimeObject
+{
+	// Fusion.Sockets.NetSocket Fusion.Sockets.NetSocketHybrid::_relayNetSocketRef
+	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____relayNetSocketRef_0;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetSocketHybrid::_relayAddress
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____relayAddress_1;
+	// Fusion.Sockets.NetSocketRelay Fusion.Sockets.NetSocketHybrid::_relaySocket
+	NetSocketRelay_t1210F2DCC069B5A7774121447699EB879CA88D99* ____relaySocket_2;
+	// Fusion.Sockets.NetSocketNative Fusion.Sockets.NetSocketHybrid::_nativeSocket
+	NetSocketNative_t5F8371BCB5F8B1DC5DF7BCEC4B058B1FC6167594* ____nativeSocket_3;
+	// Fusion.Protocol.ICommunicator Fusion.Sockets.NetSocketHybrid::_client
+	RuntimeObject* ____client_4;
+};
+
+// Fusion.Sockets.NetUnreliableHeader
+struct NetUnreliableHeader_t0D7B4F96E32BEEA969823FFDFC9462429D36E895 
+{
+	union
+	{
+		#pragma pack(push, tp, 1)
+		struct
+		{
+			// Fusion.Sockets.NetPacketType Fusion.Sockets.NetUnreliableHeader::PacketType
+			uint8_t ___PacketType_2;
+		};
+		#pragma pack(pop, tp)
+		struct
+		{
+			uint8_t ___PacketType_2_forAlignmentOnly;
+		};
+	};
+};
+
+// System.SystemException
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// Fusion.Protocol.Message/<>c__DisplayClass13_0
+struct U3CU3Ec__DisplayClass13_0_tE2531536FD313183789B275A8269B20BD73978FB  : public RuntimeObject
+{
+	// Fusion.Protocol.ProtocolMessageVersion Fusion.Protocol.Message/<>c__DisplayClass13_0::targetProtocolMessage
+	uint8_t ___targetProtocolMessage_0;
+};
+
+// Fusion.Sockets.NetConnection/StateDisconnectedData
+struct StateDisconnectedData_t64E9399FCDFDDD62A450690AC04F829C9C178D0C 
+{
+	// Fusion.Sockets.NetDisconnectReason Fusion.Sockets.NetConnection/StateDisconnectedData::Reason
+	uint8_t ___Reason_0;
+	// System.Int32 Fusion.Sockets.NetConnection/StateDisconnectedData::CallbackInvoked
+	int32_t ___CallbackInvoked_1;
+	// System.Int32 Fusion.Sockets.NetConnection/StateDisconnectedData::SentDisconnectCommand
+	int32_t ___SentDisconnectCommand_2;
+};
+
+// Fusion.Sockets.NetPeerGroupMap/Entry
+struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B 
+{
+	// Fusion.Sockets.NetPeerGroupMap/Entry* Fusion.Sockets.NetPeerGroupMap/Entry::Next
+	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
+	// System.UInt64 Fusion.Sockets.NetPeerGroupMap/Entry::Hash
+	uint64_t ___Hash_1;
+	// Fusion.Sockets.NetPeerGroupMap/EntryState Fusion.Sockets.NetPeerGroupMap/Entry::State
+	int32_t ___State_2;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetPeerGroupMap/Entry::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
+	// System.Int16 Fusion.Sockets.NetPeerGroupMap/Entry::Group
+	int16_t ___Group_4;
+};
+// Native definition for P/Invoke marshalling of Fusion.Sockets.NetPeerGroupMap/Entry
+struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B_marshaled_pinvoke
+{
+	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
+	uint64_t ___Hash_1;
+	int32_t ___State_2;
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
+	int16_t ___Group_4;
+};
+// Native definition for COM marshalling of Fusion.Sockets.NetPeerGroupMap/Entry
+struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B_marshaled_com
+{
+	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
+	uint64_t ___Hash_1;
+	int32_t ___State_2;
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
+	int16_t ___Group_4;
+};
+
+// System.Action`2<System.Int32,Fusion.Protocol.IMessage>
+struct Action_2_tBB48691008E26040E4989F18851171FAF4369ACC  : public MulticastDelegate_t
+{
+};
+
+// System.Action`2<System.Int32,System.Object>
+struct Action_2_tF55503802357CB8A9E95ED4B00CEEEE6BDEC9166  : public MulticastDelegate_t
+{
+};
+
+// System.Predicate`1<Fusion.Protocol.ProtocolMessageVersion>
+struct Predicate_1_t8D8F4C9D831385B77BDA51054D25FD442808EE10  : public MulticastDelegate_t
+{
+};
+
+// Fusion.Protocol.Disconnect
+struct Disconnect_tF830E9507E44FB232BF6A61F307CCDA678770BDC  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// Fusion.Protocol.DisconnectReason Fusion.Protocol.Disconnect::DisconnectReason
+	uint8_t ___DisconnectReason_5;
+};
+
+// Fusion.Protocol.HostMigration
+struct HostMigration_t993547CB8CCEB0971E6050E36B4EFC675D156960  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// Fusion.Protocol.PeerMode Fusion.Protocol.HostMigration::PeerMode
+	uint8_t ___PeerMode_5;
+};
+
+// System.IndexOutOfRangeException
+struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// System.InvalidOperationException
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+
+// Fusion.Protocol.Join
+struct Join_t4912387F3E002031619D27C75C15840E7AF3B87C  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
+{
+	// Fusion.Protocol.JoinMessageType Fusion.Protocol.Join::Type
+	uint8_t ___Type_5;
+	// Fusion.Protocol.PluginGameMode Fusion.Protocol.Join::GameMode
+	uint8_t ___GameMode_6;
+	// Fusion.Protocol.PeerMode Fusion.Protocol.Join::PeerMode
+	uint8_t ___PeerMode_7;
+	// Fusion.Protocol.JoinRequests Fusion.Protocol.Join::JoinRequests
+	uint32_t ___JoinRequests_8;
 };
 
 // Fusion.Sockets.NetCommandAccepted
@@ -3487,219 +3902,6 @@ struct NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7
 	double ___DuplicateChance_4;
 };
 
-// Fusion.Sockets.NetSocket
-struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C 
-{
-	union
-	{
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// System.Int64 Fusion.Sockets.NetSocket::Handle
-			int64_t ___Handle_0;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			int64_t ___Handle_0_forAlignmentOnly;
-		};
-		#pragma pack(push, tp, 1)
-		struct
-		{
-			// NanoSockets.Socket Fusion.Sockets.NetSocket::NativeSocket
-			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1;
-		};
-		#pragma pack(pop, tp)
-		struct
-		{
-			Socket_t46CD8CA395215449BFCC033F0B1B802E1DC42CF6 ___NativeSocket_1_forAlignmentOnly;
-		};
-	};
-};
-
-// Fusion.Protocol.ProtocolMessageVersion
-struct ProtocolMessageVersion_t4F7EC6C0233FB035A643A0ED6DA02FA918315BAF 
-{
-	// System.Byte Fusion.Protocol.ProtocolMessageVersion::value__
-	uint8_t ___value___2;
-};
-
-// Fusion.Sockets.ReliableBuffer
-struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8 
-{
-	// Fusion.Sockets.NetSequencer Fusion.Sockets.ReliableBuffer::_sequencer
-	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
-	// Fusion.Sockets.ReliableList Fusion.Sockets.ReliableBuffer::_receiveList
-	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33 ____receiveList_2;
-	// System.UInt64 Fusion.Sockets.ReliableBuffer::_receiveSequence
-	uint64_t ____receiveSequence_3;
-};
-// Native definition for P/Invoke marshalling of Fusion.Sockets.ReliableBuffer
-struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8_marshaled_pinvoke
-{
-	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
-	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33_marshaled_pinvoke ____receiveList_2;
-	uint64_t ____receiveSequence_3;
-};
-// Native definition for COM marshalling of Fusion.Sockets.ReliableBuffer
-struct ReliableBuffer_t098C45D2F68F3EEEF936C20801D268295422F0F8_marshaled_com
-{
-	NetSequencer_tE056EDBF44EF5ADC6FAC5CBCBA876C16B31957E2 ____sequencer_1;
-	ReliableList_t3A09E29271A172FD92963C8CD36D26845CCD2C33_marshaled_com ____receiveList_2;
-	uint64_t ____receiveSequence_3;
-};
-
-// System.RuntimeTypeHandle
-struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
-{
-	// System.IntPtr System.RuntimeTypeHandle::value
-	intptr_t ___value_0;
-};
-
-// Fusion.TimerDelta
-struct TimerDelta_tE0762B9BE01CF6EA19BBBAD0502261D73919451E 
-{
-	// Fusion.Timer Fusion.TimerDelta::_timer
-	Timer_tF7FB43178D8E930B7F354F5DA4DFC34B7E3DD5F8 ____timer_0;
-	// System.Double Fusion.TimerDelta::_timerLast
-	double ____timerLast_1;
-};
-
-// Collections.Unsafe.UnsafeRingBuffer
-struct UnsafeRingBuffer_t37CEF68748F99A082871DCCE1AA0D1E5AF2B1FDB 
-{
-	// Collections.Unsafe.UnsafeBuffer Collections.Unsafe.UnsafeRingBuffer::_items
-	UnsafeBuffer_tF57BDD706C32F0CA2CE86A54987FD20CC2D31132 ____items_0;
-	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_head
-	int32_t ____head_1;
-	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_tail
-	int32_t ____tail_2;
-	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_count
-	int32_t ____count_3;
-	// System.Int32 Collections.Unsafe.UnsafeRingBuffer::_overwrite
-	int32_t ____overwrite_4;
-};
-
-// Fusion.Sockets.NetBitBufferBlock/Block
-struct Block_t2BE97BE49D412446932DDAF1B7373C5B5130187B 
-{
-	// System.IntPtr Fusion.Sockets.NetBitBufferBlock/Block::Next
-	intptr_t ___Next_0;
-};
-
-// System.MulticastDelegate
-struct MulticastDelegate_t  : public Delegate_t
-{
-	// System.Delegate[] System.MulticastDelegate::delegates
-	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates_13;
-};
-// Native definition for P/Invoke marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
-{
-	Delegate_t_marshaled_pinvoke** ___delegates_13;
-};
-// Native definition for COM marshalling of System.MulticastDelegate
-struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
-{
-	Delegate_t_marshaled_com** ___delegates_13;
-};
-
-// Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2 
-{
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetBitBuffer::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::Mtu
-	int32_t ___Mtu_6;
-	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Prev
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	// Fusion.Sockets.NetBitBuffer* Fusion.Sockets.NetBitBuffer::Next
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	// Fusion.Sockets.NetBitBufferBlock* Fusion.Sockets.NetBitBuffer::Block
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_group
-	int32_t ____group_10;
-	// System.UInt64* Fusion.Sockets.NetBitBuffer::_dataBlockOriginal
-	uint64_t* ____dataBlockOriginal_11;
-	// System.UInt64* Fusion.Sockets.NetBitBuffer::_data
-	uint64_t* ____data_12;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_offsetBits
-	int32_t ____offsetBits_13;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBits
-	int32_t ____lengthBits_14;
-	// System.Int32 Fusion.Sockets.NetBitBuffer::_lengthBytes
-	int32_t ____lengthBytes_15;
-};
-// Native definition for P/Invoke marshalling of Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_pinvoke
-{
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	int32_t ___Mtu_6;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	int32_t ____group_10;
-	uint64_t* ____dataBlockOriginal_11;
-	uint64_t* ____data_12;
-	int32_t ____offsetBits_13;
-	int32_t ____lengthBits_14;
-	int32_t ____lengthBytes_15;
-};
-// Native definition for COM marshalling of Fusion.Sockets.NetBitBuffer
-struct NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2_marshaled_com
-{
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_5;
-	int32_t ___Mtu_6;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Prev_7;
-	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ___Next_8;
-	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ___Block_9;
-	int32_t ____group_10;
-	uint64_t* ____dataBlockOriginal_11;
-	uint64_t* ____data_12;
-	int32_t ____offsetBits_13;
-	int32_t ____lengthBits_14;
-	int32_t ____lengthBytes_15;
-};
-
-// Fusion.Sockets.NetConfig
-struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
-{
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
-	int32_t ___ConnectionSendBuffers_0;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
-	int32_t ___ConnectionGroups_1;
-	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
-	int32_t ___MaxConnections_2;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
-	int32_t ___SocketSendBuffer_3;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
-	int32_t ___SocketRecvBuffer_4;
-	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
-	int32_t ___DefaultMtu_5;
-	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
-	int32_t ___PacketSize_6;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
-	int32_t ___ConnectAttempts_7;
-	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
-	double ___ConnectInterval_8;
-	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
-	double ___OperationExpireTime_9;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
-	double ___ConnectionDefaultRtt_10;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
-	double ___ConnectionTimeout_11;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
-	double ___ConnectionPingInterval_12;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
-	double ___ConnectionShutdownTime_13;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
-	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
-	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
-	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
-	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
-};
-
 // Fusion.Sockets.NetConnection
 struct NetConnection_tB10E71962B9B7AF32F898BBD380FD8A14AC957CE 
 {
@@ -3861,19 +4063,13 @@ struct NetConnection_tB10E71962B9B7AF32F898BBD380FD8A14AC957CE_marshaled_com
 	NetConnectionStats_tC80F4AF0A4FFADB404E98D2F990668676317F39A ___StatsReceivedPacketSizes_36;
 };
 
-// Fusion.Sockets.NetSocketHybrid
-struct NetSocketHybrid_t316BFC3812EFB914F7ABE77ABCB59E8BE84C65DA  : public RuntimeObject
+// Fusion.Protocol.NetworkConfigSync
+struct NetworkConfigSync_tD7D5D4D045B7F38C78A89B6CF91A09E6B08FF33D  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
-	// Fusion.Sockets.NetSocket Fusion.Sockets.NetSocketHybrid::_relayNetSocketRef
-	NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C ____relayNetSocketRef_0;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetSocketHybrid::_relayAddress
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ____relayAddress_1;
-	// Fusion.Sockets.NetSocketRelay Fusion.Sockets.NetSocketHybrid::_relaySocket
-	NetSocketRelay_t1210F2DCC069B5A7774121447699EB879CA88D99* ____relaySocket_2;
-	// Fusion.Sockets.NetSocketNative Fusion.Sockets.NetSocketHybrid::_nativeSocket
-	NetSocketNative_t5F8371BCB5F8B1DC5DF7BCEC4B058B1FC6167594* ____nativeSocket_3;
-	// Fusion.Protocol.ICommunicator Fusion.Sockets.NetSocketHybrid::_client
-	RuntimeObject* ____client_4;
+	// Fusion.Protocol.SyncType Fusion.Protocol.NetworkConfigSync::Type
+	uint8_t ___Type_5;
+	// System.String Fusion.Protocol.NetworkConfigSync::NetworkConfig
+	String_t* ___NetworkConfig_6;
 };
 
 // Fusion.Protocol.ReflexiveInfo
@@ -3889,92 +4085,73 @@ struct ReflexiveInfo_t4F69F3CCB4936548FB924E590300995C732847FC  : public Message
 	uint8_t ___NatType_8;
 };
 
-// System.SystemException
-struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+// Fusion.Protocol.Snapshot
+struct Snapshot_t6214C0BF071F5B4CB06F00CBA15A2299FCFD0147  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
+	// System.Int32 Fusion.Protocol.Snapshot::<Tick>k__BackingField
+	int32_t ___U3CTickU3Ek__BackingField_5;
+	// System.UInt32 Fusion.Protocol.Snapshot::<NetworkID>k__BackingField
+	uint32_t ___U3CNetworkIDU3Ek__BackingField_6;
+	// Fusion.Protocol.SnapshotType Fusion.Protocol.Snapshot::<SnapshotType>k__BackingField
+	uint8_t ___U3CSnapshotTypeU3Ek__BackingField_7;
+	// System.Int32 Fusion.Protocol.Snapshot::<TotalSize>k__BackingField
+	int32_t ___U3CTotalSizeU3Ek__BackingField_8;
+	// System.Byte[] Fusion.Protocol.Snapshot::<Data>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CDataU3Ek__BackingField_9;
+	// System.UInt64 Fusion.Protocol.Snapshot::<CRC>k__BackingField
+	uint64_t ___U3CCRCU3Ek__BackingField_10;
+	// System.Byte[] Fusion.Protocol.Snapshot::<SnapshotBuffer>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CSnapshotBufferU3Ek__BackingField_11;
+	// System.Int32 Fusion.Protocol.Snapshot::<SnapshotSize>k__BackingField
+	int32_t ___U3CSnapshotSizeU3Ek__BackingField_12;
 };
 
-// System.Type
-struct Type_t  : public MemberInfo_t
+// Fusion.Protocol.Start
+struct Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF  : public Message_t1AB452A2E0264122E94DB3591672A200EE56377B
 {
-	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+	// System.Int32 Fusion.Protocol.Start::RemoteServerID
+	int32_t ___RemoteServerID_5;
+	// Fusion.Protocol.StartRequests Fusion.Protocol.Start::StartRequests
+	uint32_t ___StartRequests_6;
 };
 
-struct Type_t_StaticFields
+// Fusion.Sockets.NetConfig
+struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
 {
-	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
-	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
-	// System.Char System.Type::Delimiter
-	Il2CppChar ___Delimiter_1;
-	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
-	// System.Object System.Type::Missing
-	RuntimeObject* ___Missing_3;
-	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
-	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
-	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
-};
-
-// Fusion.Sockets.NetPeerGroupMap/Entry
-struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B 
-{
-	// Fusion.Sockets.NetPeerGroupMap/Entry* Fusion.Sockets.NetPeerGroupMap/Entry::Next
-	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
-	// System.UInt64 Fusion.Sockets.NetPeerGroupMap/Entry::Hash
-	uint64_t ___Hash_1;
-	// Fusion.Sockets.NetPeerGroupMap/EntryState Fusion.Sockets.NetPeerGroupMap/Entry::State
-	int32_t ___State_2;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetPeerGroupMap/Entry::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
-	// System.Int16 Fusion.Sockets.NetPeerGroupMap/Entry::Group
-	int16_t ___Group_4;
-};
-// Native definition for P/Invoke marshalling of Fusion.Sockets.NetPeerGroupMap/Entry
-struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B_marshaled_pinvoke
-{
-	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
-	uint64_t ___Hash_1;
-	int32_t ___State_2;
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
-	int16_t ___Group_4;
-};
-// Native definition for COM marshalling of Fusion.Sockets.NetPeerGroupMap/Entry
-struct Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B_marshaled_com
-{
-	Entry_t07ED59956B41868209E6CEEFECFD94EA0E03DD5B* ___Next_0;
-	uint64_t ___Hash_1;
-	int32_t ___State_2;
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_3;
-	int16_t ___Group_4;
-};
-
-// System.Action`2<System.Int32,Fusion.Protocol.IMessage>
-struct Action_2_tBB48691008E26040E4989F18851171FAF4369ACC  : public MulticastDelegate_t
-{
-};
-
-// System.Action`2<System.Int32,System.Object>
-struct Action_2_tF55503802357CB8A9E95ED4B00CEEEE6BDEC9166  : public MulticastDelegate_t
-{
-};
-
-// System.Predicate`1<Fusion.Protocol.ProtocolMessageVersion>
-struct Predicate_1_t8D8F4C9D831385B77BDA51054D25FD442808EE10  : public MulticastDelegate_t
-{
-};
-
-// System.IndexOutOfRangeException
-struct IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
-};
-
-// System.InvalidOperationException
-struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
-{
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
+	int32_t ___ConnectionSendBuffers_0;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
+	int32_t ___ConnectionGroups_1;
+	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
+	int32_t ___MaxConnections_2;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
+	int32_t ___SocketSendBuffer_3;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
+	int32_t ___SocketRecvBuffer_4;
+	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
+	int32_t ___DefaultMtu_5;
+	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
+	int32_t ___PacketSize_6;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
+	int32_t ___ConnectAttempts_7;
+	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
+	double ___ConnectInterval_8;
+	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
+	double ___OperationExpireTime_9;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
+	double ___ConnectionDefaultRtt_10;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
+	double ___ConnectionTimeout_11;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
+	double ___ConnectionPingInterval_12;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
+	double ___ConnectionShutdownTime_13;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
+	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
+	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
+	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
+	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
 };
 
 // Fusion.Sockets.NetPeer
@@ -10751,6 +10928,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Disconnect_ToString_m22ED0C9AC3DB42
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Boolean Fusion.Protocol.HostMigration::get_WaitForSnapshot()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HostMigration_get_WaitForSnapshot_m417F5E108CD2B49644D1D7D76839CF1DC18CCACB (HostMigration_t993547CB8CCEB0971E6050E36B4EFC675D156960* __this, const RuntimeMethod* method) 
 {
@@ -10849,6 +11034,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* HostMigration_ToString_mB7EDD88FEDE
 		return L_9;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11016,6 +11225,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Join_ToString_m6D5E58234017E2BC56B9
 		return L_24;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -11324,6 +11541,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ReflexiveInfo_ToString_m752C7409B4C
 		return L_24;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -12063,6 +12288,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Snapshot_ToString_m84998D5DB108ED4E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.Protocol.Start::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Start__ctor_mC69F6277D6022F280B69D2422D2DF3FDFCC61D6D (Start_t92F717B6F6B8C07E358D485CEA8EA7B2AC755BAF* __this, const RuntimeMethod* method) 
 {
@@ -12172,6 +12405,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Start_ToString_m2D01D4737E85B9727B2
 		return L_14;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -12610,6 +12851,14 @@ IL_003d:
 		return L_14;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -17503,6 +17752,14 @@ IL2CPP_EXTERN_C  void NetBitBufferStack_PushFromHead_mFE70E029A309DFB86E476760E6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Fusion.Sockets.NetCommandHeader Fusion.Sockets.NetCommandHeader::Create(Fusion.Sockets.NetCommands)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetCommandHeader_tB78087C6830DFBBB3F3CD07A6C2BC163C3F95D15 NetCommandHeader_Create_m718B3F34ACD6A23DACB8330EAD08C1215B76B578 (uint8_t ___command0, const RuntimeMethod* method) 
 {
@@ -18244,6 +18501,22 @@ IL2CPP_EXTERN_C  double NetConfigSimulationOscillator_GetCurveValue_m9917D1FF51E
 	_returnValue = NetConfigSimulationOscillator_GetCurveValue_m9917D1FF51E62BFD39938AA038AF8B70EA6B8538(_thisAdjusted, ___rng0, ___elapsedSecs1, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -20315,6 +20588,14 @@ IL2CPP_EXTERN_C  NetConnection_tB10E71962B9B7AF32F898BBD380FD8A14AC957CE* NetCon
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // Conversion methods for marshalling of: Fusion.Sockets.NetConnectionMap/Iterator
 IL2CPP_EXTERN_C void Iterator_t41EAE55C68CE1BBF8F3C99F054E2FC60425C321A_marshal_pinvoke(const Iterator_t41EAE55C68CE1BBF8F3C99F054E2FC60425C321A& unmarshaled, Iterator_t41EAE55C68CE1BBF8F3C99F054E2FC60425C321A_marshaled_pinvoke& marshaled)
 {
@@ -21061,6 +21342,22 @@ IL2CPP_EXTERN_C  float Entry_get_FloatValue_m8093D99C6DEFBC0D2D0FDB35F1F0ACFB945
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.String Fusion.Sockets.NetNotifyHeader::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NetNotifyHeader_ToString_m498E7DE767C3A516E2DB4B80E26C07C011222DC6 (NetNotifyHeader_t511811DB158181E627B4951DFC947B553E7EBC52* __this, const RuntimeMethod* method) 
 {
@@ -21164,6 +21461,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetNotifyHeader_t511811DB158181E627B4951DFC94
 		return L_2;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -26961,6 +27266,14 @@ IL2CPP_EXTERN_C  int16_t NetPeerGroupMap_Find_mE6CE9C8283FFB96EDAB345446FBB1E8D0
 	_returnValue = NetPeerGroupMap_Find_mE6CE9C8283FFB96EDAB345446FBB1E8D0C48C0EA(_thisAdjusted, ___address0, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

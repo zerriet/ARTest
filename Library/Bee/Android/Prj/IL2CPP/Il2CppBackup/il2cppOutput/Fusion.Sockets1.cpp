@@ -558,101 +558,6 @@ struct MemberInfo_t  : public RuntimeObject
 {
 };
 
-// System.Net.Sockets.Socket
-struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E  : public RuntimeObject
-{
-	// System.Net.Sockets.Socket/CachedEventArgs System.Net.Sockets.Socket::_cachedTaskEventArgs
-	CachedEventArgs_tF0692E89962FD1A045B17BC985F838C11FB6822C* ____cachedTaskEventArgs_6;
-	// System.Boolean System.Net.Sockets.Socket::is_closed
-	bool ___is_closed_13;
-	// System.Boolean System.Net.Sockets.Socket::is_listening
-	bool ___is_listening_14;
-	// System.Int32 System.Net.Sockets.Socket::linger_timeout
-	int32_t ___linger_timeout_15;
-	// System.Net.Sockets.AddressFamily System.Net.Sockets.Socket::addressFamily
-	int32_t ___addressFamily_16;
-	// System.Net.Sockets.SocketType System.Net.Sockets.Socket::socketType
-	int32_t ___socketType_17;
-	// System.Net.Sockets.ProtocolType System.Net.Sockets.Socket::protocolType
-	int32_t ___protocolType_18;
-	// System.Net.Sockets.SafeSocketHandle System.Net.Sockets.Socket::m_Handle
-	SafeSocketHandle_t5A597D30D951E736B750ED09D5B3AB72F98407EE* ___m_Handle_19;
-	// System.Net.EndPoint System.Net.Sockets.Socket::seed_endpoint
-	EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* ___seed_endpoint_20;
-	// System.Threading.SemaphoreSlim System.Net.Sockets.Socket::ReadSem
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___ReadSem_21;
-	// System.Threading.SemaphoreSlim System.Net.Sockets.Socket::WriteSem
-	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___WriteSem_22;
-	// System.Boolean System.Net.Sockets.Socket::is_blocking
-	bool ___is_blocking_23;
-	// System.Boolean System.Net.Sockets.Socket::is_bound
-	bool ___is_bound_24;
-	// System.Boolean System.Net.Sockets.Socket::is_connected
-	bool ___is_connected_25;
-	// System.Int32 System.Net.Sockets.Socket::m_IntCleanedUp
-	int32_t ___m_IntCleanedUp_26;
-	// System.Boolean System.Net.Sockets.Socket::connect_in_progress
-	bool ___connect_in_progress_27;
-};
-
-struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_StaticFields
-{
-	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::AcceptCompletedHandler
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___AcceptCompletedHandler_0;
-	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::ReceiveCompletedHandler
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___ReceiveCompletedHandler_1;
-	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::SendCompletedHandler
-	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___SendCompletedHandler_2;
-	// System.Net.Sockets.Socket/TaskSocketAsyncEventArgs`1<System.Net.Sockets.Socket> System.Net.Sockets.Socket::s_rentedSocketSentinel
-	TaskSocketAsyncEventArgs_1_tEB937620E5B15D91E5BFEFFA707CF800930F8401* ___s_rentedSocketSentinel_3;
-	// System.Net.Sockets.Socket/Int32TaskSocketAsyncEventArgs System.Net.Sockets.Socket::s_rentedInt32Sentinel
-	Int32TaskSocketAsyncEventArgs_t36C5FC82499ED9DAFE7F05C38EF92D77A0B248E9* ___s_rentedInt32Sentinel_4;
-	// System.Threading.Tasks.Task`1<System.Int32> System.Net.Sockets.Socket::s_zeroTask
-	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___s_zeroTask_5;
-	// System.Object System.Net.Sockets.Socket::s_InternalSyncObject
-	RuntimeObject* ___s_InternalSyncObject_7;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_SupportsIPv4
-	bool ___s_SupportsIPv4_8;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_SupportsIPv6
-	bool ___s_SupportsIPv6_9;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_OSSupportsIPv6
-	bool ___s_OSSupportsIPv6_10;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_Initialized
-	bool ___s_Initialized_11;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_LoggingEnabled
-	bool ___s_LoggingEnabled_12;
-	// System.AsyncCallback System.Net.Sockets.Socket::AcceptAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___AcceptAsyncCallback_28;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginAcceptCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptCallback_29;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginAcceptReceiveCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptReceiveCallback_30;
-	// System.AsyncCallback System.Net.Sockets.Socket::ConnectAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ConnectAsyncCallback_31;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginConnectCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginConnectCallback_32;
-	// System.AsyncCallback System.Net.Sockets.Socket::DisconnectAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___DisconnectAsyncCallback_33;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginDisconnectCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginDisconnectCallback_34;
-	// System.AsyncCallback System.Net.Sockets.Socket::ReceiveAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveAsyncCallback_35;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveCallback_36;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveGenericCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveGenericCallback_37;
-	// System.AsyncCallback System.Net.Sockets.Socket::ReceiveFromAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveFromAsyncCallback_38;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveFromCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveFromCallback_39;
-	// System.AsyncCallback System.Net.Sockets.Socket::SendAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendAsyncCallback_40;
-	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginSendGenericCallback
-	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginSendGenericCallback_41;
-	// System.AsyncCallback System.Net.Sockets.Socket::SendToAsyncCallback
-	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendToAsyncCallback_42;
-};
-
 // System.String
 struct String_t  : public RuntimeObject
 {
@@ -691,80 +596,6 @@ struct StunErrorAttribute_t0580C67E938CAE749A7199682FB589FE5D448EE2  : public Ru
 // Fusion.Sockets.Stun.StunNatTypeExtensions
 struct StunNatTypeExtensions_t9E9A19DA899788AF3D3511D0D081CA88CE227384  : public RuntimeObject
 {
-};
-
-// Fusion.Sockets.Stun.StunServers
-struct StunServers_t88D00CFCFE9316D5804C74611D1543ACE78F65CA  : public RuntimeObject
-{
-};
-
-struct StunServers_t88D00CFCFE9316D5804C74611D1543ACE78F65CA_StaticFields
-{
-	// System.String[] Fusion.Sockets.Stun.StunServers::STUN_SERVER_LIST
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___STUN_SERVER_LIST_0;
-	// Fusion.Sockets.Stun.StunServers/StunServer modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_customStunServer
-	StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED* ____customStunServer_1;
-	// Fusion.Sockets.Stun.StunServers/StunServer[] modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_stunServers
-	StunServerU5BU5D_tDF387949A1939186468F90EFFFF456B354F86D01* ____stunServers_2;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_runningResolution
-	bool ____runningResolution_3;
-};
-
-// System.Threading.Tasks.Task
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
-{
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
-	int32_t ___m_taskId_1;
-	// System.Delegate System.Threading.Tasks.Task::m_action
-	Delegate_t* ___m_action_2;
-	// System.Object System.Threading.Tasks.Task::m_stateObject
-	RuntimeObject* ___m_stateObject_3;
-	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
-	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
-	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
-	int32_t ___m_stateFlags_6;
-	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
-	RuntimeObject* ___m_continuationObject_23;
-	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
-	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
-};
-
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
-{
-	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
-	int32_t ___s_taskIdCounter_0;
-	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
-	RuntimeObject* ___s_taskCompletionSentinel_24;
-	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
-	bool ___s_asyncDebuggingEnabled_25;
-	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
-	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
-	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
-	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
-	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
-	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
-	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
-	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
-	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
-	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
-	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
-	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
-	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
-	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
-	RuntimeObject* ___s_activeTasksLock_37;
-};
-
-struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
-{
-	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
-	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
-	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
 };
 
 // System.ValueType
@@ -840,24 +671,6 @@ struct Enumerator_t2B5870C8700EAAD595981BC0E022FD22723BCE86
 	StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED* ____current_3;
 };
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Object>
-struct KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B 
-{
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	RuntimeObject* ___value_1;
-};
-
-// System.Collections.Generic.KeyValuePair`2<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object>
-struct KeyValuePair_2_t0BAA9B28F0A1DE429DDE7D795B61640CE1D8F38A 
-{
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	RuntimeObject* ___value_1;
-};
-
 // System.Runtime.CompilerServices.TaskAwaiter`1<System.Net.IPAddress[]>
 struct TaskAwaiter_1_t894583ED7AA29E04C0AF85F0E3C9F45716A46EDF 
 {
@@ -877,32 +690,6 @@ struct TaskAwaiter_1_t0816DA59C00C5BA97D3EF2DAF74553DEF679CC56
 {
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
 	Task_1_t26A076F73CA670AC1EC4EC08576883918B068187* ___m_task_0;
-};
-
-// System.Threading.Tasks.Task`1<System.Net.IPAddress[]>
-struct Task_1_tAC26C3CB300EB1DB608D4ADE41BFFBD5924E4670  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* ___m_result_38;
-};
-
-struct Task_1_tAC26C3CB300EB1DB608D4ADE41BFFBD5924E4670_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_tDD05F826FE9D42F2F143BC685A7396C663E6CFE4* ___s_defaultFactory_39;
-};
-
-// System.Threading.Tasks.Task`1<Fusion.Sockets.Stun.StunServers/StunServer>
-struct Task_1_t26A076F73CA670AC1EC4EC08576883918B068187  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
-{
-	// TResult System.Threading.Tasks.Task`1::m_result
-	StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED* ___m_result_38;
-};
-
-struct Task_1_t26A076F73CA670AC1EC4EC08576883918B068187_StaticFields
-{
-	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
-	TaskFactory_1_t0CF5D89A9F90E4FE08C729D60EBD51FFC29AFC2B* ___s_defaultFactory_39;
 };
 
 // NanoSockets.Address
@@ -1018,6 +805,25 @@ struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F
 {
 	// System.Double System.Double::m_value
 	double ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	// System.Char[] System.Enum::enumSeperatorCharArray
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray_0;
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 
 // System.Guid
@@ -1142,23 +948,6 @@ struct NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC
 	int32_t ___WindowSize_3;
 	// System.Int32 Fusion.Sockets.NetConfigNotify::SequenceBytes
 	int32_t ___SequenceBytes_4;
-};
-
-// Fusion.Sockets.NetConfigSimulationOscillator
-struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
-{
-	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
-	int32_t ___Shape_0;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
-	double ___Min_1;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
-	double ___Max_2;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
-	double ___Period_3;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
-	double ___Threshold_4;
-	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
-	double ___Additional_5;
 };
 
 // Fusion.Sockets.ReliableHeader
@@ -1512,34 +1301,18 @@ struct AsyncTaskMethodBuilder_1_t7E8BC34336E860178A1663A1249128D36868BE45_Static
 	Task_1_t26A076F73CA670AC1EC4EC08576883918B068187* ___s_defaultResultTask_0;
 };
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Object>
-struct Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4 
+// System.Net.Sockets.AddressFamily
+struct AddressFamily_t01AA8C9FD15E4727B241F1F453D88444337C7524 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
-	Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* ____dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
-	int32_t ____index_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
-	KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B ____current_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
-	int32_t ____getEnumeratorRetType_4;
+	// System.Int32 System.Net.Sockets.AddressFamily::value__
+	int32_t ___value___2;
 };
 
-// System.Collections.Generic.Dictionary`2/Enumerator<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object>
-struct Enumerator_t17178410D6D17A8716A372DC190742BAA1C6565E 
+// System.Reflection.BindingFlags
+struct BindingFlags_t5DC2835E4AE9C1862B3AD172EF35B6A5F4F1812C 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
-	Dictionary_2_t9DF924012DA6B70F35251F1BC44024C9EBD02FB7* ____dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
-	int32_t ____index_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
-	KeyValuePair_2_t0BAA9B28F0A1DE429DDE7D795B61640CE1D8F38A ____current_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
-	int32_t ____getEnumeratorRetType_4;
+	// System.Int32 System.Reflection.BindingFlags::value__
+	int32_t ___value___2;
 };
 
 // System.Exception
@@ -1625,6 +1398,20 @@ struct Exception_t_marshaled_com
 	int32_t ___caught_in_unmanaged_16;
 };
 
+// System.Int32Enum
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	// System.Int32 System.Int32Enum::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.NATType
+struct NATType_tA4CE5E0E6F04B1D91FB863D289B080E6D5E6ECEF 
+{
+	// System.Byte Fusion.Sockets.Stun.NATType::value__
+	uint8_t ___value___2;
+};
+
 // Fusion.Sockets.NetAddress
 struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 
 {
@@ -1702,21 +1489,6 @@ struct NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678_StaticFields
 	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___AnyIPv6Addr_6;
 };
 
-// Fusion.Sockets.NetConfigSimulation
-struct NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 
-{
-	// System.Int16* Fusion.Sockets.NetConfigSimulation::LossNotifySequences
-	int16_t* ___LossNotifySequences_0;
-	// System.Int32 Fusion.Sockets.NetConfigSimulation::LossNotifySequencesLength
-	int32_t ___LossNotifySequencesLength_1;
-	// Fusion.Sockets.NetConfigSimulationOscillator Fusion.Sockets.NetConfigSimulation::DelayOscillator
-	NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F ___DelayOscillator_2;
-	// Fusion.Sockets.NetConfigSimulationOscillator Fusion.Sockets.NetConfigSimulation::LossOscillator
-	NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F ___LossOscillator_3;
-	// System.Double Fusion.Sockets.NetConfigSimulation::DuplicateChance
-	double ___DuplicateChance_4;
-};
-
 // Fusion.Sockets.NetSocket
 struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C 
 {
@@ -1747,6 +1519,13 @@ struct NetSocket_t69FE29F7AF8B6CD2AAC01F2D2DD006863C27463C
 	};
 };
 
+// System.Net.Sockets.ProtocolType
+struct ProtocolType_t104D087F8C40460E0FE8D38659949AEA910CD20A 
+{
+	// System.Int32 System.Net.Sockets.ProtocolType::value__
+	int32_t ___value___2;
+};
+
 // System.RuntimeTypeHandle
 struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
 {
@@ -1754,21 +1533,157 @@ struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B
 	intptr_t ___value_0;
 };
 
-// Fusion.Sockets.Stun.StunMessage
-struct StunMessage_tFC977C37B82C231C70D176807401A0A12C09C55A  : public RuntimeObject
+// System.Net.Sockets.SocketType
+struct SocketType_tEFAA48791CC7B43043CE5B1DE7A54F15DCFE3C52 
 {
-	// Fusion.Sockets.Stun.StunMessage/StunMessageType Fusion.Sockets.Stun.StunMessage::<Type>k__BackingField
-	int32_t ___U3CTypeU3Ek__BackingField_0;
-	// System.Byte[] Fusion.Sockets.Stun.StunMessage::<TransactionID>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CTransactionIDU3Ek__BackingField_1;
-	// System.String Fusion.Sockets.Stun.StunMessage::<UserName>k__BackingField
-	String_t* ___U3CUserNameU3Ek__BackingField_2;
-	// Fusion.Sockets.Stun.StunErrorAttribute Fusion.Sockets.Stun.StunMessage::<ErrorCode>k__BackingField
-	StunErrorAttribute_t0580C67E938CAE749A7199682FB589FE5D448EE2* ___U3CErrorCodeU3Ek__BackingField_3;
-	// System.Collections.Generic.Dictionary`2<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object> Fusion.Sockets.Stun.StunMessage::<Attributes>k__BackingField
-	Dictionary_2_t9DF924012DA6B70F35251F1BC44024C9EBD02FB7* ___U3CAttributesU3Ek__BackingField_4;
-	// System.Guid Fusion.Sockets.Stun.StunMessage::_id
-	Guid_t ____id_5;
+	// System.Int32 System.Net.Sockets.SocketType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.StunServers
+struct StunServers_t88D00CFCFE9316D5804C74611D1543ACE78F65CA  : public RuntimeObject
+{
+};
+
+struct StunServers_t88D00CFCFE9316D5804C74611D1543ACE78F65CA_StaticFields
+{
+	// System.String[] Fusion.Sockets.Stun.StunServers::STUN_SERVER_LIST
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___STUN_SERVER_LIST_0;
+	// Fusion.Sockets.Stun.StunServers/StunServer modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_customStunServer
+	StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED* ____customStunServer_1;
+	// Fusion.Sockets.Stun.StunServers/StunServer[] modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_stunServers
+	StunServerU5BU5D_tDF387949A1939186468F90EFFFF456B354F86D01* ____stunServers_2;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) Fusion.Sockets.Stun.StunServers::_runningResolution
+	bool ____runningResolution_3;
+};
+
+// System.Threading.Tasks.Task
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_taskId
+	int32_t ___m_taskId_1;
+	// System.Delegate System.Threading.Tasks.Task::m_action
+	Delegate_t* ___m_action_2;
+	// System.Object System.Threading.Tasks.Task::m_stateObject
+	RuntimeObject* ___m_stateObject_3;
+	// System.Threading.Tasks.TaskScheduler System.Threading.Tasks.Task::m_taskScheduler
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler_4;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::m_parent
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent_5;
+	// System.Int32 modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_stateFlags
+	int32_t ___m_stateFlags_6;
+	// System.Object modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_continuationObject
+	RuntimeObject* ___m_continuationObject_23;
+	// System.Threading.Tasks.Task/ContingentProperties modreq(System.Runtime.CompilerServices.IsVolatile) System.Threading.Tasks.Task::m_contingentProperties
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties_26;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_StaticFields
+{
+	// System.Int32 System.Threading.Tasks.Task::s_taskIdCounter
+	int32_t ___s_taskIdCounter_0;
+	// System.Object System.Threading.Tasks.Task::s_taskCompletionSentinel
+	RuntimeObject* ___s_taskCompletionSentinel_24;
+	// System.Boolean System.Threading.Tasks.Task::s_asyncDebuggingEnabled
+	bool ___s_asyncDebuggingEnabled_25;
+	// System.Action`1<System.Object> System.Threading.Tasks.Task::s_taskCancelCallback
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___s_taskCancelCallback_27;
+	// System.Func`1<System.Threading.Tasks.Task/ContingentProperties> System.Threading.Tasks.Task::s_createContingentProperties
+	Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1* ___s_createContingentProperties_30;
+	// System.Threading.Tasks.TaskFactory System.Threading.Tasks.Task::<Factory>k__BackingField
+	TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0* ___U3CFactoryU3Ek__BackingField_31;
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::<CompletedTask>k__BackingField
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CCompletedTaskU3Ek__BackingField_32;
+	// System.Predicate`1<System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_IsExceptionObservedByParentPredicate
+	Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED* ___s_IsExceptionObservedByParentPredicate_33;
+	// System.Threading.ContextCallback System.Threading.Tasks.Task::s_ecCallback
+	ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007* ___s_ecCallback_34;
+	// System.Predicate`1<System.Object> System.Threading.Tasks.Task::s_IsTaskContinuationNullPredicate
+	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___s_IsTaskContinuationNullPredicate_35;
+	// System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task> System.Threading.Tasks.Task::s_currentActiveTasks
+	Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55* ___s_currentActiveTasks_36;
+	// System.Object System.Threading.Tasks.Task::s_activeTasksLock
+	RuntimeObject* ___s_activeTasksLock_37;
+};
+
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572_ThreadStaticFields
+{
+	// System.Threading.Tasks.Task System.Threading.Tasks.Task::t_currentTask
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___t_currentTask_28;
+	// System.Threading.Tasks.StackGuard System.Threading.Tasks.Task::t_stackGuard
+	StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352* ___t_stackGuard_29;
+};
+
+// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape
+struct WaveShape_tD6E4378BFE591B730DFD8C9FF33D8399AC6D8786 
+{
+	// System.Int32 Fusion.Sockets.NetConfigSimulationOscillator/WaveShape::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.StunMessage/AttributeType
+struct AttributeType_t3C4C8CDBD689455672B4F8A0241587C33D580802 
+{
+	// System.Int32 Fusion.Sockets.Stun.StunMessage/AttributeType::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.StunMessage/IPFamily
+struct IPFamily_t9A6DF89F1F60CDCF95A8C67695A645BDDC12B524 
+{
+	// System.Int32 Fusion.Sockets.Stun.StunMessage/IPFamily::value__
+	int32_t ___value___2;
+};
+
+// Fusion.Sockets.Stun.StunMessage/StunMessageType
+struct StunMessageType_tD2ABFD398DFF657E3EA4FCB23B6D03B23948511D 
+{
+	// System.Int32 Fusion.Sockets.Stun.StunMessage/StunMessageType::value__
+	int32_t ___value___2;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Object>
+struct KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object>
+struct KeyValuePair_2_t0BAA9B28F0A1DE429DDE7D795B61640CE1D8F38A 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	int32_t ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
+// System.Threading.Tasks.Task`1<System.Net.IPAddress[]>
+struct Task_1_tAC26C3CB300EB1DB608D4ADE41BFFBD5924E4670  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	IPAddressU5BU5D_t3AEDF3B94746C9023A4549F878AA47F702C9CD0D* ___m_result_38;
+};
+
+struct Task_1_tAC26C3CB300EB1DB608D4ADE41BFFBD5924E4670_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_tDD05F826FE9D42F2F143BC685A7396C663E6CFE4* ___s_defaultFactory_39;
+};
+
+// System.Threading.Tasks.Task`1<Fusion.Sockets.Stun.StunServers/StunServer>
+struct Task_1_t26A076F73CA670AC1EC4EC08576883918B068187  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	// TResult System.Threading.Tasks.Task`1::m_result
+	StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED* ___m_result_38;
+};
+
+struct Task_1_t26A076F73CA670AC1EC4EC08576883918B068187_StaticFields
+{
+	// System.Threading.Tasks.TaskFactory`1<TResult> System.Threading.Tasks.Task`1::s_defaultFactory
+	TaskFactory_1_t0CF5D89A9F90E4FE08C729D60EBD51FFC29AFC2B* ___s_defaultFactory_39;
 };
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder
@@ -1794,43 +1709,133 @@ struct AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06_marshale
 	AsyncTaskMethodBuilder_1_tE88892A6B2F97B5D44B7C3EE2DBEED85743412AC ___m_builder_1;
 };
 
-// Fusion.Sockets.NetConfig
-struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
+// Fusion.Sockets.NetConfigSimulationOscillator
+struct NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F 
 {
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
-	int32_t ___ConnectionSendBuffers_0;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
-	int32_t ___ConnectionGroups_1;
-	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
-	int32_t ___MaxConnections_2;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
-	int32_t ___SocketSendBuffer_3;
-	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
-	int32_t ___SocketRecvBuffer_4;
-	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
-	int32_t ___DefaultMtu_5;
-	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
-	int32_t ___PacketSize_6;
-	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
-	int32_t ___ConnectAttempts_7;
-	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
-	double ___ConnectInterval_8;
-	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
-	double ___OperationExpireTime_9;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
-	double ___ConnectionDefaultRtt_10;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
-	double ___ConnectionTimeout_11;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
-	double ___ConnectionPingInterval_12;
-	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
-	double ___ConnectionShutdownTime_13;
-	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
-	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
-	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
-	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
-	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
-	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
+	// Fusion.Sockets.NetConfigSimulationOscillator/WaveShape Fusion.Sockets.NetConfigSimulationOscillator::Shape
+	int32_t ___Shape_0;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Min
+	double ___Min_1;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Max
+	double ___Max_2;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Period
+	double ___Period_3;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Threshold
+	double ___Threshold_4;
+	// System.Double Fusion.Sockets.NetConfigSimulationOscillator::Additional
+	double ___Additional_5;
+};
+
+// System.Net.Sockets.Socket
+struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E  : public RuntimeObject
+{
+	// System.Net.Sockets.Socket/CachedEventArgs System.Net.Sockets.Socket::_cachedTaskEventArgs
+	CachedEventArgs_tF0692E89962FD1A045B17BC985F838C11FB6822C* ____cachedTaskEventArgs_6;
+	// System.Boolean System.Net.Sockets.Socket::is_closed
+	bool ___is_closed_13;
+	// System.Boolean System.Net.Sockets.Socket::is_listening
+	bool ___is_listening_14;
+	// System.Int32 System.Net.Sockets.Socket::linger_timeout
+	int32_t ___linger_timeout_15;
+	// System.Net.Sockets.AddressFamily System.Net.Sockets.Socket::addressFamily
+	int32_t ___addressFamily_16;
+	// System.Net.Sockets.SocketType System.Net.Sockets.Socket::socketType
+	int32_t ___socketType_17;
+	// System.Net.Sockets.ProtocolType System.Net.Sockets.Socket::protocolType
+	int32_t ___protocolType_18;
+	// System.Net.Sockets.SafeSocketHandle System.Net.Sockets.Socket::m_Handle
+	SafeSocketHandle_t5A597D30D951E736B750ED09D5B3AB72F98407EE* ___m_Handle_19;
+	// System.Net.EndPoint System.Net.Sockets.Socket::seed_endpoint
+	EndPoint_t6233F4E2EB9F0F2D36E187F12BE050E6D8B73564* ___seed_endpoint_20;
+	// System.Threading.SemaphoreSlim System.Net.Sockets.Socket::ReadSem
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___ReadSem_21;
+	// System.Threading.SemaphoreSlim System.Net.Sockets.Socket::WriteSem
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ___WriteSem_22;
+	// System.Boolean System.Net.Sockets.Socket::is_blocking
+	bool ___is_blocking_23;
+	// System.Boolean System.Net.Sockets.Socket::is_bound
+	bool ___is_bound_24;
+	// System.Boolean System.Net.Sockets.Socket::is_connected
+	bool ___is_connected_25;
+	// System.Int32 System.Net.Sockets.Socket::m_IntCleanedUp
+	int32_t ___m_IntCleanedUp_26;
+	// System.Boolean System.Net.Sockets.Socket::connect_in_progress
+	bool ___connect_in_progress_27;
+};
+
+struct Socket_t1F49472CDA22B581C29A258225ABF3ADA9DED67E_StaticFields
+{
+	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::AcceptCompletedHandler
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___AcceptCompletedHandler_0;
+	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::ReceiveCompletedHandler
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___ReceiveCompletedHandler_1;
+	// System.EventHandler`1<System.Net.Sockets.SocketAsyncEventArgs> System.Net.Sockets.Socket::SendCompletedHandler
+	EventHandler_1_t5D3FC4609BD8133ED1226D6D49A1D8076B16A9ED* ___SendCompletedHandler_2;
+	// System.Net.Sockets.Socket/TaskSocketAsyncEventArgs`1<System.Net.Sockets.Socket> System.Net.Sockets.Socket::s_rentedSocketSentinel
+	TaskSocketAsyncEventArgs_1_tEB937620E5B15D91E5BFEFFA707CF800930F8401* ___s_rentedSocketSentinel_3;
+	// System.Net.Sockets.Socket/Int32TaskSocketAsyncEventArgs System.Net.Sockets.Socket::s_rentedInt32Sentinel
+	Int32TaskSocketAsyncEventArgs_t36C5FC82499ED9DAFE7F05C38EF92D77A0B248E9* ___s_rentedInt32Sentinel_4;
+	// System.Threading.Tasks.Task`1<System.Int32> System.Net.Sockets.Socket::s_zeroTask
+	Task_1_t4C228DE57804012969575431CFF12D57C875552D* ___s_zeroTask_5;
+	// System.Object System.Net.Sockets.Socket::s_InternalSyncObject
+	RuntimeObject* ___s_InternalSyncObject_7;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_SupportsIPv4
+	bool ___s_SupportsIPv4_8;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_SupportsIPv6
+	bool ___s_SupportsIPv6_9;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_OSSupportsIPv6
+	bool ___s_OSSupportsIPv6_10;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_Initialized
+	bool ___s_Initialized_11;
+	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Net.Sockets.Socket::s_LoggingEnabled
+	bool ___s_LoggingEnabled_12;
+	// System.AsyncCallback System.Net.Sockets.Socket::AcceptAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___AcceptAsyncCallback_28;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginAcceptCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptCallback_29;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginAcceptReceiveCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginAcceptReceiveCallback_30;
+	// System.AsyncCallback System.Net.Sockets.Socket::ConnectAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ConnectAsyncCallback_31;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginConnectCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginConnectCallback_32;
+	// System.AsyncCallback System.Net.Sockets.Socket::DisconnectAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___DisconnectAsyncCallback_33;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginDisconnectCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginDisconnectCallback_34;
+	// System.AsyncCallback System.Net.Sockets.Socket::ReceiveAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveAsyncCallback_35;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveCallback_36;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveGenericCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveGenericCallback_37;
+	// System.AsyncCallback System.Net.Sockets.Socket::ReceiveFromAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___ReceiveFromAsyncCallback_38;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginReceiveFromCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginReceiveFromCallback_39;
+	// System.AsyncCallback System.Net.Sockets.Socket::SendAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendAsyncCallback_40;
+	// System.IOAsyncCallback System.Net.Sockets.Socket::BeginSendGenericCallback
+	IOAsyncCallback_tDBBA8BBDA6B203613680E77BD4AD6320A1268388* ___BeginSendGenericCallback_41;
+	// System.AsyncCallback System.Net.Sockets.Socket::SendToAsyncCallback
+	AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___SendToAsyncCallback_42;
+};
+
+// Fusion.Sockets.Stun.StunMessage
+struct StunMessage_tFC977C37B82C231C70D176807401A0A12C09C55A  : public RuntimeObject
+{
+	// Fusion.Sockets.Stun.StunMessage/StunMessageType Fusion.Sockets.Stun.StunMessage::<Type>k__BackingField
+	int32_t ___U3CTypeU3Ek__BackingField_0;
+	// System.Byte[] Fusion.Sockets.Stun.StunMessage::<TransactionID>k__BackingField
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CTransactionIDU3Ek__BackingField_1;
+	// System.String Fusion.Sockets.Stun.StunMessage::<UserName>k__BackingField
+	String_t* ___U3CUserNameU3Ek__BackingField_2;
+	// Fusion.Sockets.Stun.StunErrorAttribute Fusion.Sockets.Stun.StunMessage::<ErrorCode>k__BackingField
+	StunErrorAttribute_t0580C67E938CAE749A7199682FB589FE5D448EE2* ___U3CErrorCodeU3Ek__BackingField_3;
+	// System.Collections.Generic.Dictionary`2<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object> Fusion.Sockets.Stun.StunMessage::<Attributes>k__BackingField
+	Dictionary_2_t9DF924012DA6B70F35251F1BC44024C9EBD02FB7* ___U3CAttributesU3Ek__BackingField_4;
+	// System.Guid Fusion.Sockets.Stun.StunMessage::_id
+	Guid_t ____id_5;
 };
 
 // Fusion.Sockets.Stun.StunResult
@@ -1901,6 +1906,109 @@ struct StunServer_t72443C92B21C32C1D239356DABD29E4DC89628ED  : public RuntimeObj
 	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___IPv6Addr_1;
 };
 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Object>
+struct Enumerator_t72F234BE749BE6BA202FC41626B5E819E4F208B4 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t514396B90715EDD83BB0470C76C2F426F9381C71* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_tF70DDE0C5A349727371FB070D433FA147032A13B ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// System.Collections.Generic.Dictionary`2/Enumerator<Fusion.Sockets.Stun.StunMessage/AttributeType,System.Object>
+struct Enumerator_t17178410D6D17A8716A372DC190742BAA1C6565E 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t9DF924012DA6B70F35251F1BC44024C9EBD02FB7* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_t0BAA9B28F0A1DE429DDE7D795B61640CE1D8F38A ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// Fusion.Sockets.NetConfigSimulation
+struct NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 
+{
+	// System.Int16* Fusion.Sockets.NetConfigSimulation::LossNotifySequences
+	int16_t* ___LossNotifySequences_0;
+	// System.Int32 Fusion.Sockets.NetConfigSimulation::LossNotifySequencesLength
+	int32_t ___LossNotifySequencesLength_1;
+	// Fusion.Sockets.NetConfigSimulationOscillator Fusion.Sockets.NetConfigSimulation::DelayOscillator
+	NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F ___DelayOscillator_2;
+	// Fusion.Sockets.NetConfigSimulationOscillator Fusion.Sockets.NetConfigSimulation::LossOscillator
+	NetConfigSimulationOscillator_tE82ADB6F9CE5F1350C56A39C0611835A4F717B2F ___LossOscillator_3;
+	// System.Double Fusion.Sockets.NetConfigSimulation::DuplicateChance
+	double ___DuplicateChance_4;
+};
+
+// Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7
+struct U3CSetupStunServersU3Ed__7_tE64B156A4657FFA71C454436F10A49DBA9A441E4 
+{
+	// System.Int32 Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>t__builder
+	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
+	// System.String Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::customStunServer
+	String_t* ___customStunServer_2;
+	// System.Runtime.CompilerServices.TaskAwaiter Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>u__1
+	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
+	// System.Runtime.CompilerServices.TaskAwaiter`1<Fusion.Sockets.Stun.StunServers/StunServer> Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>u__2
+	TaskAwaiter_1_t0816DA59C00C5BA97D3EF2DAF74553DEF679CC56 ___U3CU3Eu__2_4;
+	// System.Collections.Generic.List`1<Fusion.Sockets.Stun.StunServers/StunServer> Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<stunServers>5__2
+	List_1_t56E43BFDA4031F31CC4B59474D4EAE1A6A94C386* ___U3CstunServersU3E5__2_5;
+	// System.Int32 Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<i>5__3
+	int32_t ___U3CiU3E5__3_6;
+};
+
+// Fusion.Sockets.NetConfig
+struct NetConfig_t86EF0B265BA027615DA5755ECC96D351EA1083B9 
+{
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionSendBuffers
+	int32_t ___ConnectionSendBuffers_0;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectionGroups
+	int32_t ___ConnectionGroups_1;
+	// System.Int32 Fusion.Sockets.NetConfig::MaxConnections
+	int32_t ___MaxConnections_2;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketSendBuffer
+	int32_t ___SocketSendBuffer_3;
+	// System.Int32 Fusion.Sockets.NetConfig::SocketRecvBuffer
+	int32_t ___SocketRecvBuffer_4;
+	// System.Int32 Fusion.Sockets.NetConfig::DefaultMtu
+	int32_t ___DefaultMtu_5;
+	// System.Int32 Fusion.Sockets.NetConfig::PacketSize
+	int32_t ___PacketSize_6;
+	// System.Int32 Fusion.Sockets.NetConfig::ConnectAttempts
+	int32_t ___ConnectAttempts_7;
+	// System.Double Fusion.Sockets.NetConfig::ConnectInterval
+	double ___ConnectInterval_8;
+	// System.Double Fusion.Sockets.NetConfig::OperationExpireTime
+	double ___OperationExpireTime_9;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionDefaultRtt
+	double ___ConnectionDefaultRtt_10;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionTimeout
+	double ___ConnectionTimeout_11;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionPingInterval
+	double ___ConnectionPingInterval_12;
+	// System.Double Fusion.Sockets.NetConfig::ConnectionShutdownTime
+	double ___ConnectionShutdownTime_13;
+	// Fusion.Sockets.NetAddress Fusion.Sockets.NetConfig::Address
+	NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___Address_14;
+	// Fusion.Sockets.NetConfigNotify Fusion.Sockets.NetConfig::Notify
+	NetConfigNotify_tFE82FE0C681E89B7B361C37EBF22F54AAE993BBC ___Notify_15;
+	// Fusion.Sockets.NetConfigSimulation Fusion.Sockets.NetConfig::Simulation
+	NetConfigSimulation_t2D9C3028208C35FBD98C7E25E43D160EE35E4BE7 ___Simulation_16;
+};
+
 // Fusion.Sockets.NetPeer
 struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1 
 {
@@ -1964,25 +2072,6 @@ struct NetPeer_tD1393AA439AC26C7023277C952393E42FCFD8EC1_marshaled_com
 	NetCommandRefused_t8F0ABB635AE4C48533FDE02E1EDD726BE4EA8910* ____refusedCommand_19;
 	NetBitBuffer_tBEB68A1CA787BE64683700CD6C1E5CCE484430D2* ____recv_20;
 	NetBitBufferBlock_tF5C722B414B07454534F96063A2A033BB96F5DBA* ____recvBlock_21;
-};
-
-// Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7
-struct U3CSetupStunServersU3Ed__7_tE64B156A4657FFA71C454436F10A49DBA9A441E4 
-{
-	// System.Int32 Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// System.String Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::customStunServer
-	String_t* ___customStunServer_2;
-	// System.Runtime.CompilerServices.TaskAwaiter Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Fusion.Sockets.Stun.StunServers/StunServer> Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<>u__2
-	TaskAwaiter_1_t0816DA59C00C5BA97D3EF2DAF74553DEF679CC56 ___U3CU3Eu__2_4;
-	// System.Collections.Generic.List`1<Fusion.Sockets.Stun.StunServers/StunServer> Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<stunServers>5__2
-	List_1_t56E43BFDA4031F31CC4B59474D4EAE1A6A94C386* ___U3CstunServersU3E5__2_5;
-	// System.Int32 Fusion.Sockets.Stun.StunServers/<SetupStunServers>d__7::<i>5__3
-	int32_t ___U3CiU3E5__3_6;
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -3125,6 +3214,14 @@ IL2CPP_EXTERN_C  bool ReliableList_IsInList_mFEED76F444BA4AC55F1F8CC45BDDDA0413F
 	_returnValue = ReliableList_IsInList_mFEED76F444BA4AC55F1F8CC45BDDDA0413F5CBB9(_thisAdjusted, ___item0, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -5749,6 +5846,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StunMessage_StoreEndPoint_mAA80BD506B05B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Void Fusion.Sockets.Stun.StunMessage/StunDefines::.cctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StunDefines__cctor_mD533BA5273CF19E79ED9F8254826C36660AA9D0E (const RuntimeMethod* method) 
 {
@@ -5769,6 +5882,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StunDefines__cctor_mD533BA5273CF19E79ED9
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

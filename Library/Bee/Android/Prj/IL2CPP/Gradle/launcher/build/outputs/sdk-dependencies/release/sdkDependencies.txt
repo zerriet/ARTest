@@ -11,18 +11,18 @@ library {
 }
 library {
   maven_library {
-    artifactId: "UnityARCore"
-  }
-  digests {
-    sha256: "\016)\241H\364h{A\326\233g\232P8=\234\025\037\344X\2553\355\321\024\020\331\021\226\357\376\t"
-  }
-}
-library {
-  maven_library {
     artifactId: "ARPresto"
   }
   digests {
     sha256: "\001\236\200\256E\226P\241\272\317\374)\306\f1k\002\377\370O\002V\211\361\354p\016\344\361\177~f"
+  }
+}
+library {
+  maven_library {
+    artifactId: "UnityARCore"
+  }
+  digests {
+    sha256: "\016)\241H\364h{A\326\233g\232P8=\234\025\037\344X\2553\355\321\024\020\331\021\226\357\376\t"
   }
 }
 library {
@@ -35,7 +35,7 @@ library {
 }
 library {
   digests {
-    sha256: "D\036\334\031\336%?\ve>\027\341% I\027\t~\227\vSe\304i\354\b\3514\fS\223\347"
+    sha256: "\377\347f|\327\bOaN\215\356\334 \365t \030\203y\246%\224\2756\200\330\302s\336\364\001\004"
   }
 }
 library_dependencies {
