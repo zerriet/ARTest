@@ -1,4 +1,0 @@
-#Tue Jun 21 12:56:36 WIB 2022
-base.0=/Users/rickywinarko/Documents/GitHub/ARTest/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
