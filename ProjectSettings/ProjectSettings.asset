@@ -724,6 +724,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: FUSION_WEAVER
     Server: FUSION_WEAVER
+    Standalone: FUSION_WEAVER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

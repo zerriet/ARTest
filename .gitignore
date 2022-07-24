@@ -8,7 +8,7 @@
 [Oo]bj/
 [Tt]emp/
 [Uu]nityGenerated/
-[Pp]rototype_1_BackUpThisFolder_ButDontShipItWithYourGame/
+[Pp]rototype_BackUpThisFolder_ButDontShipItWithYourGame/
 [Uu]serSettings/
 *.apk
 # file on crash reports
@@ -20,16 +20,9 @@ sysinfo.txt
 # VS/MD solution and project files
 ###
 [Ee]xportedObj/
-*.booproj
-*.csproj
-*.sln
-*.suo
-*.svd
-*.unityproj
 *.user
 *.userprefs
 *.pidb
-.DS_Store
 
 ###
 # OS generated
