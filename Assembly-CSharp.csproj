@@ -41,6 +41,8 @@
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\CommonSceneObject.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionStats\FusionGraphBase.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\OptionsDisplay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionProfiler.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\OptionsDisplaySaveVar.cs" />
@@ -50,6 +52,8 @@
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionPhotonClientSocket.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\InputBehaviourPrototype.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionUnityLogger.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Scripts\Teleport.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Assistants\FusionSceneSetupAssistants.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Utilities\FusionPrototypingAssetUtils.cs" />
@@ -57,58 +61,114 @@
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\PlayerSpawnPointPrototype.cs" />
      <Compile Include="Assets\Scripts\Fusion Scripts\NetworkInputData.cs" />
      <Compile Include="Assets\Scripts\Fusion Scripts\HeadlessController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\AreaOfInterest\PlayerAOIPrototype.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Materials\FusionPrototypingTextures.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionStats.cs" />
      <Compile Include="Assets\Scripts\Fusion Scripts\BasicSpawner.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Utilities\FusionEditorUtilitiesExternal.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionBurstIntegration.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\CleanUpAll.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\ToggleRunnerProvideInput.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkRunnerExtensions.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionStats\FusionStatsObjectIds.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Utilities\NetworkProjectUtilities.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\AnalogicClock.cs" />
      <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\SpawnerPrototypeT.cs" />
      <Compile Include="Assets\Scripts\Fusion Scripts\Player.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkSceneManagerBase.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkCharacterControllerPrototype.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\SimpleSwitchMaterial.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\ISpawnPointPrototype.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\SpawnPointManagerPrototype.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\ISpawnPointManagerPrototypeT.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionRuntimeCheck.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Materials\FusionPrototypeMaterials.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Assistants\FusionAssistants.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\BurstDeltaCompressor.cs" />
      <Compile Include="Assets\Scripts\ARController.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkDebugStartGUI.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionStats\FusionStatsUtilities.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\DisplaySelectedObject.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Prefabs\FusionPrototypingPrefabs.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\Scripts\ChatManager.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Utilities\BoundsTools.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkSceneManagerDefault.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\DigitalClock.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\NetworkDebugStart.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\Utilities\FusionScalableIMGUI.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\Clock\ClockTimer.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
      <Compile Include="Assets\Customizable_Furnture\Source\Scripts\PlayVideo.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\SpawnPoints\PlayerSpawnPointManagerPrototype.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\Prototyping\ControllerPrototype.cs" />
+     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Photon\Fusion\Scripts\FusionGraph.cs" />
+     <Compile Include="Assets\Scripts\ChatBubble.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Common.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Sockets.xml" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Realtime.xml" />
      <None Include="Assets\Photon\Fusion\Assemblies\Fusion.Runtime.xml" />
      <None Include="Assets\Photon\Fusion\Resources\ConfigAssetsFolder.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Photon\Fusion\release_history.txt" />
      <None Include="Assets\Customizable_Furnture\Readme\Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
      <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\Photon\Fusion\Resources\FusionGraphShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\3D Simple Building\Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Photon\Fusion\build_info.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -753,10 +813,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{37224c7d-b520-838d-560d-b5ba422e3b85}</Project>
-      <Name>Unity.VisualScripting.Flow.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{c3e873a0-7366-1dc3-9d07-ea22fe66244a}</Project>
       <Name>Unity.VSCode.Editor</Name>
@@ -769,29 +825,9 @@
       <Project>{e6e46c6c-4d09-1e07-ff46-7a7b24b74e2a}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{b34d4915-9e71-224d-1146-458febbd6995}</Project>
-      <Name>Unity.VisualStudio.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
       <Project>{38af9261-51a7-83eb-b48c-b9f73d44c1d2}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
-      <Project>{dc7e9abf-dd18-377b-0478-0d5db84ab556}</Project>
-      <Name>Unity.XR.Management.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{cef4c32e-3ffa-38dc-586f-c71a632203dd}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{fe0d0091-3c3b-88fd-787d-8d8c547819e9}</Project>
-      <Name>Unity.VisualScripting.Core.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{f206a5f1-f986-4e01-c3c9-94bfcb9dcba3}</Project>
-      <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
       <Project>{f76111dd-abab-65c1-d0e5-1534ce5f0f10}</Project>
@@ -809,21 +845,9 @@
       <Project>{15240a16-369f-4297-e0d8-a4f007a73e27}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
-      <Project>{65f9da17-8e60-6181-fd8b-1f90c5e4d936}</Project>
-      <Name>Unity.Subsystem.Registration</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{11503289-1a06-3792-d90f-31b4c884dcdd}</Project>
-      <Name>Unity.VisualScripting.Flow</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{f642d613-00d8-053f-4054-92c9567b61f3}</Project>
       <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{a42d7b5f-b1d2-ece2-cdc5-64db1646fe54}</Project>
-      <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{2a3807cd-c7a2-0ece-1edb-5d3d7ec2e7b8}</Project>
@@ -837,49 +861,17 @@
       <Project>{aa3ee008-f76d-bb12-4dda-cb827e7aea35}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{1e0069cc-096e-3c26-5f45-6946eb2843d2}</Project>
-      <Name>Unity.Services.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{cc3dda43-14b1-a05c-e05d-4ee621b6d12a}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
       <Project>{56f3cc36-ee0b-18fc-a8d4-572212500705}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{6a35497d-e32b-6441-47fc-1411827a8081}</Project>
-      <Name>Unity.Services.Core.Analytics</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
-      <Project>{59132ab4-0e8f-7995-959b-88f090a3e695}</Project>
-      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Fusion.Editor.csproj">
       <Project>{051802f5-c427-8788-e50a-ce1ad94f2c8f}</Project>
       <Name>Fusion.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{d65bc02c-a492-5e14-63c9-9537d79fe8e4}</Project>
-      <Name>Unity.VisualScripting.Shared.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{5e7a3777-766e-4e5a-c0e2-346035e3f192}</Project>
-      <Name>Unity.Services.Core.Environments</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{532d5a91-7637-2d37-2e92-e69655cdb6e3}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Unity.XR.ARSubsystems.Editor.csproj">
       <Project>{de86ce88-8d99-8988-ebaa-ab8244c70c47}</Project>
       <Name>Unity.XR.ARSubsystems.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
-      <Project>{e6c0e75a-053e-af21-c101-8064230ddee5}</Project>
-      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.csproj">
       <Project>{c79db739-82e9-69d4-f58c-d0a1df54fd21}</Project>
@@ -897,13 +889,85 @@
       <Project>{db37833b-52e1-9253-cf75-65021b09685b}</Project>
       <Name>Unity.XR.ARFoundation.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
-      <Project>{c571f0b0-0343-b919-8a2b-9b5ac4ce47ae}</Project>
-      <Name>UnityEditor.SpatialTracking</Name>
-    </ProjectReference>
     <ProjectReference Include="Fusion.Addressables.csproj">
       <Project>{e24d3d0d-63d7-4d4b-99ba-fb6d14909756}</Project>
       <Name>Fusion.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
+      <Project>{37224c7d-b520-838d-560d-b5ba422e3b85}</Project>
+      <Name>Unity.VisualScripting.Flow.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
+      <Project>{b34d4915-9e71-224d-1146-458febbd6995}</Project>
+      <Name>Unity.VisualStudio.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Management.Editor.csproj">
+      <Project>{dc7e9abf-dd18-377b-0478-0d5db84ab556}</Project>
+      <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.csproj">
+      <Project>{cef4c32e-3ffa-38dc-586f-c71a632203dd}</Project>
+      <Name>Unity.Timeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
+      <Project>{fe0d0091-3c3b-88fd-787d-8d8c547819e9}</Project>
+      <Name>Unity.VisualScripting.Core.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{f206a5f1-f986-4e01-c3c9-94bfcb9dcba3}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
+      <Project>{a1d2f2e7-f5da-266b-a0f1-9404cb8512f2}</Project>
+      <Name>Unity.2D.Sprite.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Subsystem.Registration.csproj">
+      <Project>{65f9da17-8e60-6181-fd8b-1f90c5e4d936}</Project>
+      <Name>Unity.Subsystem.Registration</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
+      <Project>{11503289-1a06-3792-d90f-31b4c884dcdd}</Project>
+      <Name>Unity.VisualScripting.Flow</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
+      <Project>{a42d7b5f-b1d2-ece2-cdc5-64db1646fe54}</Project>
+      <Name>Unity.PlasticSCM.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.csproj">
+      <Project>{1e0069cc-096e-3c26-5f45-6946eb2843d2}</Project>
+      <Name>Unity.Services.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{cc3dda43-14b1-a05c-e05d-4ee621b6d12a}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
+      <Project>{6a35497d-e32b-6441-47fc-1411827a8081}</Project>
+      <Name>Unity.Services.Core.Analytics</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.csproj">
+      <Project>{59132ab4-0e8f-7995-959b-88f090a3e695}</Project>
+      <Name>UnityEngine.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
+      <Project>{d65bc02c-a492-5e14-63c9-9537d79fe8e4}</Project>
+      <Name>Unity.VisualScripting.Shared.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Services.Core.Environments.csproj">
+      <Project>{5e7a3777-766e-4e5a-c0e2-346035e3f192}</Project>
+      <Name>Unity.Services.Core.Environments</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{532d5a91-7637-2d37-2e92-e69655cdb6e3}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.XR.LegacyInputHelpers.csproj">
+      <Project>{e6c0e75a-053e-af21-c101-8064230ddee5}</Project>
+      <Name>UnityEditor.XR.LegacyInputHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.SpatialTracking.csproj">
+      <Project>{c571f0b0-0343-b919-8a2b-9b5ac4ce47ae}</Project>
+      <Name>UnityEditor.SpatialTracking</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
       <Project>{a09cb0bd-79a7-a54a-db19-388d74e2af56}</Project>
